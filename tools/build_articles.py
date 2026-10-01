@@ -119,7 +119,11 @@ def build_images(art, force):
     sizes = {}
     for key, cfg in art["images"].items():
         targets = {w: out_dir / f"{key}-{w}.webp" for w in WIDTHS}
-        if force or not all(p.exists() for p in targets.values()):
+        small, big = targets[WIDTHS[0]], targets[WIDTHS[-1]]
+        # Une source plus étroite que 640 px n'a qu'une version : elle est complète sans la 1280 (et le build n'a alors
+        # pas besoin du dossier de production, absent de la CI).
+        complete = small.exists() and (big.exists() or Image.open(small).width < WIDTHS[0])
+        if force or not complete:
             if "video_time" in cfg:
                 im = extract_video_frame(prod / art["video_file"], cfg["video_time"])
             else:
