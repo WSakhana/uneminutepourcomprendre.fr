@@ -38,7 +38,6 @@ CONTENT = ROOT / "content" / "articles"
 SITE = "https://uneminutepourcomprendre.fr"
 ORG_ID = f"{SITE}/#organization"
 CHANNEL = "https://www.youtube.com/@1min.pour.comprendre"
-REPO = "https://github.com/WSakhana/uneminutepourcomprendre.fr"
 WIDTHS = (640, 1280)
 MONTHS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"]
 COPY_ICON = ('<svg class="icon icon-copy" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">'
@@ -248,7 +247,7 @@ def footer(extra_script=""):
       <ul class="footer-social" aria-label="Réseaux sociaux">
 {links}
       </ul>
-      <p class="copyright">© <span id="year">2026</span> Une Minute Pour Comprendre <span class="made-by">· Un projet <a href="https://zoneia.fr" rel="noopener">Zone IA</a> · <a href="{REPO}" rel="noopener">Code source</a></span></p>
+      <p class="copyright">© <span id="year">2026</span> Une Minute Pour Comprendre <span class="made-by">· Un projet <a href="https://zoneia.fr" target="_blank" rel="noopener">Zone IA</a></span></p>
     </div>
   </footer>
   <script>document.getElementById("year").textContent = new Date().getFullYear();</script>{extra_script}
@@ -722,7 +721,6 @@ def write_llms_txt(arts):
         f"- [Accueil]({SITE}/): présentation de la chaîne, des quatre univers (science, animaux, corps humain, nature) et des réseaux",
         f"- [Tous les articles]({SITE}/articles/): liste des articles, un par vidéo",
         f"- [Flux RSS]({SITE}/feed.xml): nouveaux articles",
-        f"- [Code source]({REPO}): site statique, générateur et méthode éditoriale",
         f"- [YouTube]({CHANNEL}): plateforme principale, Shorts et formats longs",
         *[f"- [{n}]({u}): même nom, @1min.pour.comprendre" for k, n, u in SOCIALS if k != "youtube"], "",
     ]

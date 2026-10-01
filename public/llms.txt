@@ -13,7 +13,6 @@ Site officiel de la chaîne @1min.pour.comprendre. Chaque vidéo suit trois temp
 - [Accueil](https://uneminutepourcomprendre.fr/): présentation de la chaîne, des quatre univers (science, animaux, corps humain, nature) et des réseaux
 - [Tous les articles](https://uneminutepourcomprendre.fr/articles/): liste des articles, un par vidéo
 - [Flux RSS](https://uneminutepourcomprendre.fr/feed.xml): nouveaux articles
-- [Code source](https://github.com/WSakhana/uneminutepourcomprendre.fr): site statique, générateur et méthode éditoriale
 - [YouTube](https://www.youtube.com/@1min.pour.comprendre): plateforme principale, Shorts et formats longs
 - [TikTok](https://www.tiktok.com/@1min.pour.comprendre): même nom, @1min.pour.comprendre
 - [Instagram](https://www.instagram.com/1min.pour.comprendre/): même nom, @1min.pour.comprendre
