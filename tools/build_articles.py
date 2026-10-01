@@ -258,7 +258,7 @@ def footer(extra_script=""):
 
 def page(head_html, main_html, current_articles=True, scripts=()):
     hdr = header().replace(" {current}", ' aria-current="page"' if current_articles else "")
-    tags = "".join(f'\n  <script src="{asset(s)}" defer></script>' for s in scripts)
+    tags = "".join(f'\n  <script src="{asset(s)}" defer></script>' for s in ("/assets/js/site.js", *scripts))
     return f'{head_html}<body>\n  {sprite()}\n\n{hdr}\n  <main id="contenu">\n{main_html}\n  </main>\n\n{footer(tags)}'
 
 
@@ -658,6 +658,7 @@ def update_home(arts, sizes):
     if n != 1:
         raise SystemExit("Marqueurs <!-- articles:start/end --> introuvables dans public/index.html")
     new = re.sub(r'href="(?:/)?assets/css/style\.css(?:\?v=\w+)?"', lambda _: f'href="{asset("/assets/css/style.css")[1:]}"', new)
+    new = re.sub(r'src="(?:/)?assets/js/site\.js(?:\?v=\w+)?"', lambda _: f'src="{asset("/assets/js/site.js")[1:]}"', new)
     path.write_text(new, encoding="utf-8")
 
 
