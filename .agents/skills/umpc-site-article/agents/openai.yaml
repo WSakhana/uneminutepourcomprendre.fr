@@ -1,0 +1,4 @@
+interface:
+  display_name: "UMPC Site - Article depuis une vidéo"
+  short_description: "Crée l'article du site uneminutepourcomprendre.fr à partir d'une vidéo YouTube et de son dossier de production : vidéo en premier, texte éditorial, images et sources scientifiques réellement utilisées"
+  default_prompt: "Utilise $umpc-site-article dans le dépôt du site uneminutepourcomprendre.fr : crée l'article de la vidéo YouTube donnée à partir de son dossier de production, avec la vidéo intégrée en premier, un texte éditorial structuré, les images utiles et la bibliographie des sources réellement utilisées, puis construis et contrôle le site sans le déployer."

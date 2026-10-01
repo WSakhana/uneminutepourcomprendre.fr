@@ -1,0 +1,246 @@
+slug = "capacites-surprenantes-des-bacteries"
+title = "De l'or à l'ADN : 6 capacités surprenantes des bactéries"
+short_title = "6 capacités surprenantes des bactéries"
+category = "Science"
+description = "Or transformé en grains solides, cellule visible à l'œil nu, boussole interne, câbles vivants, ADN reconstruit : six bactéries étonnantes et leurs limites."
+lead = "Une bactérie qui transforme de l'or, une autre visible à l'œil nu, une troisième qui porte une boussole : les bactéries ne se ressemblent pas. Voici six cas, expliqués avec leurs mécanismes et leurs limites, et la question qui les relie : comment des organismes aussi différents peuvent-ils exister ?"
+published = "2026-10-01"
+modified = "2026-10-01"
+cover = "boussole_miniature"
+keywords = ["bactéries", "microbiologie", "Cupriavidus metallidurans", "Thiomargarita magnifica", "bactéries magnétotactiques", "bactéries câbles", "Deinococcus radiodurans", "Escherichia coli Nissle 1917"]
+method = "Cet article reprend et développe la vidéo. Les noms latins, volontairement absents de la voix, sont donnés ici. Certaines publications n'ont été consultées que via leur résumé (sources 2, 5, 7 et 8) : les affirmations qui en dépendent restent limitées à ce que ces résumés établissent."
+production = "D:/@UMPC-Long/Videos/3 - Les capacites etonnantes des bacteries"
+video_file = "Montage/v3_video_finale.mp4"
+
+[video]
+id = "PwoQaj9kHKQ"
+title = "De l'or à l'ADN : 6 capacités surprenantes des bactéries"
+duration_seconds = 235.5
+upload_date = "2026-10-01"
+
+[[chapters]]
+t = 0
+label = "Une bactérie transforme de l'or dissous"
+[[chapters]]
+t = 38
+label = "Une cellule géante visible à l'œil nu"
+[[chapters]]
+t = 73
+label = "La boussole des bactéries"
+[[chapters]]
+t = 101
+label = "Les bactéries câbles et les électrons"
+[[chapters]]
+t = 140
+label = "Réparer un ADN brisé par les radiations"
+[[chapters]]
+t = 171
+label = "Des bactéries modifiées dans les tumeurs, chez la souris"
+[[chapters]]
+t = 219
+label = "Pourquoi autant de capacités différentes ?"
+
+# Images. "src" : fichier du dossier de production ; "video_time" : image extraite de la vidéo finale (secondes).
+# "box" : recadrage en fractions (x0, y0, x1, y1) ; "generated" : illustration générée.
+[images.boussole_miniature]
+src = "Montage/v3_miniature_02_boussole.png"
+alt = "Miniature de la vidéo : une bactérie dont la chaîne de cristaux magnétiques s'aligne sur des lignes de champ, avec le texte « Une boussole ? »."
+caption = "Miniature de la vidéo."
+credit = "Illustration de la vidéo, non documentaire"
+generated = true
+
+[images.or_illustration]
+src = "Scenes/Scene-1/v3_s1_last_frame.png"
+alt = "Une bactérie en bâtonnet dont l'enveloppe contient des grains d'or, posée sur une roche dorée."
+caption = "Des grains d'or se forment dans l'enveloppe de la bactérie."
+credit = "Illustration générée pour la vidéo"
+generated = true
+
+[images.or_periplasme]
+video_time = 30
+box = [0.07, 0.09, 0.93, 0.83]
+alt = "Coupe de l'enveloppe d'une bactérie : deux membranes encadrent un espace surligné, le périplasme."
+caption = "Le périplasme : l'espace entre les deux membranes de l'enveloppe, où se forment surtout les grains."
+credit = "Schéma de la vidéo, d'après Wiesemann et al., 2013"
+generated = true
+
+[images.or_csiro]
+src = "media/images/gold_bacterioform_csiro_wikimedia_3908.jpg"
+alt = "Image colorisée au microscope électronique d'un grain d'or couvert de formes semblables à des bactéries."
+caption = "Or « bactérioforme » sur un grain d'or de la mine Hit or Miss (Queensland, Australie). Son lien avec l'activité bactérienne reste une interprétation."
+credit = "CSIRO, CC BY 3.0 · image colorisée"
+credit_url = "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_3908_Coloured_scanning_electron_image_of_bacterioform_gold_on_a_gold_grain_from_the_Hit_or_Miss_Mine_in_northern_Queensland.jpg"
+
+[images.geante_mangrove]
+src = "media/images/mangrove_guadeloupe_wikimedia_baie_mahault.jpg"
+alt = "Une mangrove en Guadeloupe : racines sortant de l'eau et feuillage dense."
+caption = "Une mangrove de Guadeloupe (Baie-Mahault). Photo de contexte : ce n'est pas le site exact de la découverte."
+credit = "Wikimedia Commons, CC0"
+credit_url = "https://commons.wikimedia.org/wiki/File:Mangrove,_Baie-Mahault,_Guadeloupe.jpg"
+
+[images.geante_schema]
+src = "media/images/thiomargarita_magnifica_anatomy_fr_codex.png"
+alt = "Schéma d'une cellule filamenteuse géante : vacuole de nitrate, granules de soufre, pépins entourés d'une membrane et zoom sur l'ADN d'un pépin."
+caption = "L'intérieur de la cellule géante : l'ADN et les ribosomes sont rangés dans des pépins, entourés d'une membrane."
+credit = "Schéma d'après Volland et al., Science, 2022 · étiquettes traduites en français"
+
+[images.boussole_micro]
+src = "media/images/magnetospirillum_cells_wikimedia_75597766.jpg"
+alt = "Micrographie électronique de bactéries Magnetospirillum gryphiswaldense."
+caption = "Magnetospirillum gryphiswaldense au microscope électronique."
+credit = "Frank Mickoleit, CC BY-SA 3.0 · image recadrée"
+credit_url = "https://commons.wikimedia.org/wiki/File:Magnetospirillum_cells.jpg"
+
+[images.boussole_illustration]
+src = "Scenes/Scene-8/v3_s8_first_frame.png"
+alt = "Une cellule en forme de S contient une chaîne de cristaux noirs alignés, entre des lignes de champ magnétique."
+caption = "La chaîne de magnétosomes agit comme l'aiguille d'une boussole portée par la cellule."
+credit = "Illustration générée pour la vidéo"
+generated = true
+
+[images.cables_sediment]
+src = "media/images/cable_bacteria_sediment_wikimedia_67396333.png"
+alt = "Photographie d'une carotte de sédiment marin colonisée par des bactéries câbles."
+caption = "Des bactéries câbles dans un sédiment marin."
+credit = "N. Risgaard-Petersen et L. P. Nielsen, CC BY-SA 4.0"
+credit_url = "https://commons.wikimedia.org/wiki/File:Cable_bacteria_in_sediment.png"
+
+[images.cables_illustration]
+src = "Scenes/Scene-11/v3_s11_last_frame.png"
+alt = "Coupe de vase marine : un filament de cellules relie le fond riche en sulfures à la surface oxygénée."
+caption = "Un filament relie le fond (sulfures) à la surface (oxygène) : les électrons le remontent."
+credit = "Illustration générée pour la vidéo"
+generated = true
+
+[images.cables_electronema]
+src = "media/images/electronema_cable_bacterium_wikimedia_142455329.jpg"
+alt = "Micrographie de filaments de bactéries câbles Electronema."
+caption = "Des filaments d'Electronema, une bactérie câble."
+credit = "Pia B. Jensen, Université d'Aarhus, CC BY 4.0 · image recadrée"
+credit_url = "https://commons.wikimedia.org/wiki/File:Electronema_candidate_specie.jpg"
+
+[images.rad_micro]
+src = "media/images/deinococcus_radiodurans_tem_wikimedia_157172.jpg"
+alt = "Micrographie électronique à transmission de Deinococcus radiodurans, des cellules groupées en tétrades."
+caption = "Deinococcus radiodurans au microscope électronique à transmission."
+credit = "Laboratoire de Michael Daly, USUHS, domaine public"
+credit_url = "https://commons.wikimedia.org/wiki/File:Deinococcus_radiodurans.jpg"
+
+[images.rad_schema]
+video_time = 153
+box = [0.05, 0.28, 0.95, 0.72]
+alt = "Deux copies d'un génome fragmenté, en bleu et en jaune, dont des fragments se recouvrent."
+caption = "Deux copies du génome, fragmentées : les zones qui se recouvrent servent d'amorces et de modèles."
+credit = "Schéma de la vidéo, d'après Zahradka et al., Nature, 2006"
+generated = true
+
+[images.tumeurs_conversion]
+video_time = 194
+alt = "Une bactérie modifiée : une molécule administrée séparément est convertie par une enzyme en médicament de chimiothérapie."
+caption = "Une molécule reçue séparément, une enzyme, un médicament de chimiothérapie produit dans la tumeur. Schéma chez la souris."
+credit = "Schéma de la vidéo, d'après Yang et al., 2026"
+generated = true
+
+[images.tumeurs_souris]
+video_time = 210
+alt = "Une souris près d'une tumeur et le texte « chez la souris, deux modèles de tumeurs, effets antitumoraux »."
+caption = "Les résultats concernent des souris, dans deux modèles de tumeurs."
+credit = "Illustration de la vidéo, non documentaire"
+generated = true
+
+[images.conclusion]
+video_time = 232
+alt = "Six vignettes : or, taille, boussole, câbles, radiations et fonction ajoutée. Texte : aucune ne réunit les six capacités."
+caption = "Six cas, six organismes différents : aucune bactérie ne réunit les six capacités."
+credit = "Image de la vidéo"
+
+# Sources réellement utilisées pour la vidéo (Documents/Research.md et tableau de vérification de Script_Video.md).
+[[sources]]
+id = "S1"
+authors = "Wiesemann N. et al."
+title = "Influence of copper resistance determinants on gold transformation by Cupriavidus metallidurans strain CH34"
+publication = "Journal of Bacteriology"
+year = "2013"
+topic = "Transformation de l'or dissous en particules d'or métallique, localisation périplasmique, rôle des systèmes de gestion du cuivre"
+url = "https://doi.org/10.1128/JB.01951-12"
+kind = "Étude originale"
+
+[[sources]]
+id = "S2"
+authors = "Hirth N. et al."
+title = "A gold speciation that adds a second layer to synergistic gold-copper toxicity in Cupriavidus metallidurans"
+publication = "Applied and Environmental Microbiology"
+year = "2024"
+topic = "Toxicité de l'or selon sa forme chimique : même élément, effets différents"
+url = "https://doi.org/10.1128/aem.00146-24"
+kind = "Étude originale"
+
+[[sources]]
+id = "S3"
+authors = "Volland J.-M. et al."
+title = "A centimeter-long bacterium with DNA contained in metabolically active, membrane-bound organelles"
+publication = "Science, vol. 376, n° 6600, p. 1453-1458"
+year = "2022"
+topic = "Cellule bactérienne géante des mangroves de Guadeloupe, ADN et ribosomes dans des compartiments à membrane (pépins)"
+url = "https://doi.org/10.1126/science.abb3634"
+kind = "Étude originale"
+
+[[sources]]
+id = "S4"
+authors = "Berkeley Lab"
+title = "Giant bacteria found in Guadeloupe mangroves challenge traditional concepts"
+publication = "Berkeley Lab News Center"
+year = "2022"
+topic = "Découverte de 2009, méthodes d'imagerie, longueur de 9,66 mm, environ 5 000 fois la taille d'une bactérie ordinaire (complète la source 3)"
+url = "https://newscenter.lbl.gov/2022/06/23/giant-bacteria-found-in-guadeloupe-mangroves-challenge-traditional-concepts/"
+kind = "Présentation institutionnelle de la source 3"
+
+[[sources]]
+id = "S5"
+authors = "Orue I. et al."
+title = "Configuration of the magnetosome chain: a natural magnetic nanoarchitecture"
+publication = "Nanoscale"
+year = "2018"
+topic = "Chaîne de magnétosomes qui se comporte comme une boussole magnétique"
+url = "https://doi.org/10.1039/C7NR08493E"
+kind = "Étude originale"
+
+[[sources]]
+id = "S6"
+authors = "Schauer R. et al."
+title = "Succession of cable bacteria and electric currents in marine sediment"
+publication = "The ISME Journal, vol. 8, p. 1314-1322"
+year = "2014"
+topic = "Filaments multicellulaires reliant sulfures profonds et oxygène de surface par un courant d'électrons sur plus d'un centimètre"
+url = "https://doi.org/10.1038/ismej.2013.239"
+kind = "Étude originale"
+
+[[sources]]
+id = "S7"
+authors = "Zahradka K. et al."
+title = "Reassembly of shattered chromosomes in Deinococcus radiodurans"
+publication = "Nature, vol. 443, p. 569-573"
+year = "2006"
+topic = "Reconstruction d'un génome fragmenté par recopie de séquences qui se recouvrent, puis recombinaison"
+url = "https://doi.org/10.1038/nature05160"
+kind = "Étude originale"
+
+[[sources]]
+id = "S8"
+authors = "Yang Z. et al."
+title = "Engineered probiotics for tumor-targeted combination chemoimmunotherapy"
+publication = "Science Translational Medicine"
+year = "2026"
+topic = "Souche d'E. coli Nissle 1917 modifiée : conversion de la 5-fluorocytosine en 5-fluorouracile et molécules immunitaires, résultats chez la souris"
+url = "https://doi.org/10.1126/scitranslmed.ady2289"
+kind = "Étude originale (résumé consulté)"
+
+[[sources]]
+id = "S9"
+authors = "National Cancer Institute"
+title = "A living medicine: engineered E. coli shrink tumors in mice"
+publication = "Cancer Currents Blog, NCI"
+year = "2024"
+topic = "Contexte : certaines bactéries se développent volontiers à l'intérieur des tumeurs"
+url = "https://www.cancer.gov/news-events/cancer-currents-blog/2024/engineering-ecoli-bacteria-cancer-immunotherapy"
+kind = "Présentation institutionnelle (contexte)"

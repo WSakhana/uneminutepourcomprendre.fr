@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Outils et éditeurs
+.playwright-mcp/
+.claude/
+.vscode/
+.idea/
+
+# Système
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Secrets et fichiers locaux : ne jamais versionner d'identifiants SFTP
+.env
+.env.*
+*.local
+*.log
+*.key
+*.pem
+
+# Fichiers de travail
+tmp/
+scratch/

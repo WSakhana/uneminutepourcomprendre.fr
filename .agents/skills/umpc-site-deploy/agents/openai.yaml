@@ -1,0 +1,4 @@
+interface:
+  display_name: "UMPC Site - Déploiement OVH"
+  short_description: "Publie le site uneminutepourcomprendre.fr sur OVH en SFTP avec contrôles avant et après : build des articles, vérification de public/, simulation, envoi et vérification du site en ligne"
+  default_prompt: "Utilise $umpc-site-deploy dans le dépôt du site uneminutepourcomprendre.fr : régénère les pages, contrôle public/, simule puis déploie sur OVH avec le mot de passe de UMPC_SFTP_PASSWORD (sans jamais l'afficher), puis vérifie le site en ligne et résume ce qui reste à faire."

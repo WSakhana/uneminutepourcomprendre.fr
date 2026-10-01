@@ -1,0 +1,36 @@
+name: Contrôle du site
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Dépendances
+        run: pip install pillow
+
+      # Les images des articles sont versionnées : ni ffmpeg ni dossier de production ne sont nécessaires.
+      - name: Génération des pages
+        run: python tools/build_articles.py
+
+      - name: Pages versionnées à jour
+        run: |
+          if ! git diff --exit-code -- public/; then
+            echo "::error::public/ ne correspond pas à content/ : lancer py -3 tools/build_articles.py et commiter le résultat."
+            exit 1
+          fi
+
+      - name: Contrôle statique
+        run: python tools/check_site.py

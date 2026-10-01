@@ -1,0 +1,5 @@
+# Tous les robots sont autorisés, y compris ceux des moteurs de recherche et des moteurs de réponse IA.
+User-agent: *
+Allow: /
+
+Sitemap: https://uneminutepourcomprendre.fr/sitemap.xml

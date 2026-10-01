@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/</loc>
+    <lastmod>2026-10-01</lastmod>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/</loc>
+    <lastmod>2026-10-01</lastmod>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/capacites-surprenantes-des-bacteries/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/or_illustration-1280.webp</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/or_periplasme-1280.webp</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/or_csiro-1280.webp</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/geante_mangrove-1280.webp</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/geante_schema-1280.webp</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/boussole_micro-1280.webp</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/boussole_illustration-1280.webp</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/cables_sediment-1280.webp</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/cables_illustration-1280.webp</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/cables_electronema-1280.webp</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/rad_micro-640.webp</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/rad_schema-1280.webp</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/tumeurs_conversion-1280.webp</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/tumeurs_souris-1280.webp</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/conclusion-1280.webp</image:loc></image:image>
+  </url>
+</urlset>

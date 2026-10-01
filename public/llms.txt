@@ -1,0 +1,20 @@
+# Une Minute Pour Comprendre
+
+> Vulgarisation scientifique en vidéo : des phénomènes étonnants de la science, des animaux, du corps humain et de la nature expliqués simplement et en images.
+
+Site officiel de la chaîne @1min.pour.comprendre. Chaque vidéo suit trois temps : le phénomène, le mécanisme, la réponse. Les articles développent les vidéos, indiquent les limites de ce que l'on sait et citent les publications scientifiques utilisées. Un projet Zone IA (https://zoneia.fr).
+
+## Articles
+
+- [De l'or à l'ADN : 6 capacités surprenantes des bactéries](https://uneminutepourcomprendre.fr/articles/capacites-surprenantes-des-bacteries/): Or transformé en grains solides, cellule visible à l'œil nu, boussole interne, câbles vivants, ADN reconstruit : six bactéries étonnantes et leurs limites.
+
+## Pages et chaîne
+
+- [Accueil](https://uneminutepourcomprendre.fr/): présentation de la chaîne, des quatre univers (science, animaux, corps humain, nature) et des réseaux
+- [Tous les articles](https://uneminutepourcomprendre.fr/articles/): liste des articles, un par vidéo
+- [Flux RSS](https://uneminutepourcomprendre.fr/feed.xml): nouveaux articles
+- [Code source](https://github.com/WSakhana/uneminutepourcomprendre.fr): site statique, générateur et méthode éditoriale
+- [YouTube](https://www.youtube.com/@1min.pour.comprendre): plateforme principale, Shorts et formats longs
+- [TikTok](https://www.tiktok.com/@1min.pour.comprendre): même nom, @1min.pour.comprendre
+- [Instagram](https://www.instagram.com/1min.pour.comprendre/): même nom, @1min.pour.comprendre
+- [Facebook](https://www.facebook.com/1min.pour.comprendre): même nom, @1min.pour.comprendre
