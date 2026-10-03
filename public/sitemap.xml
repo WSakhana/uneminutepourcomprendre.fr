@@ -2,11 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://uneminutepourcomprendre.fr/</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-02</lastmod>
   </url>
   <url>
     <loc>https://uneminutepourcomprendre.fr/articles/</loc>
-    <lastmod>2026-10-01</lastmod>
+    <lastmod>2026-10-02</lastmod>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/apophis-2029-plus-pres-que-nos-satellites/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/apophis-2029-plus-pres-que-nos-satellites/approche-1280.webp</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/apophis-2029-plus-pres-que-nos-satellites/lune-1280.webp</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/apophis-2029-plus-pres-que-nos-satellites/geostationnaire-1280.webp</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/apophis-2029-plus-pres-que-nos-satellites/perigee-1280.webp</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/apophis-2029-plus-pres-que-nos-satellites/sans_gravite-1280.webp</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/apophis-2029-plus-pres-que-nos-satellites/orbite-1280.webp</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/apophis-2029-plus-pres-que-nos-satellites/depart-1280.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://uneminutepourcomprendre.fr/articles/capacites-surprenantes-des-bacteries/</loc>

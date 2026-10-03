@@ -6,6 +6,7 @@ Site officiel de la chaîne @1min.pour.comprendre. Chaque vidéo suit trois temp
 
 ## Articles
 
+- [Un astéroïde de 340m passera plus près que nos satellites en 2029 !](https://uneminutepourcomprendre.fr/articles/apophis-2029-plus-pres-que-nos-satellites/): Le 13 avril 2029, Apophis passera à 31 600 km d'altitude, sous les satellites géostationnaires. Trajectoire réelle, orbite modifiée et aucun risque d'impact.
 - [De l'or à l'ADN : 6 capacités surprenantes des bactéries](https://uneminutepourcomprendre.fr/articles/capacites-surprenantes-des-bacteries/): Or transformé en grains solides, cellule visible à l'œil nu, boussole interne, câbles vivants, ADN reconstruit : six bactéries étonnantes et leurs limites.
 
 ## Pages et chaîne

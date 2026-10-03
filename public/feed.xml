@@ -6,7 +6,15 @@
     <atom:link href="https://uneminutepourcomprendre.fr/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Vulgarisation scientifique en vidéo : des phénomènes étonnants de la science, des animaux, du corps humain et de la nature expliqués simplement et en images.</description>
     <language>fr-FR</language>
-    <lastBuildDate>Thu, 01 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Un astéroïde de 340m passera plus près que nos satellites en 2029 !</title>
+      <link>https://uneminutepourcomprendre.fr/articles/apophis-2029-plus-pres-que-nos-satellites/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/apophis-2029-plus-pres-que-nos-satellites/</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Science</category>
+      <description>Le 13 avril 2029, Apophis passera à 31 600 km d&#x27;altitude, sous les satellites géostationnaires. Trajectoire réelle, orbite modifiée et aucun risque d&#x27;impact.</description>
+    </item>
     <item>
       <title>De l&#x27;or à l&#x27;ADN : 6 capacités surprenantes des bactéries</title>
       <link>https://uneminutepourcomprendre.fr/articles/capacites-surprenantes-des-bacteries/</link>

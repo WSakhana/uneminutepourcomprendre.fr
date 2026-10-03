@@ -388,11 +388,14 @@ def toc_entries(body):
 def sources_html(art):
     items = []
     for i, s in enumerate(art["sources"], 1):
+        # Une source sans page publique (musique de la vidéo, par exemple) n'a ni lien ni bouton de copie.
+        link = (f' <a class="src-link" href="{esc(s["url"])}" target="_blank" rel="noopener noreferrer">Consulter la publication<span class="sr-only"> (nouvel onglet)</span></a>\n'
+                f'            <button type="button" class="copy-btn" data-copy="{esc(s["url"])}" title="Copier le lien de la source" aria-label="Copier le lien de la source {i}" hidden>{COPY_ICON}</button>'
+                if s.get("url") else "")
         items.append(f"""        <li id="source-{i}">
-          <p class="src-ref"><span class="src-authors">{esc(s["authors"])}</span> ({esc(s["year"])}). <cite>{esc(s["title"])}</cite>. <span class="src-pub">{esc(s["publication"])}</span>.</p>
+          <p class="src-ref"><span class="src-authors">{esc(s["authors"])}</span>{f' ({esc(s["year"])})' if s.get("year") else ""}. <cite>{esc(s["title"])}</cite>. <span class="src-pub">{esc(s["publication"])}</span>.</p>
           <p class="src-topic"><strong>Sujet concerné :</strong> {esc(s["topic"])}</p>
-          <p class="src-meta"><span class="src-kind">{esc(s["kind"])}</span> <a class="src-link" href="{esc(s["url"])}" target="_blank" rel="noopener noreferrer">Consulter la publication<span class="sr-only"> (nouvel onglet)</span></a>
-            <button type="button" class="copy-btn" data-copy="{esc(s["url"])}" title="Copier le lien de la source" aria-label="Copier le lien de la source {i}" hidden>{COPY_ICON}</button></p>
+          <p class="src-meta"><span class="src-kind">{esc(s["kind"])}</span>{link}</p>
         </li>""")
     return "\n".join(items)
 
@@ -439,13 +442,15 @@ def article_page(art, sizes, others=()):
              "wordCount": word_count(art["body"]), "timeRequired": f"PT{minutes}M",
              **({"keywords": ", ".join(keywords)} if keywords else {}),
              "articleSection": art["category"], "video": {"@id": f"{url}#video"},
-             "citation": [{"@type": "CreativeWork", "name": s["title"], "datePublished": s["year"], "url": s["url"],
+             "citation": [{"@type": "CreativeWork", "name": s["title"],
+                           **({"datePublished": s["year"]} if s.get("year") else {}),
+                           **({"url": s["url"]} if s.get("url") else {}),
                            "isPartOf": {"@type": "Periodical", "name": s["publication"].split(",")[0]}} for s in art["sources"]]},
             {"@type": "VideoObject", "@id": f"{url}#video", "name": art["video"]["title"], "description": art["description"],
              "thumbnailUrl": [f"https://i.ytimg.com/vi/{vid}/maxresdefault.jpg", f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg"],
              "uploadDate": art["video"]["upload_date"], "duration": iso_duration(dur), "inLanguage": "fr-FR",
              "embedUrl": f"https://www.youtube.com/embed/{vid}", "contentUrl": f"https://www.youtube.com/watch?v={vid}",
-             "publisher": {"@id": ORG_ID}, "hasPart": clips},
+             "publisher": {"@id": ORG_ID}, **({"hasPart": clips} if clips else {})},
         ],
     }
     # Titre de la page : suffixe de marque seulement s'il tient sous 70 caractères (sinon Google tronque le titre).
@@ -461,6 +466,15 @@ def article_page(art, sizes, others=()):
     chapters_li = "\n".join(
         f'            <li><a href="https://youtu.be/{vid}?t={c["t"]}" target="_blank" rel="noopener noreferrer"><span class="chap-time">{fmt_time(c["t"])}</span> {esc(c["label"])}<span class="sr-only"> (nouvel onglet)</span></a></li>'
         for c in art["chapters"])
+    # Un Short n'a pas de chapitres : pas de bloc vide.
+    chapters_block = f"""          <details class="chapters">
+            <summary>Chapitres de la vidéo</summary>
+            <ol>
+{chapters_li}
+            </ol>
+          </details>""" if art["chapters"] else ""
+    # Vidéo verticale (Short) : lecteur 9:16.
+    frame_class = "video-frame video-frame--vertical" if art["video"].get("vertical") else "video-frame"
     body = add_anchor_buttons(body)
     toc_li = "\n".join(f'          <li><a href="#{i}">{esc(t)}</a></li>' for i, t in toc_entries(body))
     credits = credits_html(art, used)
@@ -489,19 +503,14 @@ def article_page(art, sizes, others=()):
 
       <article class="article">
         <div class="video-block">
-          <div class="video-frame">
+          <div class="{frame_class}">
             <iframe src="https://www.youtube-nocookie.com/embed/{vid}?rel=0" title="Vidéo : {esc(art["video"]["title"])}" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
           <div class="video-meta">
             <a class="btn btn-primary" href="https://youtu.be/{vid}" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-youtube"/></svg>Regarder sur YouTube<span class="sr-only"> (nouvel onglet)</span></a>
             <p class="video-note">Vidéo de la chaîne <a href="{CHANNEL}" target="_blank" rel="me noopener">@1min.pour.comprendre</a> · {fmt_duration(dur)}</p>
           </div>
-          <details class="chapters">
-            <summary>Chapitres de la vidéo</summary>
-            <ol>
-{chapters_li}
-            </ol>
-          </details>
+{chapters_block}
         </div>
 
         <header class="article-header">

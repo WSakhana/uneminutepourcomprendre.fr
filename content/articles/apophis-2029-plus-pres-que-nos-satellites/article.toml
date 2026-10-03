@@ -1,0 +1,147 @@
+slug = "apophis-2029-plus-pres-que-nos-satellites"
+title = "Un astéroïde de 340m passera plus près que nos satellites en 2029 !"
+short_title = "Apophis plus près que nos satellites"
+category = "Science"
+description = "Le 13 avril 2029, Apophis passera à 31 600 km d'altitude, sous les satellites géostationnaires. Trajectoire réelle, orbite modifiée et aucun risque d'impact."
+lead = "Le 13 avril 2029, un astéroïde de quelques centaines de mètres passera plus près de la Terre que les satellites géostationnaires. Les calculs de la NASA donnent l'heure, la distance et la vitesse de ce passage. Que va-t-il se passer exactement, et pourquoi n'y a-t-il aucune raison de s'inquiéter ?"
+published = "2026-10-02"
+modified = "2026-10-02"
+cover = "miniature"
+keywords = ["Apophis", "astéroïde 99942 Apophis", "13 avril 2029", "satellites géostationnaires", "NASA JPL Horizons", "astéroïde géocroiseur", "défense planétaire"]
+method = "Cet article reprend et développe un Short sans narration : le contenu de la vidéo est dans ses textes à l'écran. La vidéo est une animation de données, pas une vidéo générée par IA : les positions d'Apophis, de la Lune et du Soleil viennent des éphémérides JPL Horizons, la Terre est texturée avec les images Blue Marble et Black Marble de la NASA, et la bande son est une musique de catalogue, sans voix. Les chiffres de l'approche ont été relus le 3 octobre 2026 dans l'API Close Approach Data du JPL ; la magnitude d'environ 3,1 et les éléments d'orbite viennent d'une requête Horizons du même jour. La page de la NASA de 2021 refuse les requêtes automatiques : son contenu a été lu via un outil de consultation, pas dans un navigateur."
+# Short sans chapitres YouTube.
+chapters = []
+production = "D:/@UMPC-Shorts-Reactions/Videos/19 - Apophis passera plus pres que nos satellites"
+video_file = "Montage/UMPC-R 19 - Apophis passera plus pres que nos satellites.mp4"
+
+[video]
+id = "6W9p_28EsNw"
+title = "Un astéroïde de 340m passera plus près que nos satellites en 2029 !"
+duration_seconds = 24.0
+upload_date = "2026-10-02"
+vertical = true
+
+# Images. "src" : fichier du dossier de production ; "video_time" : image extraite de la vidéo finale (secondes).
+# "box" : recadrage en fractions (x0, y0, x1, y1) ; "generated" : illustration générée.
+[images.miniature]
+src = "Montage/v19_thumbnail_selected.png"
+alt = "Miniature de la vidéo : la Terre entourée d'un anneau pointillé portant deux satellites, un astéroïde en forme de cacahuète qui passe à l'intérieur de l'anneau, et le texte « À 31 600 km »."
+caption = "Miniature de la vidéo. Illustration non à l'échelle : la taille d'Apophis est très exagérée et sa forme stylisée."
+credit = "Illustration générée pour la vidéo (ChatGPT Image Gen), non documentaire"
+generated = true
+
+[images.approche]
+video_time = 0.5
+box = [0.0, 0.04, 1.0, 0.74]
+alt = "Image de la vidéo : en-tête « 13 avril 2029, un astéroïde passera plus près que nos satellites », compteurs de date, d'altitude et de vitesse, Apophis représenté par un point jaune au-dessus d'un grand cercle pointillé marqué « distance de la Lune », la Terre au centre."
+caption = "Début de l'animation, le 13 avril 2029 vers 00:50 UTC : Apophis est encore à plus de 450 000 km de la surface, au-delà de la distance de la Lune. Positions réelles calculées par le JPL ; Apophis est figuré par un point, pas à l'échelle."
+credit = "Image de la vidéo, positions NASA JPL Horizons"
+generated = true
+
+[images.lune]
+video_time = 2.6
+box = [0.0, 0.29, 1.0, 0.71]
+alt = "Image de la vidéo : le point jaune d'Apophis, suivi d'une traînée de perles, touche le cercle pointillé de la distance de la Lune ; la Terre est au centre du cercle."
+caption = "Apophis franchit la distance de la Lune, environ 18 heures avant son passage au plus près. Chaque perle de la traînée marque une heure réelle : le temps est accéléré."
+credit = "Image de la vidéo, positions NASA JPL Horizons"
+generated = true
+
+[images.geostationnaire]
+video_time = 10.3
+box = [0.0, 0.277, 1.0, 0.67]
+alt = "Image de la vidéo : la Terre au centre d'un cercle pointillé cyan marqué « satellites géostationnaires, 35 786 km » ; le point jaune d'Apophis arrive sur ce cercle par le haut à droite."
+caption = "Vers 21:00 UTC, Apophis descend sous l'altitude des satellites géostationnaires (35 786 km). Le cercle est la coupe de leur sphère d'orbite par le plan de la rencontre : sa distance au centre de la Terre est exacte."
+credit = "Image de la vidéo, positions NASA JPL Horizons · Terre : NASA Earth Observatory (Blue Marble, Black Marble)"
+credit_url = "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73655/world.topo.bathy.200404.3x5400x2700.jpg"
+generated = true
+
+[images.perigee]
+video_time = 11.7
+box = [0.0, 0.277, 1.0, 0.635]
+alt = "Image de la vidéo : à l'intérieur du cercle des satellites géostationnaires, un trait jaune relie la Terre à la trajectoire d'Apophis avec la mesure « 31 640 km »."
+caption = "Le passage au plus près, le 13 avril 2029 vers 21:45 UTC : 31 640 km au-dessus de la surface (rayon moyen de la Terre), à l'intérieur de l'anneau géostationnaire. Apophis n'est pas à l'échelle ; la Terre, si."
+credit = "Image de la vidéo, positions NASA JPL Horizons · Terre : NASA Earth Observatory (Blue Marble, Black Marble)"
+credit_url = "https://eoimages.gsfc.nasa.gov/images/imagerecords/144000/144898/BlackMarble_2016_01deg.jpg"
+generated = true
+
+[images.sans_gravite]
+video_time = 18.3
+box = [0.0, 0.285, 1.0, 0.70]
+alt = "Image de la vidéo : la trajectoire réelle d'Apophis, en jaune, s'incurve autour de la Terre ; une ligne pointillée blanche marquée « sans la gravité de la Terre » continue tout droit."
+caption = "La trajectoire réelle (en jaune) et le prolongement en ligne droite « sans la gravité de la Terre » (en pointillé). Ce prolongement est une simplification : il ignore notamment l'attraction du Soleil."
+credit = "Image de la vidéo, positions NASA JPL Horizons"
+generated = true
+
+[images.orbite]
+video_time = 20
+box = [0.0, 0.285, 1.0, 0.78]
+alt = "Image de la vidéo, vue plus large : la trajectoire déviée d'Apophis s'éloigne de la Terre, et le texte « Son tour du Soleil passera de 324 à 423 jours »."
+caption = "Après le passage, la déviation change l'orbite d'Apophis autour du Soleil : sa période passe d'environ 324 à 423 jours."
+credit = "Image de la vidéo, positions et éléments d'orbite NASA JPL Horizons"
+generated = true
+
+[images.depart]
+video_time = 22.5
+box = [0.0, 0.285, 1.0, 0.95]
+alt = "Image de la vidéo : Apophis s'éloigne vers le bas de l'image, la Terre et le cercle de la distance de la Lune au-dessus, avec le texte vert « Aucun risque d'impact pendant au moins 100 ans »."
+caption = "Le 15 avril 2029, Apophis repart au-delà de la distance de la Lune. Les observations radar de 2021 ont écarté tout risque d'impact pendant au moins un siècle."
+credit = "Image de la vidéo, positions NASA JPL Horizons"
+generated = true
+
+# Sources : Documents/Research.md (faits vérifiés) et description YouTube. Pas de DOI : données et pages institutionnelles.
+[[sources]]
+id = "S1"
+authors = "NASA JPL, Solar System Dynamics"
+title = "SBDB Close Approach Data API : 99942 Apophis, approche de 2029 (solution orbitale 220)"
+publication = "Jet Propulsion Laboratory, California Institute of Technology"
+year = "2026"
+topic = "Date et heure du passage au plus près (13 avril 2029, 21:46 TDB), distance au centre de la Terre (38 011 km, à environ 3 km près), vitesses de 5,84 km/s loin de la Terre et 7,42 km/s au plus près, diamètre de 0,34 ± 0,04 km"
+url = "https://ssd-api.jpl.nasa.gov/cad.api?des=99942&date-min=2029-01-01&date-max=2029-12-31&dist-max=0.01&diameter=true"
+kind = "Données (calcul du JPL)"
+
+[[sources]]
+id = "S2"
+authors = "NASA JPL, Solar System Dynamics"
+title = "Horizons System : éphémérides de 99942 Apophis, de la Lune et du Soleil"
+publication = "Jet Propulsion Laboratory, California Institute of Technology"
+year = "2026"
+topic = "Positions de l'animation (11 au 17 avril 2029), vitesse de 5,9 km/s deux jours avant le passage, déviation, éléments d'orbite autour du Soleil avant et après (demi-grand axe, période), magnitude apparente"
+url = "https://ssd.jpl.nasa.gov/horizons/"
+kind = "Données (éphémérides du JPL)"
+
+[[sources]]
+id = "S3"
+authors = "NASA Jet Propulsion Laboratory"
+title = "NASA Analysis: Earth Is Safe From Asteroid Apophis for 100-Plus Years"
+publication = "NASA JPL News, 25 mars 2021"
+year = "2021"
+topic = "Observations radar de mars 2021 (Goldstone, Green Bank) et absence de risque d'impact pendant au moins 100 ans ; diamètre d'environ 340 m"
+url = "https://www.jpl.nasa.gov/news/nasa-analysis-earth-is-safe-from-asteroid-apophis-for-100-plus-years/"
+kind = "Communiqué institutionnel (analyse du CNEOS)"
+
+[[sources]]
+id = "S4"
+authors = "Agence spatiale européenne (ESA)"
+title = "Apophis"
+publication = "ESA, Space Safety, Planetary Defence"
+topic = "Diamètre d'environ 375 m, passage plus près que les satellites géostationnaires, passage de la famille Aten à la famille Apollo, visibilité à l'œil nu depuis certaines régions d'Europe, d'Afrique et d'Asie"
+url = "https://www.esa.int/Space_Safety/Planetary_Defence/Apophis"
+kind = "Présentation institutionnelle"
+
+[[sources]]
+id = "S5"
+authors = "Todd I."
+title = "This asteroid will skim by Earth and be visible with the naked eye. And scientists have calculated whether it will hit us"
+publication = "BBC Sky at Night Magazine, 18 avril 2026"
+year = "2026"
+topic = "Visibilité à l'œil nu depuis certaines régions d'Europe, d'Afrique et d'Asie ; région du ciel où le chercher depuis l'Europe"
+url = "https://www.skyatnightmagazine.com/news/asteroid-99942-apophis"
+kind = "Presse spécialisée (contexte)"
+
+[[sources]]
+id = "S6"
+authors = "HeyGen"
+title = "HeyGen music : cinematic deep space ambient documentary background music, calm, awe-inspiring, orchestral pads and subtle piano, no voice"
+publication = "Catalogue musical HeyGen"
+topic = "Bande son de la vidéo (nappe musicale, sans voix)"
+kind = "Musique de la vidéo"

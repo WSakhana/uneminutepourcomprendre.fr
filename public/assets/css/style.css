@@ -1078,6 +1078,13 @@ a {
   box-shadow: 0 24px 48px -16px rgba(0, 0, 0, 0.7);
 }
 
+/* Short : lecteur vertical, centré, assez bas pour laisser voir le titre sur ordinateur */
+.video-frame--vertical {
+  aspect-ratio: 9 / 16;
+  width: min(100%, 380px);
+  justify-self: center;
+}
+
 .video-frame iframe {
   position: absolute;
   inset: 0;
