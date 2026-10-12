@@ -1,0 +1,100 @@
+slug = "comment-moustique-tigre-passe-hiver"
+title = "Moustique tigre : comment il prépare l’hiver"
+short_title = "Le moustique tigre en hiver"
+category = "Nature"
+description = "Comment le moustique tigre passe-t-il l'hiver ? Jours courts, œufs en diapause, résistance au sec et éclosion : le mécanisme expliqué et ses limites."
+lead = "En France métropolitaine, le moustique tigre peut traverser l'hiver au stade d'œuf. Cette attente se prépare dès l'automne : les jours courts perçus par la mère favorisent la diapause de sa descendance. Que se passe-t-il dans ces œufs, et qu'est-ce qui permet ensuite l'éclosion ?"
+published = "2026-10-07"
+modified = "2026-10-12"
+cover = "miniature"
+keywords = ["moustique tigre hiver", "Aedes albopictus", "diapause", "œufs de moustique", "photopériode", "résistance au sec", "éclosion", "France métropolitaine"]
+production = "D:/@UMPC-Shorts-Reactions/Videos/26 - Comment le moustique tigre prépare l hiver"
+video_file = "Montage/UMPC-R 26 - Comment le moustique tigre prepare l hiver.mp4"
+chapters = []
+method = "Cet article développe le Short publié le 7 octobre 2026. Le titre, la date et la miniature publique ont été vérifiés sur YouTube le même jour. Les deux études de PLOS ont été consultées en texte intégral ; leurs titres, auteurs, dates et DOI ont été vérifiés dans Crossref. Les pages de l'Anses et du CDC apportent le contexte du cycle de vie. Les photographies sont créditées individuellement. La coupe d'œuf extraite de la vidéo est une illustration générée, pas une observation anatomique. La photographie de larve, présente dans le dossier comme référence de production, est utilisée ici avec son crédit propre."
+
+[video]
+id = "3cQBod7e9FI"
+title = "Moustique tigre : comment il prépare l’hiver"
+duration_seconds = 26.766667
+upload_date = "2026-10-07"
+vertical = true
+
+[images.miniature]
+# Copie de la miniature publique conservée dans le dépôt du site : le dossier de production reste en lecture seule.
+src = "D:/uneminutepourcomprendre.fr/content/articles/comment-moustique-tigre-passe-hiver/youtube-thumbnail.jpg"
+alt = "Miniature publique de la vidéo : photographie d'un moustique tigre sur la peau, pattes annelées de blanc et bande blanche sur le dos."
+caption = "Miniature affichée sur YouTube au 7 octobre 2026, issue de la photographie du CDC utilisée dans la vidéo."
+credit = "James Gathany, CDC PHIL 1864, domaine public · mise en page de la miniature YouTube"
+credit_url = "https://commons.wikimedia.org/wiki/File:CDC-Gathany-Aedes-albopictus-2.jpg"
+
+[images.adulte]
+src = "Sources/images/femelle_commons_cdc1864.jpg"
+box = [0.0, 0.31, 1.0, 0.96]
+alt = "Femelle d'Aedes albopictus sur la peau, avec une bande blanche longitudinale sur le thorax et des pattes rayées de blanc."
+caption = "Une femelle de moustique tigre, Aedes albopictus. La préparation de la diapause de ses œufs dépend notamment de la durée du jour qu'elle perçoit."
+credit = "James Gathany, CDC Public Health Image Library (PHIL 1864), domaine public · recadrée"
+credit_url = "https://commons.wikimedia.org/wiki/File:CDC-Gathany-Aedes-albopictus-2.jpg"
+
+[images.oeufs]
+src = "Sources/images/oeufs_commons_kuchenkraut.jpg"
+box = [0.20, 0.25, 0.83, 0.61]
+alt = "Vue au microscope de quatre œufs sombres et allongés d'Aedes albopictus sur un support brun."
+caption = "Des œufs secs d'Aedes albopictus. Leur aspect sur une photographie ne permet pas de déterminer s'ils sont en diapause."
+credit = "Küchenkraut, Wikimedia Commons, domaine public · recadrée"
+credit_url = "https://commons.wikimedia.org/wiki/File:Dry_Aedes_albopictus_eggs.jpg"
+
+[images.diapause]
+video_time = 12.0
+box = [0.0, 0.27, 1.0, 0.67]
+alt = "Coupe illustrative d'un œuf noir allongé, posé sur la paroi d'un pot au-dessus de l'eau, avec une larve pâle repliée à l'intérieur."
+caption = "La vidéo représente une larve repliée dans un œuf au-dessus de l'eau. Coupe générée pour expliquer le stade de la diapause : proportions et anatomie sont simplifiées."
+credit = "Illustration générée pour la vidéo, d'après Lacour et al., PLOS ONE, 2015 · recadrée"
+generated = true
+
+[images.larve]
+src = "Sources/images/larve_inaturalist_517925713.jpg"
+box = [0.15, 0.065, 0.93, 0.925]
+alt = "Photographie rapprochée d'une larve de moustique, avec sa tête, son abdomen segmenté, ses soies et son siphon sombre."
+caption = "Une larve identifiée comme Aedes albopictus dans l'observation iNaturalist de référence. Après l'éclosion, la larve vit dans l'eau ; ce n'est pas encore un moustique adulte."
+credit = "James Hussey (sgtbird08), iNaturalist, CC0 1.0 · recadrée"
+credit_url = "https://www.inaturalist.org/observations/288025481"
+
+[[sources]]
+id = "S1"
+authors = "Anses"
+title = "S'informer : le moustique tigre"
+publication = "Portail Signalement-moustique, Anses"
+topic = "Cycle de vie, survie hivernale au stade d'œuf dans les régions tempérées, résistance à la dessiccation et nécessité de la mise en eau"
+url = "https://signalement-moustique.anses.fr/signalement_albopictus/sinformer"
+kind = "Présentation institutionnelle"
+
+[[sources]]
+id = "S2"
+authors = "Lacour G., Chanaud L., L'Ambert G., Hance T."
+title = "Seasonal Synchronization of Diapause Phases in Aedes albopictus (Diptera: Culicidae)"
+publication = "PLOS ONE, vol. 10, n° 12, e0145311"
+year = "2015"
+topic = "Diapause embryonnaire, induction maternelle par la photopériode, suivi de 2010 à 2012 à Cagnes-sur-Mer et attente après la diapause"
+url = "https://doi.org/10.1371/journal.pone.0145311"
+kind = "Étude originale"
+
+[[sources]]
+id = "S3"
+authors = "Lee I. H., Lee A. S., Kogan H. V., Dong L., Duvall L. B."
+title = "Temperature and photoperiod differentially impact maternal phenotypes in diapause egg-laying Aedes albopictus mosquitoes"
+publication = "PLOS Neglected Tropical Diseases, vol. 18, n° 10, e0012626"
+year = "2024"
+topic = "Effets distincts de la photopériode et de la température chez la mère ; production d'œufs en diapause sous jours courts dans les conditions expérimentales testées"
+url = "https://doi.org/10.1371/journal.pntd.0012626"
+kind = "Étude originale"
+
+[[sources]]
+id = "S4"
+authors = "Centers for Disease Control and Prevention (CDC)"
+title = "Life Cycle of Aedes Mosquitoes"
+publication = "CDC, National Center for Emerging and Zoonotic Infectious Diseases, 16 avril 2024"
+year = "2024"
+topic = "Ponte sur les parois au-dessus de l'eau, immersion permettant l'éclosion et succession œuf, larve, nymphe, adulte"
+url = "https://www.cdc.gov/mosquitoes/about/life-cycle-of-aedes-mosquitoes.html"
+kind = "Présentation institutionnelle du cycle de vie"

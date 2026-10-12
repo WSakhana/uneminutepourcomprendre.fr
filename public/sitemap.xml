@@ -2,40 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://uneminutepourcomprendre.fr/</loc>
-    <lastmod>2026-10-02</lastmod>
+    <lastmod>2026-10-12</lastmod>
   </url>
   <url>
     <loc>https://uneminutepourcomprendre.fr/articles/</loc>
-    <lastmod>2026-10-02</lastmod>
+    <lastmod>2026-10-12</lastmod>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/comment-moustique-tigre-passe-hiver/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/comment-moustique-tigre-passe-hiver/adulte-1280.webp?v=4ebf10ee</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/comment-moustique-tigre-passe-hiver/diapause-1280.webp?v=b4dfa592</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/comment-moustique-tigre-passe-hiver/oeufs-640.webp?v=03232ea0</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/comment-moustique-tigre-passe-hiver/larve-1280.webp?v=2c6cc04d</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/pourquoi-piqure-tique-indolore/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/pourquoi-piqure-tique-indolore/peau-1280.webp?v=fc8f5ccf</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/pourquoi-piqure-tique-indolore/hypostome-1280.webp?v=57ba82be</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/pourquoi-piqure-tique-indolore/alarme-1280.webp?v=3a5e309f</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/pourquoi-piqure-tique-indolore/borrelia-1280.webp?v=ec7891c3</image:loc></image:image>
   </url>
   <url>
     <loc>https://uneminutepourcomprendre.fr/articles/apophis-2029-plus-pres-que-nos-satellites/</loc>
-    <lastmod>2026-10-02</lastmod>
-    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/apophis-2029-plus-pres-que-nos-satellites/approche-1280.webp</image:loc></image:image>
-    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/apophis-2029-plus-pres-que-nos-satellites/lune-1280.webp</image:loc></image:image>
-    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/apophis-2029-plus-pres-que-nos-satellites/geostationnaire-1280.webp</image:loc></image:image>
-    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/apophis-2029-plus-pres-que-nos-satellites/perigee-1280.webp</image:loc></image:image>
-    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/apophis-2029-plus-pres-que-nos-satellites/sans_gravite-1280.webp</image:loc></image:image>
-    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/apophis-2029-plus-pres-que-nos-satellites/orbite-1280.webp</image:loc></image:image>
-    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/apophis-2029-plus-pres-que-nos-satellites/depart-1280.webp</image:loc></image:image>
+    <lastmod>2026-10-12</lastmod>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/apophis-2029-plus-pres-que-nos-satellites/approche-1280.webp?v=33605d5e</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/apophis-2029-plus-pres-que-nos-satellites/lune-1280.webp?v=6417effc</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/apophis-2029-plus-pres-que-nos-satellites/geostationnaire-1280.webp?v=ef7d64e9</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/apophis-2029-plus-pres-que-nos-satellites/perigee-1280.webp?v=a28160ce</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/apophis-2029-plus-pres-que-nos-satellites/sans_gravite-1280.webp?v=6e607427</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/apophis-2029-plus-pres-que-nos-satellites/orbite-1280.webp?v=71d1e9f4</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/apophis-2029-plus-pres-que-nos-satellites/depart-1280.webp?v=b8730a22</image:loc></image:image>
   </url>
   <url>
     <loc>https://uneminutepourcomprendre.fr/articles/capacites-surprenantes-des-bacteries/</loc>
-    <lastmod>2026-10-01</lastmod>
-    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/or_illustration-1280.webp</image:loc></image:image>
-    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/or_periplasme-1280.webp</image:loc></image:image>
-    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/or_csiro-1280.webp</image:loc></image:image>
-    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/geante_mangrove-1280.webp</image:loc></image:image>
-    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/geante_schema-1280.webp</image:loc></image:image>
-    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/boussole_micro-1280.webp</image:loc></image:image>
-    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/boussole_illustration-1280.webp</image:loc></image:image>
-    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/cables_sediment-1280.webp</image:loc></image:image>
-    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/cables_illustration-1280.webp</image:loc></image:image>
-    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/cables_electronema-1280.webp</image:loc></image:image>
-    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/rad_micro-640.webp</image:loc></image:image>
-    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/rad_schema-1280.webp</image:loc></image:image>
-    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/tumeurs_conversion-1280.webp</image:loc></image:image>
-    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/tumeurs_souris-1280.webp</image:loc></image:image>
-    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/conclusion-1280.webp</image:loc></image:image>
+    <lastmod>2026-10-12</lastmod>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/or_illustration-1280.webp?v=76e17868</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/or_periplasme-1280.webp?v=4a12b400</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/or_csiro-1280.webp?v=07160d54</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/geante_mangrove-1280.webp?v=08b00613</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/geante_schema-1280.webp?v=39e9afa8</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/boussole_micro-1280.webp?v=e0d329ee</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/boussole_illustration-1280.webp?v=ba5f590d</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/cables_sediment-1280.webp?v=a0b0b169</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/cables_illustration-1280.webp?v=71323e78</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/cables_electronema-1280.webp?v=cea7193d</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/rad_micro-640.webp?v=4a443ab3</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/rad_schema-1280.webp?v=125c9fd4</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/tumeurs_conversion-1280.webp?v=799b496e</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/tumeurs_souris-1280.webp?v=804893a5</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/conclusion-1280.webp?v=11360436</image:loc></image:image>
   </url>
 </urlset>

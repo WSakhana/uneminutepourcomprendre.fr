@@ -6,7 +6,23 @@
     <atom:link href="https://uneminutepourcomprendre.fr/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Vulgarisation scientifique en vidéo : des phénomènes étonnants de la science, des animaux, du corps humain et de la nature expliqués simplement et en images.</description>
     <language>fr-FR</language>
-    <lastBuildDate>Fri, 02 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Moustique tigre : comment il prépare l’hiver</title>
+      <link>https://uneminutepourcomprendre.fr/articles/comment-moustique-tigre-passe-hiver/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/comment-moustique-tigre-passe-hiver/</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Nature</category>
+      <description>Comment le moustique tigre passe-t-il l&#x27;hiver ? Jours courts, œufs en diapause, résistance au sec et éclosion : le mécanisme expliqué et ses limites.</description>
+    </item>
+    <item>
+      <title>Une tique boit ton sang pendant des jours, sans se faire sentir</title>
+      <link>https://uneminutepourcomprendre.fr/articles/pourquoi-piqure-tique-indolore/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/pourquoi-piqure-tique-indolore/</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Animaux</category>
+      <description>Pourquoi une piqûre de tique passe-t-elle souvent inaperçue ? Ancrage, salive, signaux de douleur et rôle de Salp15 dans les études sur Lyme.</description>
+    </item>
     <item>
       <title>Un astéroïde de 340m passera plus près que nos satellites en 2029 !</title>
       <link>https://uneminutepourcomprendre.fr/articles/apophis-2029-plus-pres-que-nos-satellites/</link>

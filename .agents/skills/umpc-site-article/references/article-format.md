@@ -51,7 +51,12 @@ generated = true             # illustration générée ou schéma de la vidéo :
 
 Le générateur écrit `public/assets/img/articles/<slug>/<cle>-640.webp` et `-1280.webp` (pas d'agrandissement : une
 source étroite n'a qu'une version), ajoute `srcset`, `width`, `height` et le chargement différé. Une image
-plus haute que large est affichée en colonne étroite. Les images avec `credit_url` alimentent automatiquement la section
+plus haute que large est affichée en colonne étroite. Les figures sont centrées et limitées à 640 px de large et
+420 px de haut, sans déformation ni agrandissement des petites sources. Pour les photos et les captures verticales,
+choisir un `box` autour du sujet utile après inspection visuelle ; garder les éléments nécessaires à la compréhension
+des schémas (annotations, échelles, anatomie). Adapter `alt` et les crédits au recadrage. Les URL des WebP portent une
+empreinte `?v=...` pour renouveler le cache après un recadrage ; relancer le build avec `--images` pour le produire.
+Les images avec `credit_url` alimentent automatiquement la section
 « Crédits des images ».
 
 ### Sources

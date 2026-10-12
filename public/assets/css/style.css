@@ -1328,19 +1328,25 @@ a {
 }
 
 .article-figure {
+  width: 100%;
+  max-width: var(--figure-width, 40rem);
+  margin-inline: auto;
   margin-top: 1.5rem;
 }
 
 .article-figure img {
   width: 100%;
   height: auto;
+  max-width: 100%;
+  max-height: 420px;
+  margin-inline: auto;
   border-radius: 16px;
   border: 1px solid var(--line);
   background: var(--navy-600);
 }
 
 .article-figure--narrow {
-  max-width: 24rem;
+  max-width: min(24rem, var(--figure-width, 24rem));
 }
 
 .article-figure figcaption {

@@ -1,0 +1,129 @@
+slug = "pourquoi-piqure-tique-indolore"
+title = "Une tique boit ton sang pendant des jours, sans se faire sentir"
+short_title = "Pourquoi la tique passe inaperçue"
+category = "Animaux"
+description = "Pourquoi une piqûre de tique passe-t-elle souvent inaperçue ? Ancrage, salive, signaux de douleur et rôle de Salp15 dans les études sur Lyme."
+lead = "Une tique peut rester fixée à la peau pendant plusieurs jours sans attirer l'attention. Comment tient-elle aussi longtemps, et pourquoi la piqûre fait-elle souvent si peu mal ? Sa salive agit sur plusieurs réactions de défense, avec des mécanismes qui varient selon les espèces."
+published = "2026-10-06"
+modified = "2026-10-12"
+cover = "miniature"
+keywords = ["piqûre de tique", "tique indolore", "salive de tique", "bradykinine", "histamine", "Ixodes ricinus", "Borrelia", "Salp15"]
+production = "D:/@UMPC-Shorts-Reactions/Videos/25 - Pourquoi tu ne sens pas la tique"
+video_file = "Montage/UMPC-R 25 - Pourquoi tu ne sens pas la tique.mp4"
+chapters = []
+method = "Cet article développe le Short publié le 6 octobre 2026. Le titre et la date ont été vérifiés sur YouTube ; la couverture est sa miniature publique, relevée le 7 octobre, et non la proposition conservée dans le dossier de production. Les revues de Kazimírová et Štibrániová et de Suppan et collègues ont été consultées en texte intégral ; les études de Ribeiro et Mather, Paesen et collègues et Ramamoorthi et collègues ont été consultées par leur résumé. Les métadonnées scientifiques ont été recoupées avec Crossref, Europe PMC ou PubMed. Les photographies et le schéma du NIAID sont distingués des illustrations générées de la vidéo."
+
+[video]
+id = "NL2wpimaA6s"
+title = "Une tique boit ton sang pendant des jours, sans se faire sentir"
+duration_seconds = 27.708333
+upload_date = "2026-10-06"
+vertical = true
+
+[images.miniature]
+# Copie de la miniature publique conservée dans le dépôt du site : le dossier de production reste en lecture seule.
+src = "D:/uneminutepourcomprendre.fr/content/articles/pourquoi-piqure-tique-indolore/youtube-thumbnail.jpg"
+alt = "Miniature publique de la vidéo : illustration d'une tique ancrée dans une coupe de peau, avec une cloche rouge et l'étiquette « douleur »."
+caption = "Miniature affichée sur YouTube au 7 octobre 2026. La coupe de peau est une illustration explicative, pas une observation microscopique."
+credit = "Illustration générée pour la vidéo, miniature publique YouTube"
+generated = true
+
+[images.peau]
+src = "Sources/images/tick-skin_pexels_18152646.jpg"
+box = [0.36, 0.28, 0.80, 0.76]
+alt = "Une petite tique brun-rouge photographiée sur une peau humaine, entre quelques poils."
+caption = "Une tique sur la peau, identifiée comme Ixodes ricinus par le photographe. Cette photographie ne permet pas de savoir si elle porte un agent infectieux."
+credit = "Erik Karits, licence Pexels · recadrée"
+credit_url = "https://www.pexels.com/photo/a-tick-is-on-the-skin-of-a-person-18152646/"
+
+[images.hypostome]
+src = "Sources/images/hypostome-schema_commons_niaid-bioart263.png"
+box = [0.42, 0.60, 0.84, 0.995]
+alt = "Schéma des pièces buccales d'Ixodes scapularis, avec un hypostome dentelé et les extrémités des chélicères."
+caption = "Les pièces buccales d'Ixodes scapularis : les chélicères ouvrent le tissu et l'hypostome dentelé participe à l'ancrage. Ce schéma représente une espèce nord-américaine, et non la tique européenne Ixodes ricinus."
+credit = "NIAID, Ryan Kissinger, NIH BioArt, domaine public · recadré"
+credit_url = "https://commons.wikimedia.org/wiki/File:Ixodes_Scapularis_Mouth_Parts_(NIH_BioArt_263).png"
+
+[images.alarme]
+video_time = 18.0
+box = [0.0, 0.28, 1.0, 0.72]
+alt = "Détail de l'illustration de la vidéo : une tique ancrée dans une coupe de peau, au-dessus des terminaisons nerveuses."
+caption = "L'alarme est une analogie : la salive peut atténuer plusieurs réactions locales. Le dessin ne signifie pas que la peau cesse de réagir ni que toutes les piqûres sont indolores."
+credit = "Illustration de la vidéo, d'après Kazimírová et Štibrániová, 2013 · recadrée"
+generated = true
+
+[images.borrelia]
+src = "Sources/images/borrelia_commons_niaid-149795518.jpg"
+alt = "Micrographie électronique colorisée de bactéries Borrelia burgdorferi, de longs filaments ondulés rouge-brun sur fond bleu."
+caption = "Borrelia burgdorferi au microscope électronique. Les couleurs sont ajoutées : cette image ne montre ni la protéine Salp15 ni son action sur les anticorps."
+credit = "NIAID, CC BY 2.0, via Wikimedia Commons · micrographie colorisée à la source"
+credit_url = "https://commons.wikimedia.org/wiki/File:Lyme_Disease_Bacteria,_Borrelia_burgdorferi_-_1.jpg"
+
+[[sources]]
+id = "S1"
+authors = "État de Fribourg, Service du médecin cantonal"
+title = "Tout sur les tiques"
+publication = "État de Fribourg, Prévention et promotion"
+topic = "Piqûre le plus souvent indolore, présence pouvant passer inaperçue et durée variable du repas selon le stade"
+url = "https://www.fr.ch/sante/prevention-et-promotion/tout-sur-les-tiques"
+kind = "Information institutionnelle de santé"
+
+[[sources]]
+id = "S2"
+authors = "Suppan J., Engel B., Marchetti-Deschmann M., Nürnberger S."
+title = "Tick attachment cement - reviewing the mysteries of a biological skin plug system"
+publication = "Biological Reviews, vol. 93, n° 2, p. 1056-1076"
+year = "2018"
+topic = "Repas prolongé des tiques dures, pièces buccales, hypostome dentelé, rôle d'ancrage et d'étanchéité du cément ; variations entre espèces"
+url = "https://doi.org/10.1111/brv.12384"
+kind = "Revue scientifique (publication en ligne en 2017, numéro de 2018)"
+
+[[sources]]
+id = "S3"
+authors = "Kazimírová M., Štibrániová I."
+title = "Tick salivary compounds: their role in modulation of host defences and pathogen transmission"
+publication = "Frontiers in Cellular and Infection Microbiology, vol. 3, article 43"
+year = "2013"
+topic = "Salive, modulation de la douleur, de la démangeaison, de l'inflammation et de la coagulation ; diversité des molécules selon l'espèce"
+url = "https://doi.org/10.3389/fcimb.2013.00043"
+kind = "Revue scientifique"
+
+[[sources]]
+id = "S4"
+authors = "Ribeiro J. M. C., Mather T. N."
+title = "Ixodes scapularis: salivary kininase activity is a metallo dipeptidyl carboxypeptidase"
+publication = "Experimental Parasitology, vol. 89, n° 2, p. 213-221"
+year = "1998"
+topic = "Dégradation de la bradykinine par une enzyme présente dans la salive d'Ixodes scapularis"
+url = "https://doi.org/10.1006/expr.1998.4296"
+kind = "Étude originale (résumé consulté)"
+
+[[sources]]
+id = "S5"
+authors = "Paesen G. C., Adams P. L., Harlos K., Nuttall P. A., Stuart D. I."
+title = "Tick histamine-binding proteins: isolation, cloning, and three-dimensional structure"
+publication = "Molecular Cell, vol. 3, n° 5, p. 661-671"
+year = "1999"
+topic = "Protéines salivaires de Rhipicephalus appendiculatus capables de fixer l'histamine avec une forte affinité"
+url = "https://doi.org/10.1016/S1097-2765(00)80359-7"
+kind = "Étude originale (résumé consulté, titre détaillé vérifié sur PubMed)"
+
+[[sources]]
+id = "S6"
+authors = "Ramamoorthi N. et al."
+title = "The Lyme disease agent exploits a tick protein to infect the mammalian host"
+publication = "Nature, vol. 436, p. 573-577"
+year = "2005"
+topic = "Salp15 d'Ixodes scapularis, liaison à OspC de Borrelia burgdorferi, protection contre des anticorps in vitro et facilitation de l'infection chez la souris"
+url = "https://doi.org/10.1038/nature03812"
+kind = "Étude originale (résumé consulté)"
+
+[[sources]]
+id = "S7"
+authors = "Santé publique France"
+title = "Maladies vectorielles à tique : bien se protéger pendant la saison d'activité des tiques"
+publication = "Santé publique France, mise à jour du 2 août 2024"
+year = "2024"
+topic = "Transmission d'agents pathogènes par la salive et borréliose de Lyme liée à Ixodes ricinus en France"
+url = "https://www.santepubliquefrance.fr/les-actualites/maladies-vectorielles-a-tique-bien-se-proteger-pendant-la-saison-dactivite-des-tiques"
+kind = "Contexte institutionnel de santé"

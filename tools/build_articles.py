@@ -65,7 +65,11 @@ SOCIALS = [
 def asset(path):
     """URL d'un fichier de public/ avec une empreinte (?v=...) : le cache d'un mois se renouvelle à chaque modification."""
     # Fins de ligne normalisées : même empreinte sous Windows (CRLF possible) et sur la CI Linux (LF).
-    digest = hashlib.md5((PUBLIC / path.lstrip("/")).read_bytes().replace(b"\r\n", b"\n")).hexdigest()[:8]
+    file = PUBLIC / path.lstrip("/")
+    data = file.read_bytes()
+    if file.suffix in (".css", ".js"):
+        data = data.replace(b"\r\n", b"\n")
+    digest = hashlib.md5(data).hexdigest()[:8]
     return f"{path}?v={digest}"
 
 
@@ -145,7 +149,7 @@ def build_images(art, force):
 
 
 def img_url(slug, key, w):
-    return f"/assets/img/articles/{slug}/{key}-{w}.webp"
+    return asset(f"/assets/img/articles/{slug}/{key}-{w}.webp")
 
 
 def img_tag(art, key, sizes, sizes_attr, loading="lazy"):
@@ -330,11 +334,15 @@ def render_body(art, sizes):
         used_images.append(key)
         cfg, avail = art["images"][key], sizes[key]
         narrow = " article-figure--narrow" if avail[-1][1] < avail[-1][2] else ""
+        _, width, height = avail[-1]
+        figure_width = int(min(384 if narrow else 640, width, 420 * width / height))
+        figure_sizes = (f"(min-width: 640px) min({figure_width}px, calc(100vw - 56px)), "
+                        f"min({figure_width}px, calc(100vw - 32px))")
         credit = esc(cfg["credit"])
         if cfg.get("credit_url"):
             credit = f'<a href="{esc(cfg["credit_url"])}" target="_blank" rel="noopener noreferrer">{credit}<span class="sr-only"> (nouvel onglet)</span></a>'
         badge = '<span class="fig-badge">Illustration</span> ' if cfg.get("generated") else ""
-        return (f'<figure class="article-figure{narrow}">{img_tag(art, key, sizes, "(min-width: 960px) 760px, 100vw")}'
+        return (f'<figure class="article-figure{narrow}" style="--figure-width: {figure_width}px">{img_tag(art, key, sizes, figure_sizes)}'
                 f'<figcaption>{badge}{esc(cfg["caption"])} <span class="fig-credit">{credit}</span></figcaption></figure>')
 
     def cite(m):
