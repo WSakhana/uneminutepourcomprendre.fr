@@ -11,12 +11,12 @@ Champs obligatoires (le build s'arrête avec un message clair s'il en manque, ou
 | Champ | Contenu |
 |---|---|
 | `slug` | identique au nom du dossier ; minuscules, chiffres, tirets, sans accent |
-| `title` | titre de la vidéo YouTube, à l'identique |
+| `title` | titre de la vidéo YouTube, à l'identique ; pour un article réunissant plusieurs vidéos, titre éditorial commun |
 | `short_title` | 4 à 6 mots, pour le fil d'Ariane |
 | `category` | `"Science"`, `"Animaux"`, `"Corps humain"` ou `"Nature"` (les quatre univers de la chaîne) |
 | `description` | meta description, **160 caractères au maximum** (`tools/check_site.py` le vérifie) |
 | `lead` | chapô : pose la question de la vidéo en 2 ou 3 phrases |
-| `published`, `modified` | dates ISO `AAAA-MM-JJ` ; `published` = date réelle de mise en ligne de la vidéo (la demander) |
+| `published`, `modified` | dates ISO `AAAA-MM-JJ` ; pour une vidéo, `published` = date réelle de sa mise en ligne ; pour un article réunissant plusieurs vidéos, date de l'article. Chaque vidéo garde sa propre `upload_date` |
 | `cover` | clé d'une image de `[images.*]` : sert de vignette de carte et d'image de partage 1200 x 630 |
 | `production` | chemin du dossier de production (barres obliques `/`) |
 | `video_file` | vidéo finale relative à `production`, requise si une image utilise `video_time` |
@@ -34,6 +34,13 @@ upload_date = "2026-10-01"
 t = 0
 label = "Une bactérie transforme de l'or dissous"
 ```
+
+Pour réunir plusieurs vidéos dans un seul article, garder `[video]` pour la première et ajouter une table
+`[[additional_videos]]` par partie complémentaire, avec `id`, `title`, `duration_seconds`, `upload_date` et `vertical`.
+Les titres de chaque vidéo restent ceux réellement publiés. Les lecteurs apparaissent dans l'ordre avant le titre de
+l'article ; les données structurées relient chaque `VideoObject` au même article et les cartes affichent le nombre de
+vidéos. Les identifiants YouTube doivent être valides et distincts. Les marqueurs `{{chapitre:...}}` concernent la
+vidéo principale ; les Shorts sans chapitres gardent `chapters = []`.
 
 ### Images
 

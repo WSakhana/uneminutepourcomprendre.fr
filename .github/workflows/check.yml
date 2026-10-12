@@ -34,3 +34,6 @@ jobs:
 
       - name: Contrôle statique
         run: python tools/check_site.py
+
+      - name: Articles à plusieurs vidéos
+        run: python -m unittest discover -s tools/tests -v

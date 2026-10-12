@@ -1114,6 +1114,48 @@ a {
   font-weight: 600;
 }
 
+/* Plusieurs Shorts : deux lecteurs compacts, identifiés dans l'ordre de la série. */
+.article-videos {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(0.75rem, 3vw, 1.5rem);
+  max-width: 34rem;
+  margin-inline: auto;
+}
+
+.article-videos .video-block {
+  align-content: start;
+  min-width: 0;
+}
+
+.article-videos .video-frame--vertical {
+  width: min(100%, 232px);
+}
+
+.video-part-title {
+  color: var(--yellow);
+  font-weight: 800;
+  text-align: center;
+}
+
+.article-videos .video-meta {
+  justify-content: center;
+  text-align: center;
+}
+
+.article-videos .video-meta .btn {
+  flex: 0 1 auto;
+  padding: 0.65rem 0.75rem;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+}
+
+.article-videos .video-note {
+  width: 100%;
+  font-size: 0.85rem;
+  overflow-wrap: anywhere;
+}
+
 .chapters {
   border: 1px solid var(--line);
   border-radius: 14px;

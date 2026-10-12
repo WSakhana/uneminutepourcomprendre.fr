@@ -1,0 +1,249 @@
+slug = "animaux-squelettes-etonnants"
+title = "10 animaux aux squelettes étonnants : des os aux carapaces"
+short_title = "Dix squelettes animaux étonnants"
+category = "Animaux"
+description = "Hippocampe, tortue, requin, girafe… Dix animaux révèlent la diversité des squelettes : os, cartilage, carapaces et pièces calcaires. Deux vidéos et les sources."
+lead = "Une aile de chauve-souris et une nageoire de baleine ont des os en commun avec notre bras. Un requin possède un squelette sans os, tandis qu'une étoile de mer assemble de petites pièces calcaires. Les deux vidéos de cette série explorent dix animaux : voici ce que leurs squelettes racontent, au-delà des apparences."
+published = "2026-10-12"
+modified = "2026-10-12"
+cover = "couverture"
+production = "D:/@UMPC/Videos/22 - 5 animaux aux squelettes vraiment bizarres"
+video_file = "Montage/UMPC 22 - 5 animaux aux squelettes vraiment b/UMPC 22 - 5 animaux aux squelettes vraiment b.mp4"
+chapters = []
+keywords = ["squelettes animaux", "anatomie comparée", "squelette requin", "carapace tortue", "vertèbres girafe", "aile chauve-souris", "squelette étoile de mer", "urostyle grenouille"]
+method = "Cet article réunit les deux Shorts de la série. Les titres, les dates de publication et les miniatures publiques ont été vérifiés sur YouTube le 12 octobre 2026 : première partie le 13 septembre, seconde le 2 octobre. Les durées viennent des exports finaux locaux. Les images de scène déjà produites ont été recadrées pour l'article ; ce sont des illustrations générées, et non des radiographies ou des documents permettant de compter les pièces squelettiques. La couverture reprend la miniature publique de la première partie. Les pages institutionnelles et les textes des études de Newman et Jayne, Krings et collègues, Richards et collègues et Senevirathne et collègues ont été consultés ; pour Porter et collègues, le résumé de la publication et le communiqué de l'UC San Diego ont été lus. Les métadonnées des études ont été recoupées avec Europe PMC et les publications. Deux références originales sur l'effraie et le développement de l'urostyle complètent les dossiers afin de préciser les simplifications des Shorts."
+
+[video]
+id = "rwS44FiCKaQ"
+title = "Ces animaux ont un squelette bizarre"
+duration_seconds = 47.182993
+upload_date = "2026-09-13"
+vertical = true
+
+[[additional_videos]]
+id = "dS6oZUkzHo8"
+title = "Ces animaux ont un squelette bizarre (partie 2)"
+duration_seconds = 45.125
+upload_date = "2026-10-02"
+vertical = true
+description = "Requin, girafe, serpent, chouette et grenouille : cinq autres exemples de la diversité des squelettes."
+
+[images.couverture]
+src = "D:/uneminutepourcomprendre.fr/content/articles/animaux-squelettes-etonnants/youtube-partie-1.jpg"
+alt = "Miniature publique de la première partie : illustration d'une baleine à bosse et de son squelette, avec le titre « 5 animaux aux squelettes bizarres »."
+caption = "La première vidéo de la série, complétée ici par la deuxième partie."
+credit = "Illustration générée pour la vidéo, miniature publique YouTube"
+generated = true
+
+[images.hippocampe]
+src = "Scenes/Scene-1/v22_s1_last_frame.png"
+box = [0.10, 0.44, 0.94, 0.87]
+alt = "Détail illustratif de la queue d'un hippocampe enroulée sur un support, avec un agrandissement de sa section carrée."
+caption = "Détail de la queue préhensile et de sa section carrée : une armure articulée autour de la colonne vertébrale."
+credit = "Illustration de la première vidéo, d'après Porter et al., 2015 et UC San Diego · recadrée"
+generated = true
+
+[images.tortue]
+src = "Scenes/Scene-2/v22_s2_last_frame.png"
+box = [0.03, 0.27, 0.97, 0.75]
+alt = "Illustration d'une tortue terrestre, avec une transparence pédagogique sur les côtes et la carapace."
+caption = "Une transparence pédagogique met en relation les côtes et la carapace osseuse, intégrée au corps de la tortue."
+credit = "Illustration de la première vidéo, d'après les références sur la carapace des tortues · recadrée"
+generated = true
+
+[images.chauve_souris]
+src = "Scenes/Scene-3/v22_s3_last_frame.png"
+box = [0.0, 0.19, 1.0, 0.74]
+alt = "Chauve-souris illustrée en vol, avec des doigts allongés visibles sous les membranes des ailes."
+caption = "Les doigts allongés soutiennent la membrane de l'aile. Le rendu façon rayons X est une illustration de synthèse."
+credit = "Illustration de la première vidéo, d'après National Park Service · recadrée"
+generated = true
+
+[images.baleine]
+src = "Scenes/Scene-4/v22_s4_last_frame.png"
+box = [0.0, 0.23, 1.0, 0.72]
+alt = "Baleine à bosse illustrée avec les os de sa nageoire pectorale et un schéma voisin du bras et de la main humains."
+caption = "Bras, avant-bras, poignet et doigts : les régions correspondantes sont comparées, avec des proportions propres à chaque espèce."
+credit = "Illustration de la première vidéo, d'après Musée Te Papa · recadrée"
+generated = true
+
+[images.etoile_de_mer]
+src = "Scenes/Scene-5/v22_s5_last_frame.png"
+box = [0.0, 0.10, 1.0, 0.72]
+alt = "Étoile de mer illustrée avec de petites pièces squelettiques calcaires et un insert agrandi."
+caption = "L'insert agrandi représente les ossicules : de petites pièces calcaires assemblées sous la peau de l'étoile de mer."
+credit = "Illustration de la première vidéo, d'après Smithsonian Ocean · recadrée"
+generated = true
+
+[images.requin]
+src = "D:/@UMPC-Shorts-Reactions/Videos/17 - Ces animaux ont un squelette vraiment bizarre 2/Scenes/Scene-1/v17_s1_last_frame.png"
+box = [0.08, 0.19, 0.94, 0.78]
+alt = "Requin illustré avec un squelette cartilagineux bleu pâle visible en transparence."
+caption = "Le bleu pâle représente le squelette cartilagineux. Certaines régions du cartilage sont renforcées par des dépôts minéraux."
+credit = "Illustration de la deuxième vidéo, d'après Natural History Museum · recadrée"
+generated = true
+
+[images.girafe]
+src = "D:/@UMPC-Shorts-Reactions/Videos/17 - Ces animaux ont un squelette vraiment bizarre 2/Scenes/Scene-2/v17_s2_last_frame.png"
+box = [0.33, 0.20, 1.0, 0.73]
+alt = "Détail illustratif du cou d'une girafe, avec une fenêtre sur les vertèbres allongées et l'une d'elles surlignée en jaune."
+caption = "Le cadrage resserré montre l'allongement des vertèbres cervicales de la girafe, avec l'une d'elles surlignée en jaune."
+credit = "Illustration de la deuxième vidéo, d'après San Diego Zoo · recadrée"
+generated = true
+
+[images.serpent]
+src = "D:/@UMPC-Shorts-Reactions/Videos/17 - Ces animaux ont un squelette vraiment bizarre 2/Scenes/Scene-3/v17_s3_last_frame.png"
+box = [0.02, 0.25, 1.0, 0.62]
+alt = "Boa illustré au sol, avec une transparence sur la colonne et les côtes répétées le long du tronc."
+caption = "Une portion du tronc montre la répétition des côtes. Les appuis au sol passent par la peau et les écailles ventrales."
+credit = "Illustration de la deuxième vidéo, d'après Smithsonian National Zoo et Newman et Jayne, 2018 · recadrée"
+generated = true
+
+[images.chouette]
+src = "D:/@UMPC-Shorts-Reactions/Videos/17 - Ces animaux ont un squelette vraiment bizarre 2/Scenes/Scene-4/v17_s4_last_frame.png"
+box = [0.20, 0.14, 0.91, 0.54]
+alt = "Détail illustratif de la tête d'une chouette effraie et de son cou, avec une transparence sur la chaîne des vertèbres."
+caption = "Détail de la tête et du cou de l'effraie : la mobilité résulte d'une combinaison de mouvements entre les articulations."
+credit = "Illustration de la deuxième vidéo · recadrée ; anatomie discutée dans Krings et al., 2017"
+generated = true
+
+[images.grenouille]
+src = "D:/@UMPC-Shorts-Reactions/Videos/17 - Ces animaux ont un squelette vraiment bizarre 2/Scenes/Scene-5/v17_s5_last_frame.png"
+box = [0.04, 0.18, 0.98, 0.62]
+alt = "Grenouille illustrée en extension, avec son bassin, ses pattes postérieures et une tige squelettique mise en évidence."
+caption = "Le bassin et la tige de l'urostyle sont mis en évidence pendant l'extension des membres postérieurs."
+credit = "Illustration de la deuxième vidéo · recadrée ; mécanisme discuté dans Richards et al., 2018"
+generated = true
+
+[[sources]]
+id = "S1"
+authors = "Porter M. M. et al."
+title = "Why the seahorse tail is square"
+publication = "Science, vol. 349, n° 6243, aaa6683"
+year = "2015"
+topic = "Queue articulée de l'hippocampe ; comparaison mécanique de modèles carrés et cylindriques imprimés en 3D"
+url = "https://doi.org/10.1126/science.aaa6683"
+kind = "Étude originale (résumé consulté)"
+
+[[sources]]
+id = "S2"
+authors = "UC San Diego"
+title = "Why the Seahorse’s Tail is Square and How It Could be an Inspiration for Robots and Medical Devices"
+publication = "UC San Diego Today, 2 juillet 2015"
+year = "2015"
+topic = "Quatre plaques en L par segment, articulation autour de la colonne et limites des essais sur modèles"
+url = "https://today.ucsd.edu/story/why_the_seahorses_tail_is_square_and_how_it_could_be_an_inspiration"
+kind = "Présentation universitaire de l'étude originale S1"
+
+[[sources]]
+id = "S3"
+authors = "Wisconsin Herpetological Association"
+title = "What’s Inside a Turtle or Tortoise Shell?"
+publication = "Wisconsin Herpetological Association, article pédagogique"
+topic = "Carapace intégrée aux côtes et aux vertèbres ; distinction entre couverture cornée et squelette"
+url = "https://www.wisconsinherps.org/educational-articles/whats-inside-a-turtle-or-tortoise-shell"
+kind = "Référence anatomique d'une association herpétologique"
+
+[[sources]]
+id = "S4"
+authors = "National Park Service"
+title = "How Bats Fly"
+publication = "National Park Service, mise à jour du 9 octobre 2024"
+year = "2024"
+topic = "Doigts allongés et membrane de l'aile des chauves-souris"
+url = "https://www.nps.gov/subjects/bats/how-bats-fly.htm"
+kind = "Source institutionnelle"
+
+[[sources]]
+id = "S5"
+authors = "Museum of New Zealand Te Papa Tongarewa"
+title = "Movement"
+publication = "Te Papa, Whales Tohorā, Whale Lab"
+topic = "Correspondances osseuses entre nageoire de baleine et bras humain ; rigidité relative de la nageoire"
+url = "https://www.tepapa.govt.nz/about/touring-exhibitions/whales-tohora/whale-lab/movement"
+kind = "Référence muséale avec radiographies comparées"
+
+[[sources]]
+id = "S6"
+authors = "Hall D., revue par Mah C."
+title = "Echinoderms: Sea Stars, Urchins, Sand Dollars, and Relatives"
+publication = "Smithsonian Ocean"
+topic = "Squelette interne des échinodermes, ossicules de carbonate de calcium sous la peau"
+url = "https://ocean.si.edu/ocean-life/invertebrates/sea-stars-urchins-and-relatives"
+kind = "Source institutionnelle"
+
+[[sources]]
+id = "S7"
+authors = "Natural History Museum, avec Bernard E., conservatrice des poissons fossiles"
+title = "Do sharks have bones?"
+publication = "Natural History Museum, Londres"
+topic = "Squelette cartilagineux des requins, renforts minéralisés et distinction avec les dents"
+url = "https://www.nhm.ac.uk/discover/quick-questions/do-sharks-have-bones.html"
+kind = "Source muséale"
+
+[[sources]]
+id = "S8"
+authors = "San Diego Zoo Wildlife Alliance"
+title = "Giraffe"
+publication = "San Diego Zoo, Animals & Plants"
+topic = "Sept vertèbres cervicales très allongées chez la girafe ; longueur pouvant approcher ou dépasser 25 cm"
+url = "https://animals.sandiegozoo.org/animals/giraffe"
+kind = "Source zoologique institutionnelle"
+
+[[sources]]
+id = "S9"
+authors = "Smithsonian’s National Zoo and Conservation Biology Institute"
+title = "How Do Snakes Move Without Legs?"
+publication = "Smithsonian’s National Zoo"
+topic = "Diversité des modes de locomotion et du nombre de vertèbres ; rôle du contact ventral avec le sol"
+url = "https://nationalzoo.si.edu/news/news/how-do-snakes-move-without-legs"
+kind = "Source institutionnelle"
+
+[[sources]]
+id = "S10"
+authors = "Newman S. J., Jayne B. C."
+title = "Crawling without wiggling: muscular mechanisms and kinematics of rectilinear locomotion in boa constrictors"
+publication = "Journal of Experimental Biology, vol. 221, n° 4, jeb166199"
+year = "2018"
+topic = "Muscles reliant les côtes à la peau et phases d'appui dans la reptation rectiligne du boa"
+url = "https://doi.org/10.1242/jeb.166199"
+kind = "Étude originale (texte consulté)"
+
+[[sources]]
+id = "S11"
+authors = "Krings M. et al."
+title = "Barn owls maximize head rotations by a combination of yawing and rolling in functionally diverse regions of the neck"
+publication = "Journal of Anatomy, vol. 231, n° 1, p. 12-22"
+year = "2017"
+topic = "Quatorze vertèbres chez l'effraie étudiée, combinaison des mouvements cervicaux et différences entre espèces"
+url = "https://doi.org/10.1111/joa.12616"
+kind = "Étude originale (texte consulté), ajoutée pour préciser le Short"
+
+[[sources]]
+id = "S12"
+authors = "Senevirathne G. et al."
+title = "Ontogeny of the anuran urostyle and the developmental context of evolutionary novelty"
+publication = "Proceedings of the National Academy of Sciences, vol. 117, n° 6"
+year = "2020"
+topic = "Colonne raccourcie des anoures et origine composite de l'urostyle, comprenant des vertèbres caudales fusionnées"
+url = "https://doi.org/10.1073/pnas.1917506117"
+kind = "Étude originale (texte consulté), ajoutée pour préciser le Short"
+
+[[sources]]
+id = "S13"
+authors = "Richards C. T., Eberhard E. A., Collings A. J."
+title = "The dynamic role of the ilio-sacral joint in jumping frogs"
+publication = "Biology Letters, vol. 14, n° 9, 20180367"
+year = "2018"
+topic = "Articulation mobile du bassin et modulation de la trajectoire du saut dans un modèle de Kassina maculata"
+url = "https://doi.org/10.1098/rsbl.2018.0367"
+kind = "Étude originale (texte consulté)"
+
+[[sources]]
+id = "S14"
+authors = "Oregon State University, manuel adapté d'OpenStax"
+title = "6.4 Bone Formation and Development"
+publication = "Anatomy & Physiology 2e"
+topic = "Ossification endochondrale et intramembraneuse ; le cartilage modèle est remplacé par du tissu osseux"
+url = "https://open.oregonstate.education/anatomy2e/chapter/bone-formation-and-development/"
+kind = "Manuel universitaire de contexte"

@@ -82,6 +82,10 @@ Chaque article est associé à une vidéo YouTube (lecteur `youtube-nocookie` en
   Une image vient d'un fichier du dossier de production (`src`) ou de la vidéo finale (`video_time`, `box` ; ffmpeg requis).
 - `body.html` : une `<section id="…">` par partie, avec `{{figure:clé}}`, `{{cite:S1}}` et `{{chapitre:secondes}}`.
 
+Un même article peut réunir plusieurs vidéos : garder `[video]` pour la première et ajouter `[[additional_videos]]`
+pour les suivantes (mêmes métadonnées). Le build affiche tous les lecteurs en tête et produit un `VideoObject` par vidéo.
+Les images des articles sont recadrées individuellement et affichées dans une limite de 640 × 420 px, sans déformation.
+
 Le build refuse une source citée mais absente, listée mais jamais citée, ou un « TODO » restant. Format détaillé :
 [`.agents/skills/umpc-site-article/references/article-format.md`](.agents/skills/umpc-site-article/references/article-format.md).
 Ne jamais modifier à la main `public/articles/`, `public/404.html`, `sitemap.xml`, `feed.xml`, `llms.txt` ni le bloc

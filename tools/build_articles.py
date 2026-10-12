@@ -114,6 +114,11 @@ def extract_video_frame(video, seconds):
     return Image.open(io.BytesIO(out))
 
 
+def image_size(path):
+    with Image.open(path) as im:
+        return im.size
+
+
 def build_images(art, force):
     """Écrit les WebP de chaque image ; renvoie {clé: [(largeur nominale, largeur, hauteur), ...]}."""
     out_dir = PUBLIC / "assets" / "img" / "articles" / art["slug"]
@@ -125,7 +130,7 @@ def build_images(art, force):
         small, big = targets[WIDTHS[0]], targets[WIDTHS[-1]]
         # Une source plus étroite que 640 px n'a qu'une version : elle est complète sans la 1280 (et le build n'a alors
         # pas besoin du dossier de production, absent de la CI).
-        complete = small.exists() and (big.exists() or Image.open(small).width < WIDTHS[0])
+        complete = small.exists() and (big.exists() or image_size(small)[0] < WIDTHS[0])
         if force or not complete:
             if "video_time" in cfg:
                 im = extract_video_frame(prod / art["video_file"], cfg["video_time"])
@@ -144,7 +149,7 @@ def build_images(art, force):
             if key == art["cover"]:
                 crop_to(im, 1200 / 630, 0.5, 0.5).resize((1200, 630), Image.LANCZOS).save(
                     out_dir / "og.jpg", "JPEG", quality=84, optimize=True, progressive=True)
-        sizes[key] = [(w, *Image.open(p).size) for w, p in targets.items() if p.exists()]
+        sizes[key] = [(w, *image_size(p)) for w, p in targets.items() if p.exists()]
     return sizes
 
 
@@ -158,6 +163,37 @@ def img_tag(art, key, sizes, sizes_attr, loading="lazy"):
     nominal, w, h = avail[-1]
     return (f'<img src="{img_url(art["slug"], key, nominal)}" srcset="{srcset}" sizes="{sizes_attr}" width="{w}" height="{h}" '
             f'alt="{esc(cfg["alt"])}" loading="{loading}" decoding="async">')
+
+
+def article_videos(art):
+    """La vidéo principale et les éventuelles parties complémentaires, dans l'ordre de lecture."""
+    return [art["video"], *art.get("additional_videos", [])]
+
+
+def video_block(video, chapters=(), label=""):
+    vid, dur = video["id"], video["duration_seconds"]
+    chapters_li = "\n".join(
+        f'            <li><a href="https://youtu.be/{vid}?t={c["t"]}" target="_blank" rel="noopener noreferrer"><span class="chap-time">{fmt_time(c["t"])}</span> {esc(c["label"])}<span class="sr-only"> (nouvel onglet)</span></a></li>'
+        for c in chapters)
+    chapters_block = f"""          <details class="chapters">
+            <summary>Chapitres de la vidéo</summary>
+            <ol>
+{chapters_li}
+            </ol>
+          </details>""" if chapters else ""
+    frame_class = "video-frame video-frame--vertical" if video.get("vertical") else "video-frame"
+    heading = f'          <p class="video-part-title">{esc(label)}</p>\n' if label else ""
+    button = f"Voir la {label.lower()}" if label else "Regarder sur YouTube"
+    return f"""        <div class="video-block">
+{heading}          <div class="{frame_class}">
+            <iframe src="https://www.youtube-nocookie.com/embed/{vid}?rel=0" title="Vidéo : {esc(video["title"])}" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <div class="video-meta">
+            <a class="btn btn-primary" href="https://youtu.be/{vid}" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-youtube"/></svg>{esc(button)}<span class="sr-only"> (nouvel onglet)</span></a>
+            <p class="video-note">Vidéo de la chaîne <a href="{CHANNEL}" target="_blank" rel="me noopener">@1min.pour.comprendre</a> · {fmt_duration(dur)}</p>
+          </div>
+{chapters_block}
+        </div>"""
 
 
 # ----------------------------------------------------------------------------- gabarits communs
@@ -306,6 +342,16 @@ def load_articles():
         if meta["cover"] not in meta.get("images", {}):
             raise SystemExit(f"{name} : cover = {meta['cover']!r} n'est pas une clé de [images.*]")
         meta["images"] = meta.get("images", {})
+        ids = []
+        for video in article_videos(meta):
+            required_video = ("id", "title", "duration_seconds", "upload_date")
+            if any(k not in video for k in required_video):
+                raise SystemExit(f"{name} : chaque vidéo doit avoir id, title, duration_seconds et upload_date.")
+            if not re.fullmatch(r"[A-Za-z0-9_-]{11}", video["id"]) or video["id"] in ids:
+                raise SystemExit(f"{name} : identifiant vidéo invalide ou répété : {video['id']!r}")
+            if not isinstance(video["duration_seconds"], (int, float)) or video["duration_seconds"] <= 0:
+                raise SystemExit(f"{name} : durée vidéo positive requise.")
+            ids.append(video["id"])
         arts.append(meta)
     arts.sort(key=lambda a: a["published"], reverse=True)
     return arts
@@ -429,6 +475,7 @@ def article_page(art, sizes, others=()):
     body, used = render_body(art, sizes)
     minutes = reading_minutes(art["body"])
     dur = art["video"]["duration_seconds"]
+    videos = article_videos(art)
     og = f"/assets/img/articles/{slug}/og.jpg"
     keywords = art.get("keywords", [])
 
@@ -449,7 +496,9 @@ def article_page(art, sizes, others=()):
              "isPartOf": {"@id": f"{SITE}/#website"}, "isAccessibleForFree": True,
              "wordCount": word_count(art["body"]), "timeRequired": f"PT{minutes}M",
              **({"keywords": ", ".join(keywords)} if keywords else {}),
-             "articleSection": art["category"], "video": {"@id": f"{url}#video"},
+             "articleSection": art["category"], "video": ([{"@id": f"{url}#video"},
+                 *[{"@id": f"{url}#video-{i}"} for i in range(2, len(videos) + 1)]]
+                 if len(videos) > 1 else {"@id": f"{url}#video"}),
              "citation": [{"@type": "CreativeWork", "name": s["title"],
                            **({"datePublished": s["year"]} if s.get("year") else {}),
                            **({"url": s["url"]} if s.get("url") else {}),
@@ -461,6 +510,14 @@ def article_page(art, sizes, others=()):
              "publisher": {"@id": ORG_ID}, **({"hasPart": clips} if clips else {})},
         ],
     }
+    for i, video in enumerate(videos[1:], 2):
+        video_id = video["id"]
+        ld["@graph"].append({"@type": "VideoObject", "@id": f"{url}#video-{i}", "name": video["title"],
+            "description": video.get("description", art["description"]),
+            "thumbnailUrl": [f"https://i.ytimg.com/vi/{video_id}/maxresdefault.jpg", f"https://i.ytimg.com/vi/{video_id}/hqdefault.jpg"],
+            "uploadDate": video["upload_date"], "duration": iso_duration(video["duration_seconds"]), "inLanguage": "fr-FR",
+            "embedUrl": f"https://www.youtube.com/embed/{video_id}", "contentUrl": f"https://www.youtube.com/watch?v={video_id}",
+            "publisher": {"@id": ORG_ID}})
     # Titre de la page : suffixe de marque seulement s'il tient sous 70 caractères (sinon Google tronque le titre).
     title = f"{art['title']} | Une Minute Pour Comprendre"
     if len(title) > 70:
@@ -471,18 +528,12 @@ def article_page(art, sizes, others=()):
              + "".join(f'\n  <meta property="article:tag" content="{esc(k)}">' for k in keywords))
     head_html = head(title, art["description"], path, "article", og, ld, extra, og_alt=art["images"][art["cover"]]["alt"])
 
-    chapters_li = "\n".join(
-        f'            <li><a href="https://youtu.be/{vid}?t={c["t"]}" target="_blank" rel="noopener noreferrer"><span class="chap-time">{fmt_time(c["t"])}</span> {esc(c["label"])}<span class="sr-only"> (nouvel onglet)</span></a></li>'
-        for c in art["chapters"])
-    # Un Short n'a pas de chapitres : pas de bloc vide.
-    chapters_block = f"""          <details class="chapters">
-            <summary>Chapitres de la vidéo</summary>
-            <ol>
-{chapters_li}
-            </ol>
-          </details>""" if art["chapters"] else ""
-    # Vidéo verticale (Short) : lecteur 9:16.
-    frame_class = "video-frame video-frame--vertical" if art["video"].get("vertical") else "video-frame"
+    if len(videos) > 1:
+        blocks = "\n".join(video_block(video, art["chapters"] if i == 1 else (), f"Partie {i}")
+                           for i, video in enumerate(videos, 1))
+        videos_html = f'<div class="article-videos" role="group" aria-label="Les vidéos de cet article">\n{blocks}\n        </div>'
+    else:
+        videos_html = video_block(art["video"], art["chapters"])
     body = add_anchor_buttons(body)
     toc_li = "\n".join(f'          <li><a href="#{i}">{esc(t)}</a></li>' for i, t in toc_entries(body))
     credits = credits_html(art, used)
@@ -510,16 +561,7 @@ def article_page(art, sizes, others=()):
       </nav>
 
       <article class="article">
-        <div class="video-block">
-          <div class="{frame_class}">
-            <iframe src="https://www.youtube-nocookie.com/embed/{vid}?rel=0" title="Vidéo : {esc(art["video"]["title"])}" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          </div>
-          <div class="video-meta">
-            <a class="btn btn-primary" href="https://youtu.be/{vid}" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-youtube"/></svg>Regarder sur YouTube<span class="sr-only"> (nouvel onglet)</span></a>
-            <p class="video-note">Vidéo de la chaîne <a href="{CHANNEL}" target="_blank" rel="me noopener">@1min.pour.comprendre</a> · {fmt_duration(dur)}</p>
-          </div>
-{chapters_block}
-        </div>
+{videos_html}
 
         <header class="article-header">
           <p class="kicker">{esc(art["category"])} · Article</p>
@@ -581,6 +623,9 @@ def card(art, sizes, level):
     slug = art["slug"]
     cover = art["cover"]
     minutes = reading_minutes(art["body"])
+    videos = article_videos(art)
+    video_note = (f"{len(videos)} vidéos" if len(videos) > 1 else
+                  f"vidéo de {fmt_duration(art['video']['duration_seconds'])}")
     return f"""          <li>
             <article class="article-card">
               <a class="article-card-link" href="/articles/{slug}/">
@@ -589,7 +634,7 @@ def card(art, sizes, level):
                   <span class="kicker">{esc(art["category"])} · Vidéo et article</span>
                   <h{level} class="article-card-title">{esc(art["title"])}</h{level}>
                   <span class="article-card-text">{esc(art["description"])}</span>
-                  <span class="article-card-meta">{minutes} min de lecture · vidéo de {fmt_duration(art["video"]["duration_seconds"])}</span>
+                  <span class="article-card-meta">{minutes} min de lecture · {video_note}</span>
                 </span>
               </a>
             </article>
