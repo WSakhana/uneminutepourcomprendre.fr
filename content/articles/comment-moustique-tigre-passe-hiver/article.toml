@@ -5,7 +5,7 @@ category = "Nature"
 description = "Comment le moustique tigre passe-t-il l'hiver ? Jours courts, œufs en diapause, résistance au sec et éclosion : le mécanisme expliqué et ses limites."
 lead = "En France métropolitaine, le moustique tigre peut traverser l'hiver au stade d'œuf. Cette attente se prépare dès l'automne : les jours courts perçus par la mère favorisent la diapause de sa descendance. Que se passe-t-il dans ces œufs, et qu'est-ce qui permet ensuite l'éclosion ?"
 published = "2026-10-07"
-modified = "2026-10-12"
+modified = "2026-10-13"
 cover = "miniature"
 keywords = ["moustique tigre hiver", "Aedes albopictus", "diapause", "œufs de moustique", "photopériode", "résistance au sec", "éclosion", "France métropolitaine"]
 production = "D:/@UMPC-Shorts-Reactions/Videos/26 - Comment le moustique tigre prépare l hiver"
@@ -13,6 +13,14 @@ video_file = "Montage/UMPC-R 26 - Comment le moustique tigre prepare l hiver.mp4
 chapters = []
 method = "Cet article développe le Short publié le 7 octobre 2026. Le titre, la date et la miniature publique ont été vérifiés sur YouTube le même jour. Les deux études de PLOS ont été consultées en texte intégral ; leurs titres, auteurs, dates et DOI ont été vérifiés dans Crossref. Les pages de l'Anses et du CDC apportent le contexte du cycle de vie. Les photographies sont créditées individuellement. La coupe d'œuf extraite de la vidéo est une illustration générée, pas une observation anatomique. La photographie de larve, présente dans le dossier comme référence de production, est utilisée ici avec son crédit propre."
 
+credits_status = "Images reprises : licences documentées ; crédits vidéo partiels (conditions de licence audio non documentées)"
+sources_status = "Références et nuances contrôlées ; métadonnées DOI vérifiées, accès au texte variable"
+project_key = "short-26"
+project_keys = ["short-26"]
+ready = true
+youtube_description = "Le moustique tigre peut passer l’hiver à l’état d’œuf en diapause. Les jours courts perçus par les femelles participent à cette préparation. Diapause et résistance au dessèchement sont distinctes ; les réponses varient selon les populations.\n\n#MoustiqueTigre #Nature #Science\n\nSources scientifiques et crédits :\nhttps://uneminutepourcomprendre.fr/articles/comment-moustique-tigre-passe-hiver/"
+description_update_ready = false
+editorial_ready = true
 [video]
 id = "3cQBod7e9FI"
 title = "Moustique tigre : comment il prépare l’hiver"
@@ -98,3 +106,71 @@ year = "2024"
 topic = "Ponte sur les parois au-dessus de l'eau, immersion permettant l'éclosion et succession œuf, larve, nymphe, adulte"
 url = "https://www.cdc.gov/mosquitoes/about/life-cycle-of-aedes-mosquitoes.html"
 kind = "Présentation institutionnelle du cycle de vie"
+
+[[media_credits]]
+title = "Aedes albopictus femelle, bande blanche dorsale (CDC PHIL 1864)"
+author = "James Gathany / CDC"
+license = "Domaine public, œuvre du gouvernement fédéral des États-Unis (CDC PHIL)"
+url = "https://commons.wikimedia.org/wiki/File:CDC-Gathany-Aedes-albopictus-2.jpg"
+license_url = "https://commons.wikimedia.org/wiki/File:CDC-Gathany-Aedes-albopictus-2.jpg#Licensing"
+modifications = "Dans la vidéo : annotations."
+
+[[media_credits]]
+title = "Œufs secs d’Aedes albopictus, observation au microscope"
+author = "Küchenkraut"
+license = "Domaine public, renonciation explicite de l’auteur"
+url = "https://commons.wikimedia.org/wiki/File:Dry_Aedes_albopictus_eggs.jpg"
+license_url = "https://commons.wikimedia.org/wiki/File:Dry_Aedes_albopictus_eggs.jpg#Licensing"
+modifications = "Loupe ronde de 480 px maximum (source 500 x 498), cerclée cyan. Pas de graduation inventée."
+
+[[media_credits]]
+title = "Soleil bas qui descend derrière des branches d'automne"
+author = "Matthias Groeneveld (Pexels)"
+license = "Licence Pexels"
+url = "https://www.pexels.com/video/scenic-sunset-through-autumn-leaves-31345802/"
+license_url = "https://www.pexels.com/license/"
+modifications = "Dans la vidéo : annotations."
+
+[[media_credits]]
+title = "Timelapse : la lumière dorée baisse sur une ville en automne"
+author = "Patrik Stoltz (Pexels)"
+license = "Licence Pexels"
+url = "https://www.pexels.com/video/autumn-cityscape-with-vibrant-sunset-timelapse-34516721/"
+license_url = "https://www.pexels.com/license/"
+modifications = "Média illustratif intégré à la vidéo ; présentation adaptée au montage."
+
+[[media_credits]]
+title = "Pluie qui ride l'eau d'un pot en terre cuite au jardin"
+author = "TIVASEE (Pexels)"
+license = "Licence Pexels"
+url = "https://www.pexels.com/video/rain-rippling-on-clay-pot-in-garden-32799665/"
+license_url = "https://www.pexels.com/license/"
+modifications = "Pot recadré 9:16, mot « PRINTEMPS » sur « douceur ». Son d’origine retiré."
+
+[[media_credits]]
+title = "Aedes albopictus, larve, observation iNaturalist 288025481 (research grade)"
+author = "James Hussey (sgtbird08), iNaturalist"
+license = "CC0"
+url = "https://www.inaturalist.org/observations/288025481"
+license_url = "https://creativecommons.org/publicdomain/zero/1.0/"
+modifications = "Dans la vidéo : annotations."
+
+[[media_credits]]
+title = "Givre épais sur une plante, gros plan"
+author = "Stasy Granderd (Pexels)"
+license = "Licence Pexels"
+url = "https://www.pexels.com/video/winter-frost-on-plants-captured-in-close-up-35857106/"
+license_url = "https://www.pexels.com/license/"
+modifications = "Givre en gros plan, mot « LE FROID » barré d’un trait SVG sur « pas le froid »."
+
+[[media_credits]]
+title = "Illustrations et reconstitutions du montage"
+author = "Une Minute Pour Comprendre"
+license = "Créations de la production ; pas des observations scientifiques"
+modifications = "Visuels générés par IA et schémas pédagogiques, animés ou composités. Les photographies et films réels sont crédités séparément lorsqu’ils sont identifiés."
+
+[[media_credits]]
+title = "Musique et effets de la vidéo"
+author = "Provenance à compléter selon les fichiers de production"
+license = "Conditions de réutilisation non établies par le registre consulté"
+modifications = "La provenance complète et les conditions de licence des pistes audio restent à documenter. Aucun fichier audio n’est redistribué sur cette page."

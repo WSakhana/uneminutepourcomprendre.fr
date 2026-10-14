@@ -1,0 +1,70 @@
+slug = "piqure-abeille-douleur"
+status = "published"
+ready = true
+project_key = "short-01"
+title = "Le classement terrifiant des piqûres d'abeilles 😨 #abeille #curiosité"
+short_title = "Piqûres d’abeille et douleur"
+category = "Corps humain"
+description = "Narine, lèvre, avant-bras : une auto-expérience compare la douleur de piqûres d’abeille. Ses résultats décrivent un homme, pas toute l’humanité."
+lead = "Une même piqûre paraît-elle aussi douloureuse partout ? Michael L. Smith a abordé cette question en comparant vingt-cinq emplacements de son propre corps. Cette expérience inhabituelle éclaire surtout la difficulté de mesurer une sensation personnelle."
+published = "2026-09-18"
+modified = "2026-10-13"
+cover = "miniature"
+production = "D:/@UMPC-Shorts-Reactions/Videos/1 - Où une piqûre d’abeille fait le plus mal"
+video_file = "Montage/UMPC-R 1 - Où une piqûre d’abeille fait le pl(1)/UMPC-R 1 - Où une piqûre d’abeille fait le pl(1).mp4"
+keywords = ["Piqûres d’abeille et douleur", "Corps humain", "Une Minute Pour Comprendre"]
+chapters = []
+method = "Article original rédigé à partir du dossier de production, de la narration et des références citées. Les métadonnées bibliographiques DOI ont été contrôlées auprès de Crossref ; les limites d’accès aux textes et les réserves scientifiques sont conservées. Les illustrations de la vidéo ne constituent pas des preuves expérimentales."
+youtube_description = "Où une piqûre d’abeille fait-elle le plus mal ? Dans l’auto-expérience de Michael L. Smith, la narine arrive en tête. Vingt-cinq zones ont été comparées chez un seul homme : ce classement n’est pas universel, ni une mesure du danger d’une piqûre.\n\n#Abeille #Science #CorpsHumain\n\nSources scientifiques et crédits :\nhttps://uneminutepourcomprendre.fr/articles/piqure-abeille-douleur/"
+
+thumbnail_source = "https://i.ytimg.com/vi/sUKDr5EjWu8/maxresdefault.jpg"
+credits_status = "Images reprises : licences documentées ; crédits vidéo partiels (conditions de licence audio non documentées)"
+sources_status = "Références et nuances contrôlées ; métadonnées DOI vérifiées, accès au texte variable"
+project_keys = ["short-01"]
+description_update_ready = false
+editorial_ready = true
+[video]
+id = "sUKDr5EjWu8"
+title = "Le classement terrifiant des piqûres d'abeilles 😨 #abeille #curiosité"
+duration_seconds = 30.209002
+upload_date = "2026-09-18"
+vertical = true
+
+[images.miniature]
+src = "D:/uneminutepourcomprendre.fr/content/articles/piqure-abeille-douleur/youtube-thumbnail.jpg"
+alt = "Miniature de la vidéo UMPC : Piqûres d’abeille et douleur"
+caption = "Miniature de la vidéo Une Minute Pour Comprendre."
+credit = "Une Minute Pour Comprendre ; miniature de la vidéo"
+
+[[sources]]
+id = "S1"
+authors = "Michael L. Smith"
+title = "Honey bee sting pain index by body location"
+publication = "PeerJ"
+year = "2014"
+url = "https://doi.org/10.7717/peerj.338"
+topic = "Protocole, scores et limites de l’auto-expérience"
+kind = "Étude originale"
+doi = "10.7717/peerj.338"
+
+[[sources]]
+id = "S2"
+authors = "Improbable Research"
+title = "Ig Nobel Prize winners 2015"
+publication = "Improbable Research"
+year = "2015"
+url = "https://improbable.com/ig/winners/#ig2015"
+topic = "Attribution du prix Ig Nobel"
+kind = "Ressource institutionnelle"
+
+[[media_credits]]
+title = "Illustrations et reconstitutions du montage"
+author = "Une Minute Pour Comprendre"
+license = "Créations de la production ; pas des observations scientifiques"
+modifications = "Visuels générés par IA et schémas pédagogiques, animés ou composités. Les photographies et films réels sont crédités séparément lorsqu’ils sont identifiés."
+
+[[media_credits]]
+title = "Musique et effets de la vidéo"
+author = "Provenance à compléter selon les fichiers de production"
+license = "Conditions de réutilisation non établies par le registre consulté"
+modifications = "La provenance complète et les conditions de licence des pistes audio restent à documenter. Aucun fichier audio n’est redistribué sur cette page."

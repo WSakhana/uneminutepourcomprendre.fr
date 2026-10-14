@@ -320,8 +320,9 @@ def find_todos(value, path=""):
     return []
 
 
-def load_articles():
+def load_articles(include_drafts=False):
     arts = []
+    video_owners = {}
     for d in sorted(p for p in CONTENT.glob("*/") if p.is_dir()):
         name = d.name
         toml_path, body_path = d / "article.toml", d / "body.html"
@@ -329,6 +330,13 @@ def load_articles():
             raise SystemExit(f"{name} : article.toml et body.html sont tous deux nécessaires.")
         meta = tomllib.loads(toml_path.read_text(encoding="utf-8"))
         meta["body"] = body_path.read_text(encoding="utf-8")
+        status = meta.get("status", "published")
+        if status not in ("published", "draft"):
+            raise SystemExit(f"{name} : status doit être published ou draft.")
+        if status == "draft" and not include_drafts:
+            if (PUBLIC / "articles" / name / "index.html").exists():
+                raise SystemExit(f"{name} : un brouillon possède une ancienne page dans public/ ; envoi interdit.")
+            continue
         missing = [k for k in REQUIRED if k not in meta]
         if missing:
             raise SystemExit(f"{name} : champs manquants dans article.toml : {', '.join(missing)}")
@@ -352,6 +360,11 @@ def load_articles():
             if not isinstance(video["duration_seconds"], (int, float)) or video["duration_seconds"] <= 0:
                 raise SystemExit(f"{name} : durée vidéo positive requise.")
             ids.append(video["id"])
+            if video["id"] in video_owners:
+                raise SystemExit(f"Vidéo présente dans deux articles : {video['id']}")
+            video_owners[video["id"]] = name
+        if status == "published" and not meta.get("ready", True):
+            raise SystemExit(f"{name} : article non prêt, publication interdite.")
         arts.append(meta)
     arts.sort(key=lambda a: a["published"], reverse=True)
     return arts
@@ -461,6 +474,13 @@ def credits_html(art, used_images):
         if cfg.get("credit_url"):
             items.append(f'        <li>{esc(cfg["caption"])} <span class="fig-credit">{esc(cfg["credit"])} · '
                          f'<a href="{esc(cfg["credit_url"])}" target="_blank" rel="noopener noreferrer">Fichier source<span class="sr-only"> (nouvel onglet)</span></a></span></li>')
+    for c in art.get("media_credits", []):
+        links = []
+        for field, label in (("url", "Source"), ("license_url", "Licence")):
+            if c.get(field):
+                links.append(f'<a href="{esc(c[field])}" target="_blank" rel="noopener noreferrer">{label}<span class="sr-only"> (nouvel onglet)</span></a>')
+        detail = ' · '.join(esc(c.get(k, '')) for k in ("author", "license", "modifications") if c.get(k))
+        items.append(f'        <li><strong>{esc(c["title"])}</strong> : {detail}' + (' · ' + ' · '.join(links) if links else '') + '</li>')
     return "\n".join(items)
 
 
@@ -519,9 +539,10 @@ def article_page(art, sizes, others=()):
             "embedUrl": f"https://www.youtube.com/embed/{video_id}", "contentUrl": f"https://www.youtube.com/watch?v={video_id}",
             "publisher": {"@id": ORG_ID}})
     # Titre de la page : suffixe de marque seulement s'il tient sous 70 caractères (sinon Google tronque le titre).
-    title = f"{art['title']} | Une Minute Pour Comprendre"
+    seo_title = art.get("seo_title", art["title"])
+    title = f"{seo_title} | Une Minute Pour Comprendre"
     if len(title) > 70:
-        title = art["title"]
+        title = seo_title
     extra = (f'  <meta property="article:published_time" content="{art["published"]}">\n'
              f'  <meta property="article:modified_time" content="{art["modified"]}">\n'
              f'  <meta property="article:section" content="{esc(art["category"])}">'
@@ -574,7 +595,8 @@ def article_page(art, sizes, others=()):
           <h2 id="toc-title" class="toc-title">Dans cet article</h2>
           <ol>
 {toc_li}
-            <li><a href="#sources">Sources</a></li>
+            <li><a href="#sources">Sources scientifiques</a></li>
+            <li><a href="#credits">Crédits médias</a></li>
           </ol>
         </nav>
 
@@ -583,7 +605,7 @@ def article_page(art, sizes, others=()):
         </div>
 
         <section id="sources" class="sources" aria-labelledby="sources-title">
-          <h2 id="sources-title" class="sources-title">Sources{anchor_button("sources", "Sources")}</h2>
+          <h2 id="sources-title" class="sources-title">Sources scientifiques{anchor_button("sources", "Sources scientifiques")}</h2>
           <p class="sources-intro">Références utilisées pour préparer la vidéo. Quand plusieurs documents traitent d'un même point, la publication scientifique originale est citée en priorité ; une présentation institutionnelle n'est ajoutée que pour ce que la publication ne donne pas.</p>
           <ol class="source-list">
 {sources_html(art)}
@@ -591,8 +613,8 @@ def article_page(art, sizes, others=()):
           <p id="copy-status" class="sr-only" role="status" aria-live="polite"></p>
         </section>
 
-        <section class="credits" aria-labelledby="credits-title">
-          <h2 id="credits-title" class="credits-title">Crédits des images</h2>
+        <section id="credits" class="credits" aria-labelledby="credits-title">
+          <h2 id="credits-title" class="credits-title">Crédits médias</h2>
           <ul>
 {credits}
           </ul>

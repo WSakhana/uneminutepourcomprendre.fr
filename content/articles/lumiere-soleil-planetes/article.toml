@@ -1,0 +1,69 @@
+slug = "lumiere-soleil-planetes"
+status = "draft"
+ready = true
+project_key = "short-41"
+title = "Lumière du Soleil : 8 min pour la Terre, plus de 4 h pour Neptune"
+short_title = "Le Soleil arrive en différé"
+category = "Science"
+description = "La lumière met environ huit minutes jusqu’à la Terre et plus de quatre heures jusqu’à Neptune. Les temps découlent de distances moyennes, variables en orbite."
+lead = "Une même vitesse de propagation et des distances différentes suffisent à expliquer le décalage du Soleil vu depuis les planètes. L’animation compare des durées de trajet, pas des vitesses différentes de la lumière."
+published = "2026-10-25"
+modified = "2026-10-13"
+cover = "miniature"
+production = "D:/@UMPC-Shorts-Reactions/Videos/41 - Chacun son différé - Lumière du Soleil aux planètes"
+video_file = "Montage/UMPC-R 41 - Chacun son differe.mp4"
+keywords = ["Le Soleil arrive en différé", "Science", "Une Minute Pour Comprendre"]
+chapters = []
+method = "Article original rédigé à partir du dossier de production, de la narration et des références citées. Les métadonnées bibliographiques DOI ont été contrôlées auprès de Crossref ; les limites d’accès aux textes et les réserves scientifiques sont conservées. Les illustrations de la vidéo ne constituent pas des preuves expérimentales."
+youtube_description = "Une même lumière, huit distances : environ huit minutes jusqu’à la Terre, plus de quatre heures jusqu’à Neptune. Les valeurs sont calculées sur des distances moyennes et varient avec les orbites. Le schéma n’est pas à l’échelle.\n\n#Astronomie #SystemeSolaire #Science\n\nSources scientifiques et crédits :\nhttps://uneminutepourcomprendre.fr/articles/lumiere-soleil-planetes/"
+
+thumbnail_source = "https://i9.ytimg.com/vi/6NsC9WJM1Bg/maxresdefault.jpg?sqp=CKimudYG&rs=AOn4CLB40vpNB45hhhPXU3PGjcszlyfS9A"
+credits_status = "Images reprises : licences documentées ; crédits vidéo partiels (conditions de licence audio non documentées)"
+sources_status = "Références et nuances contrôlées ; métadonnées DOI vérifiées, accès au texte variable"
+project_keys = ["short-41"]
+description_update_ready = false
+editorial_ready = true
+[video]
+id = "6NsC9WJM1Bg"
+title = "Lumière du Soleil : 8 min pour la Terre, plus de 4 h pour Neptune"
+duration_seconds = 11.5
+upload_date = "2026-10-25"
+vertical = true
+
+[images.miniature]
+src = "D:/uneminutepourcomprendre.fr/content/articles/lumiere-soleil-planetes/youtube-thumbnail.jpg"
+alt = "Miniature de la vidéo UMPC : Le Soleil arrive en différé"
+caption = "Miniature de la vidéo Une Minute Pour Comprendre."
+credit = "Une Minute Pour Comprendre ; miniature de la vidéo"
+
+[[sources]]
+id = "S1"
+authors = "NASA"
+title = "Planetary Fact Sheet"
+publication = "NASA"
+year = ""
+url = "https://nssdc.gsfc.nasa.gov/planetary/factsheet/"
+topic = "Distances moyennes utilisées pour le calcul"
+kind = "Ressource institutionnelle"
+
+[[sources]]
+id = "S2"
+authors = "NASA"
+title = "Neptune Facts"
+publication = "NASA"
+year = ""
+url = "https://science.nasa.gov/neptune/facts/"
+topic = "Distance et temps lumineux de Neptune"
+kind = "Ressource institutionnelle"
+
+[[media_credits]]
+title = "Illustrations et reconstitutions du montage"
+author = "Une Minute Pour Comprendre"
+license = "Créations de la production ; pas des observations scientifiques"
+modifications = "Visuels générés par IA et schémas pédagogiques, animés ou composités. Les photographies et films réels sont crédités séparément lorsqu’ils sont identifiés."
+
+[[media_credits]]
+title = "Musique et effets de la vidéo"
+author = "Provenance à compléter selon les fichiers de production"
+license = "Conditions de réutilisation non établies par le registre consulté"
+modifications = "La provenance complète et les conditions de licence des pistes audio restent à documenter. Aucun fichier audio n’est redistribué sur cette page."

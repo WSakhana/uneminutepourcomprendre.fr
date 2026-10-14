@@ -1,0 +1,74 @@
+slug = "noeud-papillon-28-aout"
+status = "published"
+ready = true
+project_key = "original-02"
+title = "Pourquoi fête-t-on le nœud papillon le 28 août ?"
+short_title = "Le nœud papillon le 28 août"
+category = "Science"
+description = "Pourquoi le nœud papillon est-il célébré le 28 août ? Une journée culturelle, une origine mal établie et une histoire vestimentaire à distinguer."
+lead = "Le 28 août figure dans certains calendriers comme journée du nœud papillon. Cette célébration populaire ne raconte pas, à elle seule, l’origine de l’accessoire. Les sources permettent de séparer la date, l’histoire des mots et un objet conservé au musée."
+published = "2026-08-28"
+modified = "2026-10-13"
+cover = "miniature"
+production = "D:/@UMPC/Videos/2 - Nœud papillon le 28 août"
+video_file = "Montage/Pourquoi fête-t-on le nœud papillon le 28 août.mp4"
+keywords = ["Le nœud papillon le 28 août", "Science", "Une Minute Pour Comprendre"]
+chapters = []
+method = "Article original rédigé à partir du dossier de production, de la narration et des références citées. Les métadonnées bibliographiques DOI ont été contrôlées auprès de Crossref ; les limites d’accès aux textes et les réserves scientifiques sont conservées. Les illustrations de la vidéo ne constituent pas des preuves expérimentales."
+youtube_description = "Pourquoi le 28 août ? Des calendriers célèbrent le nœud papillon ce jour-là, mais le fondateur de la journée reste mal identifié. L’étymologie de « cravate » et un nœud conservé au Smithsonian éclairent une histoire différente de celle de la célébration.\n\n#Histoire #NoeudPapillon #Culture\n\nSources scientifiques et crédits :\nhttps://uneminutepourcomprendre.fr/articles/noeud-papillon-28-aout/"
+
+thumbnail_source = "https://i.ytimg.com/vi/Xk5hyww-pI0/maxresdefault.jpg"
+credits_status = "Images reprises : licences documentées ; crédits vidéo partiels (provenance détaillée des visuels non établie)"
+sources_status = "Références et nuances contrôlées ; métadonnées DOI vérifiées, accès au texte variable"
+project_keys = ["original-02"]
+description_update_ready = false
+editorial_ready = true
+[video]
+id = "Xk5hyww-pI0"
+title = "Pourquoi fête-t-on le nœud papillon le 28 août ?"
+duration_seconds = 57.655011
+upload_date = "2026-08-28"
+vertical = true
+
+[images.miniature]
+src = "D:/uneminutepourcomprendre.fr/content/articles/noeud-papillon-28-aout/youtube-thumbnail.jpg"
+alt = "Miniature de la vidéo UMPC : Le nœud papillon le 28 août"
+caption = "Miniature de la vidéo Une Minute Pour Comprendre."
+credit = "Une Minute Pour Comprendre ; miniature de la vidéo"
+
+[[sources]]
+id = "S1"
+authors = "National Day Calendar"
+title = "National Bow Tie Day"
+publication = "National Day Calendar"
+year = ""
+url = "https://nationaldaycalendar.com/celebrations/national-bow-tie-day-august-28/"
+topic = "Date du 28 août et fondateur non identifié"
+kind = "Calendrier de célébrations"
+
+[[sources]]
+id = "S2"
+authors = "Académie française"
+title = "Cravate, 9e édition"
+publication = "Académie française"
+year = ""
+url = "https://www.dictionnaire-academie.fr/article/A9C4833"
+topic = "Étymologie du mot cravate"
+kind = "Dictionnaire"
+
+[[sources]]
+id = "S3"
+authors = "Smithsonian, National Museum of American History"
+title = "Pre-tied yet crooked: What’s up with Abraham Lincoln’s tie?"
+publication = "Smithsonian, National Museum of American History"
+year = ""
+url = "https://americanhistory.si.edu/explore/stories/lincoln-tie"
+topic = "Nœud préformé conservé au musée"
+kind = "Notice muséale"
+
+
+[[media_credits]]
+title = "Illustrations et reconstitutions du montage"
+author = "Une Minute Pour Comprendre"
+license = "Créations de la production, illustrations non documentaires"
+modifications = "Images générées par IA et animations pédagogiques ; elles ne constituent ni photographies expérimentales ni observations des mécanismes invisibles."

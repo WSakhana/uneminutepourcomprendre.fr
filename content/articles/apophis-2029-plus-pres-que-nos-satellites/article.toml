@@ -5,7 +5,7 @@ category = "Science"
 description = "Le 13 avril 2029, Apophis passera à 31 600 km d'altitude, sous les satellites géostationnaires. Trajectoire réelle, orbite modifiée et aucun risque d'impact."
 lead = "Le 13 avril 2029, un astéroïde de quelques centaines de mètres passera plus près de la Terre que les satellites géostationnaires. Les calculs de la NASA donnent l'heure, la distance et la vitesse de ce passage. Que va-t-il se passer exactement, et pourquoi n'y a-t-il aucune raison de s'inquiéter ?"
 published = "2026-10-02"
-modified = "2026-10-12"
+modified = "2026-10-13"
 cover = "miniature"
 keywords = ["Apophis", "astéroïde 99942 Apophis", "13 avril 2029", "satellites géostationnaires", "NASA JPL Horizons", "astéroïde géocroiseur", "défense planétaire"]
 method = "Cet article reprend et développe un Short sans narration : le contenu de la vidéo est dans ses textes à l'écran. La vidéo est une animation de données, pas une vidéo générée par IA : les positions d'Apophis, de la Lune et du Soleil viennent des éphémérides JPL Horizons, la Terre est texturée avec les images Blue Marble et Black Marble de la NASA, et la bande son est une musique de catalogue, sans voix. Les chiffres de l'approche ont été relus le 3 octobre 2026 dans l'API Close Approach Data du JPL ; la magnitude d'environ 3,1 et les éléments d'orbite viennent d'une requête Horizons du même jour. La page de la NASA de 2021 refuse les requêtes automatiques : son contenu a été lu via un outil de consultation, pas dans un navigateur."
@@ -14,6 +14,14 @@ chapters = []
 production = "D:/@UMPC-Shorts-Reactions/Videos/19 - Apophis passera plus pres que nos satellites"
 video_file = "Montage/UMPC-R 19 - Apophis passera plus pres que nos satellites.mp4"
 
+credits_status = "Images reprises : licences documentées ; crédits vidéo partiels (conditions de licence audio non documentées)"
+sources_status = "Références et nuances contrôlées ; métadonnées DOI vérifiées, accès au texte variable"
+project_key = "short-19"
+project_keys = ["short-19"]
+ready = true
+youtube_description = "Le 13 avril 2029, Apophis passera sous l’altitude des satellites géostationnaires. Les calculs NASA/JPL ne prévoient pas d’impact. Les tailles et certains éléments visuels sont schématiques ; les positions proviennent des éphémérides.\n\n#Apophis #Astronomie #Science\n\nSources scientifiques et crédits :\nhttps://uneminutepourcomprendre.fr/articles/apophis-2029-plus-pres-que-nos-satellites/"
+description_update_ready = false
+editorial_ready = true
 [video]
 id = "6W9p_28EsNw"
 title = "Un astéroïde de 340m passera plus près que nos satellites en 2029 !"
@@ -145,3 +153,15 @@ title = "HeyGen music : cinematic deep space ambient documentary background musi
 publication = "Catalogue musical HeyGen"
 topic = "Bande son de la vidéo (nappe musicale, sans voix)"
 kind = "Musique de la vidéo"
+
+[[media_credits]]
+title = "Illustrations et reconstitutions du montage"
+author = "Une Minute Pour Comprendre"
+license = "Créations de la production ; pas des observations scientifiques"
+modifications = "Visuels générés par IA et schémas pédagogiques, animés ou composités. Les photographies et films réels sont crédités séparément lorsqu’ils sont identifiés."
+
+[[media_credits]]
+title = "Musique et effets de la vidéo"
+author = "Provenance à compléter selon les fichiers de production"
+license = "Conditions de réutilisation non établies par le registre consulté"
+modifications = "La provenance complète et les conditions de licence des pistes audio restent à documenter. Aucun fichier audio n’est redistribué sur cette page."

@@ -1,0 +1,73 @@
+slug = "allergies-systeme-immunitaire"
+status = "published"
+ready = true
+project_key = "original-11"
+title = "Pourquoi sommes-nous de plus en plus allergiques ?"
+short_title = "Comprendre les allergies"
+category = "Corps humain"
+description = "Une allergie implique une réaction immunitaire à un allergène. Sensibilisation, IgE et histamine expliquent un mécanisme, avec des causes multiples."
+lead = "Un pollen peut déclencher des symptômes importants chez une personne et rester sans effet chez une autre. L’allergie relève d’une perte de tolérance immunitaire. Pour comprendre le phénomène, il faut distinguer sensibilisation, symptômes et facteurs de risque."
+published = "2026-09-05"
+modified = "2026-10-13"
+cover = "miniature"
+production = "D:/@UMPC/Videos/11 - Allergies"
+video_file = "Montage/Exports/UMPC 11 - Allergies - editable.mp4"
+keywords = ["Comprendre les allergies", "Corps humain", "Une Minute Pour Comprendre"]
+chapters = []
+method = "Article original rédigé à partir du dossier de production, de la narration et des références citées. Les métadonnées bibliographiques DOI ont été contrôlées auprès de Crossref ; les limites d’accès aux textes et les réserves scientifiques sont conservées. Les illustrations de la vidéo ne constituent pas des preuves expérimentales."
+youtube_description = "Une allergie n’est pas simplement un système immunitaire faible. Des réactions à un allergène peuvent impliquer IgE, mastocytes et histamine. Sensibilisation et symptômes sont distincts ; l’évolution des allergies a plusieurs facteurs étudiés, sans cause unique établie.\n\n#Allergies #Immunologie #Science\n\nSources scientifiques et crédits :\nhttps://uneminutepourcomprendre.fr/articles/allergies-systeme-immunitaire/"
+
+thumbnail_source = "https://i.ytimg.com/vi/Dw2zE1iTNMM/maxresdefault.jpg"
+credits_status = "Crédits visuels documentés ; voir les éventuelles limites audio"
+sources_status = "Références et nuances contrôlées ; métadonnées DOI vérifiées, accès au texte variable"
+project_keys = ["original-11"]
+description_update_ready = false
+editorial_ready = true
+[video]
+id = "Dw2zE1iTNMM"
+title = "Pourquoi sommes-nous de plus en plus allergiques ?"
+duration_seconds = 171.038005
+upload_date = "2026-09-05"
+vertical = false
+
+[images.miniature]
+src = "D:/uneminutepourcomprendre.fr/content/articles/allergies-systeme-immunitaire/youtube-thumbnail.jpg"
+alt = "Miniature de la vidéo UMPC : Comprendre les allergies"
+caption = "Miniature de la vidéo Une Minute Pour Comprendre."
+credit = "Une Minute Pour Comprendre ; miniature de la vidéo"
+
+[[sources]]
+id = "S1"
+authors = "Inserm"
+title = "Allergies"
+publication = "Inserm"
+year = ""
+url = "https://www.inserm.fr/dossier/allergies/"
+topic = "Mécanismes immunitaires et facteurs étudiés"
+kind = "Ressource institutionnelle"
+
+[[sources]]
+id = "S2"
+authors = "Assurance Maladie"
+title = "Allergie : définition, causes et fréquence"
+publication = "Assurance Maladie"
+year = ""
+url = "https://www.ameli.fr/assure/sante/themes/allergie/comprendre-allergies"
+topic = "Sensibilisation et manifestations allergiques"
+kind = "Ressource institutionnelle"
+
+[[sources]]
+id = "S3"
+authors = "Assurance Maladie"
+title = "Allergie alimentaire : définition et symptômes"
+publication = "Assurance Maladie"
+year = ""
+url = "https://www.ameli.fr/assure/sante/themes/allergie-alimentaire/definition-symptomes"
+topic = "Distinction avec l’intolérance et autres mécanismes"
+kind = "Ressource institutionnelle"
+
+[[media_credits]]
+title = "Illustrations et reconstitutions du montage"
+author = "Une Minute Pour Comprendre"
+license = "Créations de la production ; pas des observations scientifiques"
+modifications = "Visuels générés par IA et schémas pédagogiques, animés ou composités. Les photographies et films réels sont crédités séparément lorsqu’ils sont identifiés."

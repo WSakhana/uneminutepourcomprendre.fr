@@ -1,0 +1,37 @@
+slug = "bienvenue-umpc"
+status = "draft"
+ready = false
+editorial_ready = false
+project_key = "intro-youtube"
+project_keys = ["intro-youtube"]
+title = "Bienvenue sur Une Minute Pour Comprendre !"
+short_title = "Bienvenue sur UMPC"
+category = "Science"
+description = "Une Minute Pour Comprendre présente sa démarche : une question concrète, une explication accessible et des sources consultables dans les articles."
+lead = "La vidéo de bienvenue présente Zappy et les thèmes de la chaîne. Ce brouillon organise son complément éditorial, sans lui attribuer un contenu scientifique qu’elle ne développe pas."
+published = "2026-08-28"
+modified = "2026-10-13"
+cover = "miniature"
+production = "D:/uneminutepourcomprendre.fr/content/articles/bienvenue-umpc"
+video_file = ""
+chapters = []
+sources = []
+keywords = ["Une Minute Pour Comprendre", "UMPC", "vulgarisation scientifique"]
+method = "Brouillon basé uniquement sur le titre et la description YouTube de la vidéo de bienvenue. Aucun dossier de production ni fichier final n’a été identifié pour cette vidéo ; aucune source scientifique ou licence média n’est inventée."
+publication_blocker = "Vidéo non répertoriée ; dossier de production et crédits médias non retrouvés. Présentation de chaîne, pas explication scientifique."
+sources_status = "Sans affirmation scientifique détaillée ; aucune bibliographie inventée"
+credits_status = "À compléter : dossier de production non retrouvé"
+youtube_description = "Bienvenue sur Une Minute Pour Comprendre ! Une question concrète, une explication accessible : science, espace, animaux, corps humain et technologie. Les articles développent les sujets et réunissent leurs références.\n\n#UneMinutePourComprendre #Science #Vulgarisation\n\nSources scientifiques et crédits :\nhttps://uneminutepourcomprendre.fr/articles/bienvenue-umpc/"
+
+[video]
+id = "x2wn_XurYqo"
+title = "Bienvenue sur Une Minute Pour Comprendre !"
+duration_seconds = 17
+upload_date = "2026-08-28"
+vertical = true
+
+[images.miniature]
+src = "youtube-thumbnail.jpg"
+alt = "Miniature de la vidéo de bienvenue, à confirmer avant publication"
+caption = "Miniature non encore sélectionnée pour cet article."
+credit = "Crédit à compléter avant publication"

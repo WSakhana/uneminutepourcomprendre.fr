@@ -1,0 +1,126 @@
+slug = "crevette-couleur-astaxanthine"
+status = "draft"
+ready = true
+project_key = "short-42"
+title = "Ta crevette est déjà rouge avant la cuisson"
+short_title = "Le pigment caché des crustacés"
+category = "Science"
+description = "L’astaxanthine est présente avant cuisson. Ses interactions avec des protéines modifient la couleur ; la chaleur révèle un aspect rouge ou rose."
+lead = "Une crevette crue grise contient déjà un pigment capable de paraître rouge. La couleur visible dépend de l’environnement moléculaire du pigment. La cuisson modifie cet environnement plutôt qu’elle ne crée soudain la molécule colorée."
+published = "2026-10-29"
+modified = "2026-10-13"
+cover = "miniature"
+production = "D:/@UMPC-Shorts-Reactions/Videos/42 - Ta crevette est deja rouge avant la cuisson"
+video_file = "Montage/UMPC-R 42 - Ta crevette est deja rouge avant la cuisson.mp4"
+keywords = ["Le pigment caché des crustacés", "Science", "Une Minute Pour Comprendre"]
+chapters = []
+method = "Article original rédigé à partir du dossier de production, de la narration et des références citées. Les métadonnées bibliographiques DOI ont été contrôlées auprès de Crossref ; les limites d’accès aux textes et les réserves scientifiques sont conservées. Les illustrations de la vidéo ne constituent pas des preuves expérimentales."
+youtube_description = "Le rouge de la crevette vient d’un pigment déjà présent : l’astaxanthine. Des protéines modifient son aspect avant cuisson ; la chaleur perturbe ces interactions. La couleur n’est pas un contrôle de sécurité alimentaire.\n\n#Crevette #Astaxanthine #Science\n\nSources scientifiques et crédits :\nhttps://uneminutepourcomprendre.fr/articles/crevette-couleur-astaxanthine/"
+
+thumbnail_source = "https://i9.ytimg.com/vi/6__JiQZ6U00/maxresdefault.jpg?sqp=CKimudYG&rs=AOn4CLA_JOnr0YxAhOspukr93cNhTJIjbQ"
+credits_status = "Images reprises : licences documentées ; crédits vidéo partiels (conditions de licence audio non documentées)"
+sources_status = "Références et nuances contrôlées ; métadonnées DOI vérifiées, accès au texte variable"
+project_keys = ["short-42"]
+description_update_ready = false
+editorial_ready = true
+[video]
+id = "6__JiQZ6U00"
+title = "Ta crevette est déjà rouge avant la cuisson"
+duration_seconds = 29.291708
+upload_date = "2026-10-29"
+vertical = true
+
+[images.miniature]
+src = "D:/uneminutepourcomprendre.fr/content/articles/crevette-couleur-astaxanthine/youtube-thumbnail.jpg"
+alt = "Miniature de la vidéo UMPC : Le pigment caché des crustacés"
+caption = "Miniature de la vidéo Une Minute Pour Comprendre."
+credit = "Une Minute Pour Comprendre ; miniature de la vidéo"
+
+[[sources]]
+id = "S1"
+authors = "Nicholas M. Wade et al."
+title = "Mechanisms of colour adaptation in the prawn\n                    <i>Penaeus monodon</i>"
+publication = "Journal of Experimental Biology"
+year = "2012"
+url = "https://doi.org/10.1242/jeb.064592"
+topic = "Adaptation colorée de Penaeus monodon"
+kind = "Étude originale"
+doi = "10.1242/jeb.064592"
+
+[[sources]]
+id = "S2"
+authors = "Michele Cianci et al."
+title = "The molecular basis of the coloration mechanism in lobster shell: β-Crustacyanin at 3.2-Å resolution"
+publication = "Proceedings of the National Academy of Sciences"
+year = "2002"
+url = "https://doi.org/10.1073/pnas.152088999"
+topic = "Structure et couleur du complexe β-crustacyanine"
+kind = "Étude originale"
+doi = "10.1073/pnas.152088999"
+
+[images.document]
+src = "Sources/images/bluelobster_commons_woodshole.jpg"
+alt = "Homard bleu dans un aquarium"
+caption = "Exemple réel de couleur chez un homard ; la photo ne donne ni fréquence mondiale de cette variation ni mesure de cuisson."
+credit = "EgorovaSvetlana · CC BY-SA 4.0 · version WebP redimensionnée pour le site"
+credit_url = "https://commons.wikimedia.org/wiki/File:Blue_Lobster_Woods_Hole_Science_Aquarium.jpg"
+
+[[media_credits]]
+title = "Color change happening in cooking a shrimp"
+author = "Pressmaster"
+license = "Pexels License"
+url = "https://www.pexels.com/video/color-change-happening-in-cooking-a-shrimp-3119706/"
+license_url = "https://www.pexels.com/license/"
+modifications = "Média illustratif intégré à la vidéo ; présentation adaptée au montage."
+
+[[media_credits]]
+title = "Close-up of fresh uncooked shrimps on ice, vertical"
+author = "Valeria Boltneva"
+license = "Pexels License"
+url = "https://www.pexels.com/photo/14480456/"
+license_url = "https://www.pexels.com/license/"
+modifications = "Vertical photo, slow push toward one shell segment, which becomes the anchor of the match cut to the cutaway."
+
+[[media_credits]]
+title = "Time-lapse of shrimps cooking on a flattop grill"
+author = "Kindel Media"
+license = "Pexels License"
+url = "https://www.pexels.com/video/time-lapse-of-shrimps-cooking-on-a-flattop-grill-9011512/"
+license_url = "https://www.pexels.com/license/"
+modifications = "Native 9:16, sped up, slow push; heat shimmer overlay."
+
+[[media_credits]]
+title = "Freshly steamed shrimp stacked on a metal tray"
+author = "Tony Wu"
+license = "Pexels License"
+url = "https://www.pexels.com/photo/16561736/"
+license_url = "https://www.pexels.com/license/"
+modifications = "Split screen: raw prawns (top) and cooked prawns (bottom), a wipe from top to bottom; plate « + 0 COULEUR »."
+
+[[media_credits]]
+title = "Closeup of fresh raw shrimp displayed on ice"
+author = "Engin Akyurt"
+license = "Pexels License"
+url = "https://www.pexels.com/photo/33653815/"
+license_url = "https://www.pexels.com/license/"
+modifications = "Top half of the split screen."
+
+[[media_credits]]
+title = "Blue Lobster Woods Hole Science Aquarium.jpg (Homarus americanus)"
+author = "EgorovaSvetlana"
+license = "CC BY-SA 4.0"
+url = "https://commons.wikimedia.org/wiki/File:Blue_Lobster_Woods_Hole_Science_Aquarium.jpg"
+license_url = "https://creativecommons.org/licenses/by-sa/4.0/"
+modifications = "Vertical photo, push-in on the body; label HOMARD BLEU with leader line to the carapace; real badge."
+
+[[media_credits]]
+title = "Illustrations et reconstitutions du montage"
+author = "Une Minute Pour Comprendre"
+license = "Créations de la production ; pas des observations scientifiques"
+modifications = "Visuels générés par IA et schémas pédagogiques, animés ou composités. Les photographies et films réels sont crédités séparément lorsqu’ils sont identifiés."
+
+[[media_credits]]
+title = "Musique et effets de la vidéo"
+author = "Provenance à compléter selon les fichiers de production"
+license = "Conditions de réutilisation non établies par le registre consulté"
+modifications = "La provenance complète et les conditions de licence des pistes audio restent à documenter. Aucun fichier audio n’est redistribué sur cette page."

@@ -1,0 +1,83 @@
+slug = "mouche-preparation-fuite"
+status = "published"
+ready = true
+project_key = "short-28"
+title = "La mouche prépare sa fuite avant que ta main arrive"
+short_title = "La mouche prépare sa fuite"
+category = "Animaux"
+description = "La drosophile ajuste ses pattes avant de décoller face à une menace visuelle. Les observations révèlent une préparation du saut, sans décision consciente."
+lead = "Une mouche ne se contente pas de décoller au hasard au dernier instant. Chez la drosophile, des images rapides montrent une préparation posturale avant le saut. La direction dépend de la menace et de sa position initiale."
+published = "2026-10-09"
+modified = "2026-10-13"
+cover = "miniature"
+production = "D:/@UMPC-Shorts-Reactions/Videos/28 - Pourquoi tu rates toujours la mouche"
+video_file = "Montage/UMPC-R 28 - Pourquoi tu rates toujours la mouche.mp4"
+keywords = ["La mouche prépare sa fuite", "Animaux", "Une Minute Pour Comprendre"]
+chapters = []
+method = "Article original rédigé à partir du dossier de production, de la narration et des références citées. Les métadonnées bibliographiques DOI ont été contrôlées auprès de Crossref ; les limites d’accès aux textes et les réserves scientifiques sont conservées. Les illustrations de la vidéo ne constituent pas des preuves expérimentales."
+youtube_description = "La mouche du vinaigre prépare son saut avant de décoller. Face à une menace visuelle, elle ajuste ses pattes et sa posture. Les deux dixièmes de seconde rapportés concernent une expérience sur drosophile, pas toutes les mouches ni une méthode de capture garantie.\n\n#Mouche #ComportementAnimal #Science\n\nSources scientifiques et crédits :\nhttps://uneminutepourcomprendre.fr/articles/mouche-preparation-fuite/"
+
+thumbnail_source = "https://i.ytimg.com/vi/_KxRTYx2i44/maxresdefault.jpg"
+credits_status = "Images reprises : licences documentées ; crédits vidéo partiels (conditions de licence audio non documentées)"
+sources_status = "Références et nuances contrôlées ; métadonnées DOI vérifiées, accès au texte variable"
+project_keys = ["short-28"]
+description_update_ready = false
+editorial_ready = true
+[video]
+id = "_KxRTYx2i44"
+title = "La mouche prépare sa fuite avant que ta main arrive"
+duration_seconds = 24.5
+upload_date = "2026-10-09"
+vertical = true
+
+[images.miniature]
+src = "D:/uneminutepourcomprendre.fr/content/articles/mouche-preparation-fuite/youtube-thumbnail.jpg"
+alt = "Miniature de la vidéo UMPC : La mouche prépare sa fuite"
+caption = "Miniature de la vidéo Une Minute Pour Comprendre."
+credit = "Une Minute Pour Comprendre ; miniature de la vidéo"
+
+[[sources]]
+id = "S1"
+authors = "Gwyneth Card et al."
+title = "Visually Mediated Motor Planning in the Escape Response of Drosophila"
+publication = "Current Biology"
+year = "2008"
+url = "https://doi.org/10.1016/j.cub.2008.07.094"
+topic = "Préparation visuelle et posturale du saut chez la drosophile"
+kind = "Étude originale"
+doi = "10.1016/j.cub.2008.07.094"
+
+[images.document]
+src = "Sources/images/drosophila_commons_proboscis.jpg"
+alt = "Drosophila melanogaster photographiée"
+caption = "La drosophile est l’espèce étudiée par Card et Dickinson. Cette photo montre l’organisme, pas l’expérience de saut."
+credit = "Sanjay Acharya · CC BY-SA 4.0 · version WebP redimensionnée pour le site"
+credit_url = "https://commons.wikimedia.org/wiki/File:Drosophila_melanogaster_Proboscis.jpg"
+
+[[media_credits]]
+title = "Close-up of a housefly resting on a surface"
+author = "Alexarian"
+license = "Licence Pexels"
+url = "https://www.pexels.com/video/close-up-of-a-housefly-resting-on-a-surface-8192153/"
+license_url = "https://www.pexels.com/license/"
+modifications = "Dans la vidéo : annotations, détourage."
+
+[[media_credits]]
+title = "A fruit fly (Drosophila melanogaster) feeding off a banana"
+author = "Sanjay Acharya"
+license = "CC BY-SA 4.0"
+url = "https://commons.wikimedia.org/wiki/File:Drosophila_melanogaster_Proboscis.jpg"
+license_url = "https://creativecommons.org/licenses/by-sa/4.0/"
+modifications = "Dans la vidéo : annotations. L’adaptation de ce média conserve sa licence de partage."
+
+[[media_credits]]
+title = "Illustrations et reconstitutions du montage"
+author = "Une Minute Pour Comprendre"
+license = "Créations de la production ; pas des observations scientifiques"
+modifications = "Visuels générés par IA et schémas pédagogiques, animés ou composités. Les photographies et films réels sont crédités séparément lorsqu’ils sont identifiés."
+
+[[media_credits]]
+title = "Musique et effets de la vidéo"
+author = "Provenance à compléter selon les fichiers de production"
+license = "Conditions de réutilisation non établies par le registre consulté"
+modifications = "La provenance complète et les conditions de licence des pistes audio restent à documenter. Aucun fichier audio n’est redistribué sur cette page."

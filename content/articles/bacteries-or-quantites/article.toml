@@ -1,0 +1,145 @@
+slug = "bacteries-or-quantites"
+status = "draft"
+ready = true
+project_key = "short-38"
+title = "Bactéries et or : pourquoi elles ne te rendront pas riche"
+short_title = "Pourquoi les bactéries ne créent pas une fortune"
+category = "Science"
+description = "Les bactéries concentrent ou transforment un or déjà présent. Les faibles concentrations et les procédés miniers distinguent biominéralisation et biooxydation."
+lead = "Voir apparaître des grains d’or dans une expérience ne suffit pas à décrire une méthode rentable. Il faut connaître la quantité disponible au départ, la récupération possible et les coûts du procédé."
+published = "2026-11-02"
+modified = "2026-10-13"
+cover = "miniature"
+production = "D:/@UMPC-Shorts-Reactions/Videos/38 - Si des bacteries fabriquent de l or pourquoi on n est pas riches"
+video_file = "Montage/UMPC-R 38 - Si des bacteries fabriquent de l or pourquoi on n est pas riches.mp4"
+keywords = ["Pourquoi les bactéries ne créent pas une fortune", "Science", "Une Minute Pour Comprendre"]
+chapters = []
+method = "Article original rédigé à partir du dossier de production, de la narration et des références citées. Les métadonnées bibliographiques DOI ont été contrôlées auprès de Crossref ; les limites d’accès aux textes et les réserves scientifiques sont conservées. Les illustrations de la vidéo ne constituent pas des preuves expérimentales."
+youtube_description = "Des bactéries font apparaître des grains d’or, mais les atomes étaient déjà présents. À faible concentration, récupérer un gramme demanderait un grand volume, même avec un rendement idéal. La biooxydation minière est un autre procédé.\n\n#Bacteries #Or #Science\n\nSources scientifiques et crédits :\nhttps://uneminutepourcomprendre.fr/articles/bacteries-or-quantites/"
+
+thumbnail_source = "https://i9.ytimg.com/vi/X98EBNSyvNA/maxresdefault.jpg?sqp=CKimudYG&rs=AOn4CLBl0o_pTImOtaFM4dDXIFTQVZzqow"
+credits_status = "Images reprises : licences documentées ; crédits vidéo partiels (conditions de licence audio non documentées)"
+sources_status = "Références et nuances contrôlées ; métadonnées DOI vérifiées, accès au texte variable"
+project_keys = ["short-38"]
+description_update_ready = false
+editorial_ready = true
+[video]
+id = "X98EBNSyvNA"
+title = "Bactéries et or : pourquoi elles ne te rendront pas riche"
+duration_seconds = 25.833333
+upload_date = "2026-11-02"
+vertical = true
+
+[images.miniature]
+src = "D:/uneminutepourcomprendre.fr/content/articles/bacteries-or-quantites/youtube-thumbnail.jpg"
+alt = "Miniature de la vidéo UMPC : Pourquoi les bactéries ne créent pas une fortune"
+caption = "Miniature de la vidéo Une Minute Pour Comprendre."
+credit = "Une Minute Pour Comprendre ; miniature de la vidéo"
+
+[[sources]]
+id = "S1"
+authors = "Frank Reith et al."
+title = "Mechanisms of gold biomineralization in the bacterium\n                    <i>Cupriavidus metallidurans</i>"
+publication = "Proceedings of the National Academy of Sciences"
+year = "2009"
+url = "https://doi.org/10.1073/pnas.0904583106"
+topic = "Transformation et détoxication de complexes d’or"
+kind = "Étude originale"
+doi = "10.1073/pnas.0904583106"
+
+[[sources]]
+id = "S2"
+authors = "J.B. McHugh"
+title = "Concentration of gold in natural waters"
+publication = "Journal of Geochemical Exploration"
+year = "1988"
+url = "https://doi.org/10.1016/0375-6742(88)90051-9"
+topic = "Concentrations d’or dans des eaux naturelles"
+kind = "Étude originale"
+doi = "10.1016/0375-6742(88)90051-9"
+
+[[sources]]
+id = "S3"
+authors = "D Barrie Johnson"
+title = "Biomining — biotechnologies for extracting and recovering metals from ores and waste materials"
+publication = "Current Opinion in Biotechnology"
+year = "2014"
+url = "https://doi.org/10.1016/j.copbio.2014.04.008"
+topic = "Procédés et diversité du biomining"
+kind = "Revue scientifique"
+doi = "10.1016/j.copbio.2014.04.008"
+
+[images.document]
+src = "Sources/images/pepite-australie_commons_39434091.jpg"
+alt = "Pépite d’or australienne photographiée"
+caption = "Une pépite réelle. La photo ne prouve pas quelle part de sa formation proviendrait de transformations bactériennes."
+credit = "James St. John · CC BY 2.0 · version WebP redimensionnée pour le site"
+credit_url = "https://commons.wikimedia.org/wiki/File:Gold_nugget_(Australia)_4_(16848647509).jpg"
+
+[[media_credits]]
+title = "Gold nugget (Australia) 4, Field Museum"
+author = "James St. John"
+license = "CC BY 2.0"
+url = "https://commons.wikimedia.org/wiki/File:Gold_nugget_(Australia)_4_(16848647509).jpg"
+license_url = "https://creativecommons.org/licenses/by/2.0/"
+modifications = "Dans la vidéo : recadrage, annotations."
+
+[[media_credits]]
+title = "Stack of gold bars with money background"
+author = "Sergei Starostin"
+license = "Pexels License"
+url = "https://www.pexels.com/photo/stack-of-gold-bars-with-money-background-29336321/"
+license_url = "https://www.pexels.com/license/"
+modifications = "Média illustratif intégré à la vidéo ; présentation adaptée au montage."
+
+[[media_credits]]
+title = "Crystal clear water pour into glass"
+author = "Gizem Gökce"
+license = "Pexels License"
+url = "https://www.pexels.com/video/crystal-clear-water-pour-into-glass-36044316/"
+license_url = "https://www.pexels.com/license/"
+modifications = "Dans la vidéo : annotations."
+
+[[media_credits]]
+title = "An aerial view of a swimming pool"
+author = "Daniel Torobekov"
+license = "Pexels License"
+url = "https://www.pexels.com/video/an-aerial-view-of-a-swimming-pool-16755380/"
+license_url = "https://www.pexels.com/license/"
+modifications = "Média illustratif intégré à la vidéo ; présentation adaptée au montage."
+
+[[media_credits]]
+title = "Super Pit Gold Mine, Kalgoorlie, WA, 2023, 12"
+author = "Kgbo"
+license = "CC BY-SA 4.0"
+url = "https://commons.wikimedia.org/wiki/File:Super_Pit_Gold_Mine,_Kalgoorlie,_WA,_2023,_12.jpg"
+license_url = "https://creativecommons.org/licenses/by-sa/4.0/"
+modifications = "Média illustratif intégré à la vidéo ; présentation adaptée au montage. L’adaptation de ce média conserve sa licence de partage."
+
+[[media_credits]]
+title = "Gold on arsenopyrite SEM image"
+author = "Boris Lobastov"
+license = "CC BY 4.0"
+url = "https://commons.wikimedia.org/wiki/File:Gold_on_arsenopyrite_SEM_image.png"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+modifications = "Dans la vidéo : annotations."
+
+[[media_credits]]
+title = "pepite-australie_commons_39434091.jpg"
+author = "James St. John (Flickr), https://www.flickr.com/people/47445767@N05"
+license = "CC BY 2.0"
+url = "https://commons.wikimedia.org/wiki/File:Gold_nugget_(Australia"
+license_url = "https://creativecommons.org/licenses/by/2.0/"
+modifications = "Dans la vidéo : recadrage, étalonnage."
+
+[[media_credits]]
+title = "Illustrations et reconstitutions du montage"
+author = "Une Minute Pour Comprendre"
+license = "Créations de la production ; pas des observations scientifiques"
+modifications = "Visuels générés par IA et schémas pédagogiques, animés ou composités. Les photographies et films réels sont crédités séparément lorsqu’ils sont identifiés."
+
+[[media_credits]]
+title = "Musique et effets de la vidéo"
+author = "Provenance à compléter selon les fichiers de production"
+license = "Conditions de réutilisation non établies par le registre consulté"
+modifications = "La provenance complète et les conditions de licence des pistes audio restent à documenter. Aucun fichier audio n’est redistribué sur cette page."

@@ -1,0 +1,70 @@
+slug = "bacteries-medicament-tumeur"
+status = "published"
+ready = true
+project_key = "short-09"
+title = "Bactéries vs Cancer : qui gagne ? 🦠"
+short_title = "Des bactéries dans une tumeur"
+category = "Science"
+description = "Des bactéries modifiées convertissent une molécule en chimiothérapie dans des modèles murins. Une piste préclinique, sans efficacité humaine démontrée."
+lead = "Une bactérie peut porter un programme génétique conçu pour produire des molécules thérapeutiques. Dans une étude sur des souris, des chercheurs ont combiné conversion d’un médicament précurseur et action immunitaire dans des tumeurs."
+published = "2026-09-26"
+modified = "2026-10-13"
+cover = "miniature"
+production = "D:/@UMPC-Shorts-Reactions/Videos/9 - Des bacteries fabriquent un medicament dans une tumeur"
+video_file = "Montage/CapcutExport/bacteries fabriquent un medicament dans une tumeur.mp4"
+keywords = ["Des bactéries dans une tumeur", "Science", "Une Minute Pour Comprendre"]
+chapters = []
+method = "Article original rédigé à partir du dossier de production, de la narration et des références citées. Les métadonnées bibliographiques DOI ont été contrôlées auprès de Crossref ; les limites d’accès aux textes et les réserves scientifiques sont conservées. Les illustrations de la vidéo ne constituent pas des preuves expérimentales."
+youtube_description = "Une bactérie modifiée peut convertir un précurseur en chimiothérapie dans des tumeurs de souris. L’étude combine aussi deux actions immunitaires. Cette recherche reste préclinique : efficacité et sécurité chez l’humain ne sont pas démontrées.\n\n#Bacteries #Recherche #Science\n\nSources scientifiques et crédits :\nhttps://uneminutepourcomprendre.fr/articles/bacteries-medicament-tumeur/"
+
+thumbnail_source = "https://i.ytimg.com/vi/b0zuG3SuexM/maxresdefault.jpg"
+credits_status = "Images reprises : licences documentées ; crédits vidéo partiels (conditions de licence audio non documentées)"
+sources_status = "Références et nuances contrôlées ; métadonnées DOI vérifiées, accès au texte variable"
+project_keys = ["short-09"]
+description_update_ready = false
+editorial_ready = true
+[video]
+id = "b0zuG3SuexM"
+title = "Bactéries vs Cancer : qui gagne ? 🦠"
+duration_seconds = 43.816009
+upload_date = "2026-09-26"
+vertical = true
+
+[images.miniature]
+src = "D:/uneminutepourcomprendre.fr/content/articles/bacteries-medicament-tumeur/youtube-thumbnail.jpg"
+alt = "Miniature de la vidéo UMPC : Des bactéries dans une tumeur"
+caption = "Miniature de la vidéo Une Minute Pour Comprendre."
+credit = "Une Minute Pour Comprendre ; miniature de la vidéo"
+
+[[sources]]
+id = "S1"
+authors = "Zaofeng Yang et al."
+title = "Engineered probiotics for tumor-targeted combination chemoimmunotherapy"
+publication = "Science Translational Medicine"
+year = "2026"
+url = "https://doi.org/10.1126/scitranslmed.ady2289"
+topic = "Conversion 5-FC/5-FU et combinaison immunitaire dans deux modèles murins"
+kind = "Étude originale"
+doi = "10.1126/scitranslmed.ady2289"
+
+[[sources]]
+id = "S2"
+authors = "National Cancer Institute"
+title = "A Living Medicine: Engineered E. coli Shrink Tumors in Mice"
+publication = "National Cancer Institute"
+year = "2024"
+url = "https://www.cancer.gov/news-events/cancer-currents-blog/2024/engineering-ecoli-bacteria-cancer-immunotherapy"
+topic = "Contexte préclinique et limites de transposition"
+kind = "Ressource institutionnelle"
+
+[[media_credits]]
+title = "Illustrations et reconstitutions du montage"
+author = "Une Minute Pour Comprendre"
+license = "Créations de la production ; pas des observations scientifiques"
+modifications = "Visuels générés par IA et schémas pédagogiques, animés ou composités. Les photographies et films réels sont crédités séparément lorsqu’ils sont identifiés."
+
+[[media_credits]]
+title = "Musique et effets de la vidéo"
+author = "Provenance à compléter selon les fichiers de production"
+license = "Conditions de réutilisation non établies par le registre consulté"
+modifications = "La provenance complète et les conditions de licence des pistes audio restent à documenter. Aucun fichier audio n’est redistribué sur cette page."

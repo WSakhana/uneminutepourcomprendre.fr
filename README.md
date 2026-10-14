@@ -92,6 +92,68 @@ Ne jamais modifier à la main `public/articles/`, `public/404.html`, `sitemap.xm
 entre `<!-- articles:start -->` et `<!-- articles:end -->` de `public/index.html` : ils sont réécrits à chaque build.
 Après une modification du CSS ou du JS, relancer le build : les liens portent une empreinte `?v=…` qui renouvelle le cache.
 
+## Synchronisation des articles avec YouTube
+
+Les brouillons restent dans `content/articles/`. Le champ racine `status = "draft"` les exclut du build, des listes,
+du sitemap, du flux RSS et de `llms.txt`. Aucun aperçu de brouillon n’est écrit dans `public/`. Une ancienne page
+locale devenue brouillon bloque le build jusqu’à son archivage par la synchronisation.
+
+`tools/sync_youtube_articles.py` consulte la chaîne authentifiée en lecture seule. Il publie uniquement les articles
+`ready = true` dont **toutes** les vidéos sont `public`, traitées et intégrables. Une date prévue passée ne suffit jamais.
+Les programmations sont relues à chaque passage. Les vidéos privées, non répertoriées, absentes ou à venir restent
+exclues. Si une vidéo devient privée, sa page générée est archivée localement et l’accès distant est bloqué par
+`.htaccess`, sans suppression de données sur OVH.
+
+```powershell
+py -3 tools/sync_youtube_articles.py             # lecture et suivi seulement
+py -3 tools/sync_youtube_articles.py --prepare   # build local des pages éligibles, sans envoi
+py -3 tools/sync_youtube_articles.py --publish   # build, check, simulation, SFTP, vérification et IndexNow
+```
+
+L’authentification réutilise le jeton Windows DPAPI de `.youtube_private/oauth.dpapi` et le client OAuth existant dans
+le dossier désigné par `UMPC_YOUTUBE_AUTH_DIR` (par défaut `G:\My Drive\@UMPC`). Aucun secret ne va dans ce dépôt.
+La tâche Windows reste strictement en lecture seule sur YouTube : elle ne modifie aucune description, aucun titre
+ni aucun statut de vidéo. Elle synchronise et publie uniquement les articles.
+La mise à jour des descriptions est un outil manuel distinct, à utiliser seulement sur demande explicite.
+Il transfère les références dans l’article, puis remplace les listes de sources et crédits par son lien.
+Pour une vidéo publique, il vérifie la page en ligne. Avec `--include-scheduled`, il peut préparer la description
+d’une vidéo programmée avant sa sortie, après avoir vérifié les références conservées dans son brouillon.
+Le lien d’article est alors réservé : l’article reste inaccessible jusqu’à sa publication automatique.
+Chaque écriture conserve les autres propriétés éditables du `snippet`, ne touche pas au `status` et fait l’objet
+d’une sauvegarde puis d’une relecture. Les textes introductifs, chapitres, hashtags et mentions IA sont conservés.
+
+```powershell
+py -3 tools/update_youtube_article_links.py --consolidate  # transfert dans les sources locales d’articles
+py -3 tools/update_youtube_article_links.py               # audit sans écriture YouTube
+py -3 tools/update_youtube_article_links.py --apply       # descriptions des seules vidéos avec article public vérifié
+py -3 tools/update_youtube_article_links.py --apply --include-scheduled  # sur demande : inclure les vidéos programmées
+```
+
+Une nouvelle vidéo peut être reliée à un brouillon sans ID seulement si son nom de fichier d’upload correspond
+de façon unique au projet et si sa durée est cohérente. Aucun rapprochement approximatif de titres n’est accepté.
+`editorial_ready = false` empêche ce rapprochement automatique lorsque le contenu ou la production manque.
+
+La tâche Windows `UMPC - Synchronisation articles YouTube` utilise `tools/run_article_sync.py` toutes les quinze
+minutes et à l’ouverture de session. Elle fonctionne sans Codex ouvert. Le PC doit être allumé, connecté, avec la
+session utilisateur ouverte et le lecteur Google Drive disponible. Les passages manqués sont repris à la prochaine
+occasion. Les identifiants SFTP viennent des variables utilisateur ou machine `UMPC_SFTP_HOST`, `UMPC_SFTP_USER`
+et `UMPC_SFTP_PASSWORD`, jamais de la définition de tâche. Le script utilise `.venv/Scripts/pythonw.exe`, sans fenêtre.
+
+```powershell
+py -3 -m venv --system-site-packages .venv
+pwsh -NoProfile -File tools/install_article_sync_task.ps1
+```
+
+Les exécutions concurrentes sont exclues. Un échec d’API ne publie rien ; un échec d’envoi ou de vérification est
+repris sans marquer le déploiement réussi. Un envoi est ignoré si le contenu public n’a pas changé. Le contrôle
+`tools/verify_article_publication.py` compare le HTML en ligne aux fichiers locaux et vérifie les 404 des brouillons.
+Le dernier résultat et les erreurs sont dans `tracking/sync-state.local.json` et `tracking/sync.log`.
+
+Le suivi contient les IDs, statuts et dates YouTube, les URL, les descriptions proposées et les limites de vérification.
+Les fichiers `tracking/*.private.json`, `*.private.md` et `*.private.csv` ne sont ni versionnés ni déployés.
+Les sources et illustrations d’un article restent dans ses fichiers habituels. Les tables `[[media_credits]]`
+complètent les crédits des figures avec les médias réellement identifiés dans la vidéo.
+
 ## Skills (Codex et Claude Code)
 
 - **`umpc-site-article`** : à partir d'une URL YouTube de la chaîne et du dossier de production de la vidéo, rédige

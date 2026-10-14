@@ -26,3 +26,9 @@ desktop.ini
 # Fichiers de travail
 tmp/
 scratch/
+
+# Instantanés OAuth, programmation et rapports de travail : hors site et hors Git.
+tracking/*.private.json
+tracking/*.private.md
+tracking/*.private.csv
+tracking/*.local.json

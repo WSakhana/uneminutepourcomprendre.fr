@@ -2,15 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://uneminutepourcomprendre.fr/</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-13</lastmod>
   </url>
   <url>
     <loc>https://uneminutepourcomprendre.fr/articles/</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/lave-croute-liquide/</loc>
+    <lastmod>2026-10-13</lastmod>
   </url>
   <url>
     <loc>https://uneminutepourcomprendre.fr/articles/animaux-squelettes-etonnants/</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/animaux-squelettes-etonnants/hippocampe-1280.webp?v=6dc60004</image:loc></image:image>
     <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/animaux-squelettes-etonnants/tortue-1280.webp?v=b4826068</image:loc></image:image>
     <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/animaux-squelettes-etonnants/chauve_souris-1280.webp?v=c95ea79b</image:loc></image:image>
@@ -23,8 +27,24 @@
     <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/animaux-squelettes-etonnants/grenouille-1280.webp?v=477bda70</image:loc></image:image>
   </url>
   <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/pizza-nombre-pi/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/pizza-nombre-pi/schema-1280.webp?v=73c6df62</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/neutrinos-detection-icecube/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/neutrinos-detection-icecube/document-1280.webp?v=d06a4140</image:loc></image:image>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/neutrinos-detection-icecube/schema-1280.webp?v=628db245</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/mouche-preparation-fuite/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/mouche-preparation-fuite/document-1280.webp?v=721906e3</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://uneminutepourcomprendre.fr/articles/comment-moustique-tigre-passe-hiver/</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/comment-moustique-tigre-passe-hiver/adulte-1280.webp?v=4ebf10ee</image:loc></image:image>
     <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/comment-moustique-tigre-passe-hiver/diapause-1280.webp?v=b4dfa592</image:loc></image:image>
     <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/comment-moustique-tigre-passe-hiver/oeufs-640.webp?v=03232ea0</image:loc></image:image>
@@ -32,15 +52,38 @@
   </url>
   <url>
     <loc>https://uneminutepourcomprendre.fr/articles/pourquoi-piqure-tique-indolore/</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/pourquoi-piqure-tique-indolore/peau-1280.webp?v=fc8f5ccf</image:loc></image:image>
     <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/pourquoi-piqure-tique-indolore/hypostome-1280.webp?v=57ba82be</image:loc></image:image>
     <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/pourquoi-piqure-tique-indolore/alarme-1280.webp?v=3a5e309f</image:loc></image:image>
     <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/pourquoi-piqure-tique-indolore/borrelia-1280.webp?v=ec7891c3</image:loc></image:image>
   </url>
   <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/rotation-astres/</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/meduse-piqure-nematocystes/</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/painite-kyawthuite-rarete/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/painite-kyawthuite-rarete/document-640.webp?v=f63d3b29</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/colibri-os-langue-crane/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/colibri-os-langue-crane/schema-1280.webp?v=17409280</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/echidne-bulles-refroidissement/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/echidne-bulles-refroidissement/schema-1280.webp?v=d04a4f51</image:loc></image:image>
+  </url>
+  <url>
     <loc>https://uneminutepourcomprendre.fr/articles/apophis-2029-plus-pres-que-nos-satellites/</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/apophis-2029-plus-pres-que-nos-satellites/approche-1280.webp?v=33605d5e</image:loc></image:image>
     <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/apophis-2029-plus-pres-que-nos-satellites/lune-1280.webp?v=6417effc</image:loc></image:image>
     <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/apophis-2029-plus-pres-que-nos-satellites/geostationnaire-1280.webp?v=ef7d64e9</image:loc></image:image>
@@ -51,7 +94,7 @@
   </url>
   <url>
     <loc>https://uneminutepourcomprendre.fr/articles/capacites-surprenantes-des-bacteries/</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/or_illustration-1280.webp?v=76e17868</image:loc></image:image>
     <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/or_periplasme-1280.webp?v=4a12b400</image:loc></image:image>
     <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/or_csiro-1280.webp?v=07160d54</image:loc></image:image>
@@ -67,5 +110,117 @@
     <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/tumeurs_conversion-1280.webp?v=799b496e</image:loc></image:image>
     <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/tumeurs_souris-1280.webp?v=804893a5</image:loc></image:image>
     <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/capacites-surprenantes-des-bacteries/conclusion-1280.webp?v=11360436</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/bacterie-or-detoxication/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/bacterie-or-detoxication/schema-1280.webp?v=e975746b</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/pieuvre-gout-toucher/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/pieuvre-gout-toucher/schema-1280.webp?v=abfc8390</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/bacteries-medicament-tumeur/</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/animaux-sans-os/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/animaux-sans-os/document-1280.webp?v=82c218ab</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/colibri-langue-micropompe/</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/paille-pression-atmospherique/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/paille-pression-atmospherique/schema-1280.webp?v=b65afaf1</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/scorpion-venin-douleur/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/scorpion-venin-douleur/schema-1280.webp?v=13950cb9</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/chat-ronronnement-sollicitation/</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/escargot-mucus-deplacement/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/escargot-mucus-deplacement/schema-1280.webp?v=c22ab4ed</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/petits-animaux-sang-chaud/</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/piqure-abeille-douleur/</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/bacteries-quorum-sensing/</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/internet-memoire-archives/</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/retrouver-skyblog/</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/meduse-venin-peau/</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/venin-poison-difference/</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/cartes-mercator-equal-earth/</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/realite-augmentee-virtuelle/</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/virus-bacterie-champignon-parasite/</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/allergies-systeme-immunitaire/</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/phases-lune/</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/voix-enregistree-conduction/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/voix-enregistree-conduction/schema-1280.webp?v=77cf98cb</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/chien-clignement-regard/</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/decharge-poignee-electricite-statique/</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/feuilles-couleurs-automne/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <image:image><image:loc>https://uneminutepourcomprendre.fr/assets/img/articles/feuilles-couleurs-automne/schema-1280.webp?v=47c77f71</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://uneminutepourcomprendre.fr/articles/noeud-papillon-28-aout/</loc>
+    <lastmod>2026-10-13</lastmod>
   </url>
 </urlset>

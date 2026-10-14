@@ -17,11 +17,7 @@ class ArticleVideosTest(unittest.TestCase):
     def setUpClass(cls):
         cls.article = next(a for a in build.load_articles() if a['slug'] == 'animaux-squelettes-etonnants')
         cls.original_public = build.PUBLIC
-        scratch = build.ROOT / 'scratch'
-        scratch.mkdir(exist_ok=True)
-        cls.temp = tempfile.TemporaryDirectory(prefix='article-videos-test-', dir=scratch)
-        if not Path(cls.temp.name).resolve().is_relative_to(scratch.resolve()):
-            raise RuntimeError('Le dossier temporaire doit rester dans scratch/.')
+        cls.temp = tempfile.TemporaryDirectory(prefix='article-videos-test-')
         build.PUBLIC = Path(cls.temp.name) / 'public'
         shutil.copytree(cls.original_public, build.PUBLIC)
         cls.sizes = build.build_images(cls.article, False)

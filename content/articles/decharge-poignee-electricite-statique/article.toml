@@ -1,0 +1,63 @@
+slug = "decharge-poignee-electricite-statique"
+status = "published"
+ready = true
+project_key = "original-05"
+title = "Le secret des chocs électriques⚡"
+short_title = "Le choc de la poignée"
+category = "Science"
+description = "Le petit choc d’une poignée vient d’une décharge électrostatique. Contact, séparation, accumulation des charges et humidité expliquent le phénomène."
+lead = "Une poignée métallique peut servir de point de décharge après un trajet sur un tapis ou le retrait d’un vêtement. Le corps et son environnement présentent alors une différence de potentiel électrique, qui se réduit brusquement au rapprochement."
+published = "2026-09-02"
+modified = "2026-10-13"
+cover = "miniature"
+production = "D:/@UMPC/Videos/5 - Décharge Poignée De Porte"
+video_file = "Montage/5 - Décharge Poignée De Porte.mp4"
+keywords = ["Le choc de la poignée", "Science", "Une Minute Pour Comprendre"]
+chapters = []
+method = "Article original rédigé à partir du dossier de production, de la narration et des références citées. Les métadonnées bibliographiques DOI ont été contrôlées auprès de Crossref ; les limites d’accès aux textes et les réserves scientifiques sont conservées. Les illustrations de la vidéo ne constituent pas des preuves expérimentales."
+youtube_description = "Le petit choc d’une poignée vient d’une charge accumulée qui se redistribue brusquement. Les contacts entre matériaux et un air sec favorisent le phénomène. Une décharge électrostatique domestique ne doit pas être confondue avec un choc du secteur.\n\n#ElectriciteStatique #Physique #Science\n\nSources scientifiques et crédits :\nhttps://uneminutepourcomprendre.fr/articles/decharge-poignee-electricite-statique/"
+
+thumbnail_source = "https://i.ytimg.com/vi/x3AgnFPkabg/maxresdefault.jpg"
+credits_status = "Crédits visuels documentés ; voir les éventuelles limites audio"
+sources_status = "Références et nuances contrôlées ; métadonnées DOI vérifiées, accès au texte variable"
+project_keys = ["original-05"]
+description_update_ready = false
+editorial_ready = true
+[video]
+id = "x3AgnFPkabg"
+title = "Le secret des chocs électriques⚡"
+duration_seconds = 69.334785
+upload_date = "2026-09-02"
+vertical = true
+
+[images.miniature]
+src = "D:/uneminutepourcomprendre.fr/content/articles/decharge-poignee-electricite-statique/youtube-thumbnail.jpg"
+alt = "Miniature de la vidéo UMPC : Le choc de la poignée"
+caption = "Miniature de la vidéo Une Minute Pour Comprendre."
+credit = "Une Minute Pour Comprendre ; miniature de la vidéo"
+
+[[sources]]
+id = "S1"
+authors = "Northwestern University"
+title = "Triboelectricity"
+publication = "Northwestern University"
+year = ""
+url = "https://www.numis.northwestern.edu/Research/Projects/triboelectricity/"
+topic = "Chargement par contact et décharge"
+kind = "Ressource universitaire"
+
+[[sources]]
+id = "S2"
+authors = "TotalEnergies"
+title = "D’où vient l’électricité statique et pourquoi cause-t-elle des chocs ?"
+publication = "TotalEnergies"
+year = ""
+url = "https://www.totalenergies.fr/particuliers/parlons-energie/dossiers-energie/comprendre-le-marche-de-l-energie/d-ou-vient-l-electricite-statique-et-pourquoi-cause-t-elle-des-chocs"
+topic = "Rôle des matériaux et de l’humidité"
+kind = "Vulgarisation du mécanisme"
+
+[[media_credits]]
+title = "Illustrations et reconstitutions du montage"
+author = "Une Minute Pour Comprendre"
+license = "Créations de la production ; pas des observations scientifiques"
+modifications = "Visuels générés par IA et schémas pédagogiques, animés ou composités. Les photographies et films réels sont crédités séparément lorsqu’ils sont identifiés."

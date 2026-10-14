@@ -1,0 +1,78 @@
+slug = "lave-croute-liquide"
+status = "published"
+ready = true
+project_key = "short-30"
+title = "La lave paraît solide... regarde dessous"
+short_title = "Sous la croûte de lave"
+category = "Nature"
+description = "Une coulée basaltique peut former une croûte sombre tandis que son intérieur reste liquide. Les images du Kīlauea montrent cette coexistence."
+lead = "Une surface noire donne une impression de solidité. Sur une coulée pāhoehoe, elle peut pourtant recouvrir de la lave encore mobile. Le contraste vient du refroidissement de surface et du mouvement sous cette peau."
+published = "2026-10-13"
+modified = "2026-10-13"
+cover = "miniature"
+production = "D:/@UMPC-Shorts-Reactions/Videos/30 - Pourquoi la croûte noire cache encore de la lave"
+video_file = "Montage/UMPC-R 30 - Pourquoi la croute noire cache encore de la lave.mp4"
+keywords = ["Sous la croûte de lave", "Nature", "Une Minute Pour Comprendre"]
+chapters = []
+method = "Article original rédigé à partir du dossier de production, de la narration et des références citées. Les métadonnées bibliographiques DOI ont été contrôlées auprès de Crossref ; les limites d’accès aux textes et les réserves scientifiques sont conservées. Les illustrations de la vidéo ne constituent pas des preuves expérimentales."
+youtube_description = "Elle paraît solide, mais la lave peut encore circuler dessous. La croûte refroidit, se déforme et s’ouvre avant de se reformer. Images réelles USGS et coupe explicative reconstituée par IA ; aucune température universelle déduite de la couleur.\n\n#Lave #Volcan #Science\n\nSources scientifiques et crédits :\nhttps://uneminutepourcomprendre.fr/articles/lave-croute-liquide/"
+
+thumbnail_source = "https://i9.ytimg.com/vi/ookouSN8FR0/maxresdefault.jpg?sqp=CKimudYG&rs=AOn4CLDEZIm6wzbEQqraX9W2pk26VeMZMA"
+credits_status = "Images reprises : licences documentées ; crédits vidéo partiels (conditions de licence audio non documentées)"
+sources_status = "Références et nuances contrôlées ; métadonnées DOI vérifiées, accès au texte variable"
+project_keys = ["short-30"]
+description_update_ready = false
+editorial_ready = true
+[video]
+id = "ookouSN8FR0"
+title = "La lave paraît solide... regarde dessous"
+duration_seconds = 20.0
+upload_date = "2026-10-13"
+vertical = true
+
+[images.miniature]
+src = "D:/uneminutepourcomprendre.fr/content/articles/lave-croute-liquide/youtube-thumbnail.jpg"
+alt = "Miniature de la vidéo UMPC : Sous la croûte de lave"
+caption = "Miniature de la vidéo Une Minute Pour Comprendre."
+credit = "Une Minute Pour Comprendre ; miniature de la vidéo"
+
+[[sources]]
+id = "S1"
+authors = "USGS / Hawaiian Volcano Observatory"
+title = "Pāhoehoe Breakout"
+publication = "USGS / Hawaiian Volcano Observatory"
+year = "2018"
+url = "https://www.usgs.gov/media/videos/pahoehoe-breakout-1"
+topic = "Images de terrain et croûte en progression"
+kind = "Ressource institutionnelle"
+
+[[sources]]
+id = "S2"
+authors = "Tracy K. P. Gregg et al."
+title = "The emplacement of pahoehoe toes: field observations and comparison to laboratory simulations"
+publication = "Bulletin of Volcanology"
+year = "2004"
+url = "https://doi.org/10.1007/s00445-003-0319-5"
+topic = "Modes de progression des coulées pāhoehoe"
+kind = "Étude originale"
+doi = "10.1007/s00445-003-0319-5"
+
+[[media_credits]]
+title = "Pāhoehoe on Kīlauea Volcano's lower East Rift Zone, August 2, 2018"
+author = "USGS / Hawaiian Volcano Observatory"
+license = "Public Domain"
+url = "https://www.usgs.gov/media/videos/pahoehoe-breakout-1"
+license_url = "https://www.usgs.gov/media/videos/pahoehoe-breakout-1"
+modifications = "Dans la vidéo : étalonnage, son original retiré."
+
+[[media_credits]]
+title = "Illustrations et reconstitutions du montage"
+author = "Une Minute Pour Comprendre"
+license = "Créations de la production ; pas des observations scientifiques"
+modifications = "Visuels générés par IA et schémas pédagogiques, animés ou composités. Les photographies et films réels sont crédités séparément lorsqu’ils sont identifiés."
+
+[[media_credits]]
+title = "Musique et effets de la vidéo"
+author = "Provenance à compléter selon les fichiers de production"
+license = "Conditions de réutilisation non établies par le registre consulté"
+modifications = "La provenance complète et les conditions de licence des pistes audio restent à documenter. Aucun fichier audio n’est redistribué sur cette page."

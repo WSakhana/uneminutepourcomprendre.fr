@@ -1,0 +1,78 @@
+slug = "scorpion-venin-douleur"
+status = "published"
+ready = true
+project_key = "short-05"
+title = "Venin de scorpion : comment il fait mal sans abîmer la peau ?"
+short_title = "Scorpion : le signal de douleur"
+category = "Animaux"
+description = "Le venin du scorpion d’Arizona agit sur des canaux des nerfs. Une souris-sauterelle résiste par un mécanisme différent, sans immunité à tous les venins."
+lead = "Une douleur intense peut apparaître sans lésion spectaculaire. Le venin du scorpion d’Arizona fournit un exemple : des molécules agissent sur le fonctionnement électrique des neurones. Chez un de ses prédateurs, le même venin produit une réponse très différente."
+published = "2026-09-22"
+modified = "2026-10-13"
+cover = "miniature"
+production = "D:/@UMPC-Shorts-Reactions/Videos/5 - Le venin du scorpion comment ca marche reellement"
+video_file = "Montage/UMPC-R 5 - Le venin du scorpion comment ca ma/UMPC-R 5 - Le venin du scorpion comment ca ma.mp4"
+keywords = ["Scorpion : le signal de douleur", "Animaux", "Une Minute Pour Comprendre"]
+chapters = []
+method = "Article original rédigé à partir du dossier de production, de la narration et des références citées. Les métadonnées bibliographiques DOI ont été contrôlées auprès de Crossref ; les limites d’accès aux textes et les réserves scientifiques sont conservées. Les illustrations de la vidéo ne constituent pas des preuves expérimentales."
+youtube_description = "Pourquoi une piqûre peut-elle faire très mal sans blessure visible ? Chez le scorpion d’Arizona, des toxines perturbent les signaux des nerfs. La souris-sauterelle possède une adaptation particulière qui bloque une partie du signal douloureux. Ce cas ne vaut pas pour tous les venins.\n\n#Scorpion #Venin #Biologie\n\nSources scientifiques et crédits :\nhttps://uneminutepourcomprendre.fr/articles/scorpion-venin-douleur/"
+
+thumbnail_source = "https://i.ytimg.com/vi/vs-BKuWhNdk/maxresdefault.jpg"
+credits_status = "Images reprises : licences documentées ; crédits vidéo partiels (conditions de licence audio non documentées)"
+sources_status = "Références et nuances contrôlées ; métadonnées DOI vérifiées, accès au texte variable"
+project_keys = ["short-05"]
+description_update_ready = false
+editorial_ready = true
+[video]
+id = "vs-BKuWhNdk"
+title = "Venin de scorpion : comment il fait mal sans abîmer la peau ?"
+duration_seconds = 25.008005
+upload_date = "2026-09-22"
+vertical = true
+
+[images.miniature]
+src = "D:/uneminutepourcomprendre.fr/content/articles/scorpion-venin-douleur/youtube-thumbnail.jpg"
+alt = "Miniature de la vidéo UMPC : Scorpion : le signal de douleur"
+caption = "Miniature de la vidéo Une Minute Pour Comprendre."
+credit = "Une Minute Pour Comprendre ; miniature de la vidéo"
+
+[[sources]]
+id = "S1"
+authors = "Ashlee H. Rowe et al."
+title = "Voltage-Gated Sodium Channel in Grasshopper Mice Defends Against Bark Scorpion Toxin"
+publication = "Science"
+year = "2013"
+url = "https://doi.org/10.1126/science.1236451"
+topic = "Résistance de la souris-sauterelle et canal Nav1.8"
+kind = "Étude originale"
+doi = "10.1126/science.1236451"
+
+[[sources]]
+id = "S2"
+authors = "Rowe A. H. et Rowe M. P."
+title = "The Grasshopper Mouse and Bark Scorpion"
+publication = "Rowe A. H. et Rowe M. P."
+year = "2018"
+url = "https://pmc.ncbi.nlm.nih.gov/articles/PMC6057761/"
+topic = "Mise en perspective des interactions Nav1.7/Nav1.8"
+kind = "Revue scientifique"
+
+[[media_credits]]
+title = "Illustrations et reconstitutions du montage"
+author = "Une Minute Pour Comprendre"
+license = "Créations de la production ; pas des observations scientifiques"
+modifications = "Visuels générés par IA et schémas pédagogiques, animés ou composités. Les photographies et films réels sont crédités séparément lorsqu’ils sont identifiés."
+
+[[media_credits]]
+title = "Musique et effets de la vidéo"
+author = "Provenance à compléter selon les fichiers de production"
+license = "Conditions de réutilisation non établies par le registre consulté"
+modifications = "La provenance complète et les conditions de licence des pistes audio restent à documenter. Aucun fichier audio n’est redistribué sur cette page."
+
+[images.schema]
+video_time = 15
+box = [0, 0.24, 1, 0.73]
+alt = "Schéma de canaux dans une membrane et de voies nerveuses"
+caption = "Les couleurs et lueurs figurent des composants et un signal, pas l’aspect réel du venin. Illustration du mécanisme, sans échelle."
+credit = "Une Minute Pour Comprendre, illustration de la vidéo · recadrée pour le site"
+generated = true

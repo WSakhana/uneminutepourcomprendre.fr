@@ -5,13 +5,21 @@ category = "Science"
 description = "Or transformé en grains solides, cellule visible à l'œil nu, boussole interne, câbles vivants, ADN reconstruit : six bactéries étonnantes et leurs limites."
 lead = "Une bactérie qui transforme de l'or, une autre visible à l'œil nu, une troisième qui porte une boussole : les bactéries ne se ressemblent pas. Voici six cas, expliqués avec leurs mécanismes et leurs limites, et la question qui les relie : comment des organismes aussi différents peuvent-ils exister ?"
 published = "2026-10-01"
-modified = "2026-10-12"
+modified = "2026-10-13"
 cover = "boussole_miniature"
 keywords = ["bactéries", "microbiologie", "Cupriavidus metallidurans", "Thiomargarita magnifica", "bactéries magnétotactiques", "bactéries câbles", "Deinococcus radiodurans", "Escherichia coli Nissle 1917"]
 method = "Cet article reprend et développe la vidéo. Les noms latins, volontairement absents de la voix, sont donnés ici. Certaines publications n'ont été consultées que via leur résumé (sources 2, 5, 7 et 8) : les affirmations qui en dépendent restent limitées à ce que ces résumés établissent."
 production = "D:/@UMPC-Long/Videos/3 - Les capacites etonnantes des bacteries"
 video_file = "Montage/v3_video_finale.mp4"
 
+credits_status = "Images reprises : licences documentées ; crédits vidéo partiels (conditions de licence audio non documentées)"
+sources_status = "Références et nuances contrôlées ; métadonnées DOI vérifiées, accès au texte variable"
+project_key = "long-03"
+project_keys = ["long-03"]
+ready = true
+youtube_description = "De l’or à l’ADN, les bactéries montrent des capacités surprenantes. Chaque mécanisme a ses espèces, ses conditions et ses limites : des résultats de laboratoire ne constituent pas des promesses de traitement ou de production industrielle.\n\n#Bacteries #Microbiologie #Science\n\nSources scientifiques et crédits :\nhttps://uneminutepourcomprendre.fr/articles/capacites-surprenantes-des-bacteries/"
+description_update_ready = false
+editorial_ready = true
 [video]
 id = "PwoQaj9kHKQ"
 title = "De l'or à l'ADN : 6 capacités surprenantes des bactéries"
@@ -244,3 +252,15 @@ year = "2024"
 topic = "Contexte : certaines bactéries se développent volontiers à l'intérieur des tumeurs"
 url = "https://www.cancer.gov/news-events/cancer-currents-blog/2024/engineering-ecoli-bacteria-cancer-immunotherapy"
 kind = "Présentation institutionnelle (contexte)"
+
+[[media_credits]]
+title = "Illustrations et reconstitutions du montage"
+author = "Une Minute Pour Comprendre"
+license = "Créations de la production ; pas des observations scientifiques"
+modifications = "Visuels générés par IA et schémas pédagogiques, animés ou composités. Les photographies et films réels sont crédités séparément lorsqu’ils sont identifiés."
+
+[[media_credits]]
+title = "Musique et effets de la vidéo"
+author = "Provenance à compléter selon les fichiers de production"
+license = "Conditions de réutilisation non établies par le registre consulté"
+modifications = "La provenance complète et les conditions de licence des pistes audio restent à documenter. Aucun fichier audio n’est redistribué sur cette page."

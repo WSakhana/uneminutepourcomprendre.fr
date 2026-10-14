@@ -1,0 +1,287 @@
+slug = "organes-piquants-tailles"
+status = "draft"
+ready = true
+project_key = "short-43"
+title = "Ce qui te pique : du plus petit au plus grand"
+short_title = "Comparer ce qui perce"
+category = "Animaux"
+description = "Filament, rostre, trompe, dard ou aiguillon : onze animaux comparent des structures différentes. Leur taille ne mesure ni la douleur ni le danger."
+lead = "La vidéo range des éléments qui percent selon une dimension visible ou documentée. Ce classement met en évidence les échelles, mais les dispositifs biologiques et les types de mesure sont très différents."
+published = "2026-10-31"
+modified = "2026-10-13"
+cover = "miniature"
+production = "D:/@UMPC-Shorts-Reactions/Videos/43 - Ce qui te pique du plus petit au plus grand"
+video_file = "Montage/UMPC-R 43 - Ce qui te pique du plus petit au plus grand.mp4"
+keywords = ["Comparer ce qui perce", "Animaux", "Une Minute Pour Comprendre"]
+chapters = []
+method = "Article original rédigé à partir du dossier de production, de la narration et des références citées. Les métadonnées bibliographiques DOI ont été contrôlées auprès de Crossref ; les limites d’accès aux textes et les réserves scientifiques sont conservées. Les illustrations de la vidéo ne constituent pas des preuves expérimentales."
+youtube_description = "Onze animaux, de très petites structures à un grand aiguillon. Filament, rostre, trompe et dard ne sont pas identiques. Les valeurs varient et certains repères sont estimés ; la taille ne classe ni la douleur ni le danger.\n\n#Animaux #Piqure #Science\n\nSources scientifiques et crédits :\nhttps://uneminutepourcomprendre.fr/articles/organes-piquants-tailles/"
+
+thumbnail_source = "https://i9.ytimg.com/vi/dIm35dKz3vg/maxresdefault.jpg?sqp=CKimudYG&rs=AOn4CLByUs2oZv3YjMZRPj6kVP-kosfeKg"
+credits_status = "Images reprises : licences documentées ; crédits vidéo partiels (conditions de licence audio non documentées)"
+sources_status = "Références et nuances contrôlées ; métadonnées DOI vérifiées, accès au texte variable"
+project_keys = ["short-43"]
+description_update_ready = false
+editorial_ready = true
+[video]
+id = "dIm35dKz3vg"
+title = "Ce qui te pique : du plus petit au plus grand"
+duration_seconds = 40.833333
+upload_date = "2026-10-31"
+vertical = true
+
+[images.miniature]
+src = "D:/uneminutepourcomprendre.fr/content/articles/organes-piquants-tailles/youtube-thumbnail.jpg"
+alt = "Miniature de la vidéo UMPC : Comparer ce qui perce"
+caption = "Miniature de la vidéo Une Minute Pour Comprendre."
+credit = "Une Minute Pour Comprendre ; miniature de la vidéo"
+
+[[sources]]
+id = "S1"
+authors = "Ryuju Kitatani et al."
+title = "Length Is Associated with Pain: Jellyfish with Painful Sting Have Longer Nematocyst Tubules than Harmless Jellyfish"
+publication = "PLOS ONE"
+year = "2015"
+url = "https://doi.org/10.1371/journal.pone.0135015"
+topic = "Longueurs de tubules et comparaison entre méduses"
+kind = "Étude originale"
+doi = "10.1371/journal.pone.0135015"
+
+[[sources]]
+id = "S2"
+authors = "Vancová M. et al."
+title = "Three-dimensional reconstruction of the feeding apparatus of the tick Ixodes ricinus"
+publication = "Vancová M. et al."
+year = "2020"
+url = "https://pmc.ncbi.nlm.nih.gov/articles/PMC6957509/"
+topic = "Rostre de la tique et figure utilisée comme repère"
+kind = "Étude originale"
+
+[[sources]]
+id = "S3"
+authors = "MarLIN"
+title = "Common stingray (Dasyatis pastinaca)"
+publication = "MarLIN"
+year = ""
+url = "https://www.marlin.ac.uk/species/detail/2326"
+topic = "Maximum rapporté pour l’aiguillon de pastenague"
+kind = "Ressource institutionnelle"
+
+[images.document]
+src = "Sources/images/stingray_commons_taklis02.jpg"
+alt = "Pastenague commune Dasyatis pastinaca"
+caption = "Une pastenague réelle, utilisée comme contexte. La photo ne mesure pas le maximum rapporté de longueur de l’aiguillon."
+credit = "Chris Taklis · CC BY-SA 4.0 · version WebP redimensionnée pour le site"
+credit_url = "https://commons.wikimedia.org/wiki/File:Common_stingray_(Dasyatis_pastinaca)_02.jpg"
+
+[[media_credits]]
+title = "Mosquito on skin, macro (id 274935)"
+author = "BlenderTimer (Pixabay)"
+license = "Pixabay Content License"
+url = "https://pixabay.com/videos/id-274935/"
+license_url = "https://pixabay.com/service/license-summary/"
+modifications = "Dans la vidéo : recadrage, annotations."
+
+[[media_credits]]
+title = "Common stingray (Dasyatis pastinaca) 02.jpg"
+author = "Chris Taklis"
+license = "CC BY-SA 4.0"
+url = "https://commons.wikimedia.org/wiki/File:Common_stingray_(Dasyatis_pastinaca)_02.jpg"
+license_url = "https://creativecommons.org/licenses/by-sa/4.0"
+modifications = "Dans la vidéo : annotations. L’adaptation de ce média conserve sa licence de partage."
+
+[[media_credits]]
+title = "Aurelia-aurita-3.jpg"
+author = "MartinThoma"
+license = "CC0"
+url = "https://commons.wikimedia.org/wiki/File:Aurelia-aurita-3.jpg"
+license_url = "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+modifications = "Dans la vidéo : annotations."
+
+[[media_credits]]
+title = "Kitatani et al. 2015, PLoS ONE, Fig 3 (A, B : Aurelia aurita)"
+author = "Kitatani R., Yamada M., Kamio M., Nagai H."
+license = "CC BY 4.0"
+url = "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0135015"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+modifications = "Dans la vidéo : recadrage, annotations."
+
+[[media_credits]]
+title = "A tick is on the skin of a person"
+author = "Erik Karits (Pexels)"
+license = "Pexels License"
+url = "https://www.pexels.com/photo/a-tick-is-on-the-skin-of-a-person-18152646/"
+license_url = "https://www.pexels.com/license/"
+modifications = "Dans la vidéo : annotations."
+
+[[media_credits]]
+title = "Vancová et al. 2020, Sci Rep 10:165, Fig 1 (C : SEM, Ixodes ricinus female)"
+author = "Vancová M. et al."
+license = "CC BY 4.0"
+url = "https://www.nature.com/articles/s41598-019-56811-2"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+modifications = "Dans la vidéo : recadrage, annotations."
+
+[[media_credits]]
+title = "CDC-Gathany-Aedes-albopictus-2.jpg"
+author = "James Gathany, CDC"
+license = "Public domain"
+url = "https://commons.wikimedia.org/wiki/File:CDC-Gathany-Aedes-albopictus-2.jpg"
+license_url = ""
+modifications = "Dans la vidéo : annotations."
+
+[[media_credits]]
+title = "A bee is sitting on an orange flower"
+author = "Gilmer Diaz Estela (Pexels)"
+license = "Pexels License"
+url = "https://www.pexels.com/video/a-bee-is-sitting-on-an-orange-flower-16564838/"
+license_url = "https://www.pexels.com/license/"
+modifications = "Dans la vidéo : recadrage, annotations."
+
+[[media_credits]]
+title = "Stechende Biene 12a.jpg"
+author = "Waugsberg"
+license = "CC BY-SA 3.0"
+url = "https://commons.wikimedia.org/wiki/File:Stechende_Biene_12a.jpg"
+license_url = "http://creativecommons.org/licenses/by-sa/3.0/"
+modifications = "Dans la vidéo : annotations. L’adaptation de ce média conserve sa licence de partage."
+
+[[media_credits]]
+title = "Vespula vulgaris 209276893.jpg"
+author = "Igor Balashov"
+license = "CC BY 4.0"
+url = "https://commons.wikimedia.org/wiki/File:Vespula_vulgaris_209276893.jpg"
+license_url = "https://creativecommons.org/licenses/by/4.0"
+modifications = "Dans la vidéo : annotations."
+
+[[media_credits]]
+title = "Wespenstachel.jpg"
+author = "WilraM"
+license = "CC BY-SA 4.0"
+url = "https://commons.wikimedia.org/wiki/File:Wespenstachel.jpg"
+license_url = "https://creativecommons.org/licenses/by-sa/4.0"
+modifications = "Média illustratif intégré à la vidéo ; présentation adaptée au montage. L’adaptation de ce média conserve sa licence de partage."
+
+[[media_credits]]
+title = "0706Hornissenstachel.JPG"
+author = "böhringer friedrich"
+license = "CC BY-SA 2.5"
+url = "https://commons.wikimedia.org/wiki/File:0706Hornissenstachel.JPG"
+license_url = "https://creativecommons.org/licenses/by-sa/2.5"
+modifications = "Dans la vidéo : annotations. L’adaptation de ce média conserve sa licence de partage."
+
+[[media_credits]]
+title = "Жало шершня.jpg"
+author = "Alexander Klepnev"
+license = "CC BY 4.0"
+url = "https://commons.wikimedia.org/wiki/File:%D0%96%D0%B0%D0%BB%D0%BE_%D1%88%D0%B5%D1%80%D1%88%D0%BD%D1%8F.jpg"
+license_url = "https://creativecommons.org/licenses/by/4.0"
+modifications = "Média illustratif intégré à la vidéo ; présentation adaptée au montage."
+
+[[media_credits]]
+title = "Conus geographus 60092276.jpg"
+author = "Kai Squires"
+license = "CC BY 4.0"
+url = "https://commons.wikimedia.org/wiki/File:Conus_geographus_60092276.jpg"
+license_url = "https://creativecommons.org/licenses/by/4.0"
+modifications = "Dans la vidéo : annotations."
+
+[[media_credits]]
+title = "Leiurus quinquestriatus Giftstachel.jpg"
+author = "Danny S."
+license = "CC BY-SA 4.0"
+url = "https://commons.wikimedia.org/wiki/File:Leiurus_quinquestriatus_Giftstachel.jpg"
+license_url = "https://creativecommons.org/licenses/by-sa/4.0"
+modifications = "Dans la vidéo : annotations. L’adaptation de ce média conserve sa licence de partage."
+
+[[media_credits]]
+title = "Deathstalker (Leiurus quinquestriatus) 6.jpg"
+author = "מינוזיג"
+license = "CC BY-SA 4.0"
+url = "https://commons.wikimedia.org/wiki/File:Deathstalker_(Leiurus_quinquestriatus)_6.jpg"
+license_url = "https://creativecommons.org/licenses/by-sa/4.0"
+modifications = "Média illustratif intégré à la vidéo ; présentation adaptée au montage. L’adaptation de ce média conserve sa licence de partage."
+
+[[media_credits]]
+title = "Duck-billed platypus (Ornithorhynchus anatinus) Scottsdale.jpg"
+author = "Charles J. Sharp"
+license = "CC BY-SA 4.0"
+url = "https://commons.wikimedia.org/wiki/File:Duck-billed_platypus_(Ornithorhynchus_anatinus)_Scottsdale.jpg"
+license_url = "https://creativecommons.org/licenses/by-sa/4.0"
+modifications = "Dans la vidéo : annotations. L’adaptation de ce média conserve sa licence de partage."
+
+[[media_credits]]
+title = "Platypus spur.JPG"
+author = "The original uploader was Elonnon at English Wikipedia."
+license = "CC BY-SA 3.0"
+url = "https://commons.wikimedia.org/wiki/File:Platypus_spur.JPG"
+license_url = "http://creativecommons.org/licenses/by-sa/3.0/"
+modifications = "Dans la vidéo : annotations. L’adaptation de ce média conserve sa licence de partage."
+
+[[media_credits]]
+title = "Vibrant lionfish in colorful coral reef aquarium"
+author = "Kubilay Öztürk (Pexels)"
+license = "Pexels License"
+url = "https://www.pexels.com/video/vibrant-lionfish-in-colorful-coral-reef-aquarium-29235488/"
+license_url = "https://www.pexels.com/license/"
+modifications = "Dans la vidéo : annotations."
+
+[[media_credits]]
+title = "Dasyatis pastinaca 24933880.jpg"
+author = "Chris Taklis"
+license = "CC BY 4.0"
+url = "https://commons.wikimedia.org/wiki/File:Dasyatis_pastinaca_24933880.jpg"
+license_url = "https://creativecommons.org/licenses/by/4.0"
+modifications = "Dans la vidéo : annotations."
+
+[[media_credits]]
+title = "Stringray's sting.jpg"
+author = "Doka54"
+license = "Public domain"
+url = "https://commons.wikimedia.org/wiki/File:Stringray%27s_sting.jpg"
+license_url = ""
+modifications = "Média illustratif intégré à la vidéo ; présentation adaptée au montage."
+
+[[media_credits]]
+title = "A still video of mosquito biting human"
+author = "Ravi Kant (Pexels)"
+license = "Pexels License"
+url = "https://www.pexels.com/video/a-still-video-of-mosquito-biting-human-5113062/"
+license_url = "https://www.pexels.com/license/"
+modifications = "Dans la vidéo : recadrage."
+
+[[media_credits]]
+title = "stingray_commons_taklis02.jpg"
+author = "Chris Taklis"
+license = "CC BY-SA 4.0"
+url = "https://commons.wikimedia.org/wiki/File:Common_stingray_(Dasyatis_pastinaca"
+license_url = "https://creativecommons.org/licenses/by-sa/4.0"
+modifications = ""
+
+[[media_credits]]
+title = "leiurus_commons_deathstalker6.jpg"
+author = "מינוזיג"
+license = "CC BY-SA 4.0"
+url = "https://commons.wikimedia.org/wiki/File:Deathstalker_(Leiurus_quinquestriatus"
+license_url = "https://creativecommons.org/licenses/by-sa/4.0"
+modifications = ""
+
+[[media_credits]]
+title = "platypus_commons_sharp.jpg"
+author = "Charles J. Sharp"
+license = "CC BY-SA 4.0"
+url = "https://commons.wikimedia.org/wiki/File:Duck-billed_platypus_(Ornithorhynchus_anatinus"
+license_url = "https://creativecommons.org/licenses/by-sa/4.0"
+modifications = ""
+
+[[media_credits]]
+title = "Illustrations et reconstitutions du montage"
+author = "Une Minute Pour Comprendre"
+license = "Créations de la production ; pas des observations scientifiques"
+modifications = "Visuels générés par IA et schémas pédagogiques, animés ou composités. Les photographies et films réels sont crédités séparément lorsqu’ils sont identifiés."
+
+[[media_credits]]
+title = "Musique et effets de la vidéo"
+author = "Provenance à compléter selon les fichiers de production"
+license = "Conditions de réutilisation non établies par le registre consulté"
+modifications = "La provenance complète et les conditions de licence des pistes audio restent à documenter. Aucun fichier audio n’est redistribué sur cette page."

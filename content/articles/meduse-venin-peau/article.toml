@@ -1,0 +1,83 @@
+slug = "meduse-venin-peau"
+status = "published"
+ready = true
+project_key = "original-18"
+title = "Le venin de méduse : comment ça marche réellement ?"
+short_title = "Le venin de méduse et la peau"
+category = "Animaux"
+description = "Un contact de méduse relie injection et réaction cutanée. Les expériences sur cellules et les conseils de secours ont des portées différentes."
+lead = "La brûlure après un contact marin est la conséquence de plusieurs étapes. La capsule urticante délivre son contenu, des molécules agissent sur les tissus et la douleur signale cette agression. Distinguer ces étapes aide aussi à comprendre les limites des conseils généraux."
+published = "2026-09-10"
+modified = "2026-10-13"
+cover = "miniature"
+production = "D:/@UMPC/Videos/18 - Pourquoi la méduse pique"
+video_file = "Montage/UMPC 18 - Pourquoi la méduse pique - editable/UMPC 18 - Pourquoi la méduse pique - editable.mp4"
+keywords = ["Le venin de méduse et la peau", "Animaux", "Une Minute Pour Comprendre"]
+chapters = []
+method = "Article original rédigé à partir du dossier de production, de la narration et des références citées. Les métadonnées bibliographiques DOI ont été contrôlées auprès de Crossref ; les limites d’accès aux textes et les réserves scientifiques sont conservées. Les illustrations de la vidéo ne constituent pas des preuves expérimentales."
+youtube_description = "Une méduse peut délivrer du venin au simple contact grâce à des capsules urticantes. Les effets et les gestes de secours dépendent de l’espèce et de la situation. Sortir de l’eau et demander une aide locale ; une réaction sévère exige une aide urgente.\n\n#Meduse #Venin #Science\n\nSources scientifiques et crédits :\nhttps://uneminutepourcomprendre.fr/articles/meduse-venin-peau/"
+
+thumbnail_source = "https://i.ytimg.com/vi/soXfC5PVngE/maxresdefault.jpg"
+credits_status = "Crédits visuels documentés ; voir les éventuelles limites audio"
+sources_status = "Références et nuances contrôlées ; métadonnées DOI vérifiées, accès au texte variable"
+project_keys = ["original-18"]
+description_update_ready = false
+editorial_ready = true
+[video]
+id = "soXfC5PVngE"
+title = "Le venin de méduse : comment ça marche réellement ?"
+duration_seconds = 30.0
+upload_date = "2026-09-10"
+vertical = true
+
+[images.miniature]
+src = "D:/uneminutepourcomprendre.fr/content/articles/meduse-venin-peau/youtube-thumbnail.jpg"
+alt = "Miniature de la vidéo UMPC : Le venin de méduse et la peau"
+caption = "Miniature de la vidéo Une Minute Pour Comprendre."
+credit = "Une Minute Pour Comprendre ; miniature de la vidéo"
+
+[[sources]]
+id = "S1"
+authors = "Karabulut A. et al."
+title = "The architecture and operating mechanism of a cnidarian stinging organelle"
+publication = "Karabulut A. et al."
+year = "2022"
+url = "https://www.nature.com/articles/s41467-022-31090-0"
+topic = "Capsule, filament et décharge"
+kind = "Étude originale"
+
+[[sources]]
+id = "S2"
+authors = "Lau M. T. et al."
+title = "Molecular dissection of box jellyfish venom cytotoxicity highlights an effective venom antidote"
+publication = "Lau M. T. et al."
+year = "2019"
+url = "https://www.nature.com/articles/s41467-019-09681-1"
+topic = "Toxicité expérimentale et limites de transposition"
+kind = "Étude originale"
+
+[[sources]]
+id = "S3"
+authors = "NHS"
+title = "Jellyfish and other sea creature stings"
+publication = "NHS"
+year = ""
+url = "https://www.nhs.uk/conditions/jellyfish-and-other-sea-creature-stings/"
+topic = "Aide et premiers secours dans le contexte britannique"
+kind = "Ressource institutionnelle"
+
+[[sources]]
+id = "S4"
+authors = "ANZCOR"
+title = "Guideline 9.4.5: First Aid Management of Marine Envenomation"
+publication = "ANZCOR"
+year = ""
+url = "https://www.anzcor.org/home/first-aid/guideline-9-4-5-first-aid-management-of-marine-envenomation"
+topic = "Différences de prise en charge selon les espèces et situations"
+kind = "Ressource institutionnelle"
+
+[[media_credits]]
+title = "Illustrations et reconstitutions du montage"
+author = "Une Minute Pour Comprendre"
+license = "Créations de la production ; pas des observations scientifiques"
+modifications = "Visuels générés par IA et schémas pédagogiques, animés ou composités. Les photographies et films réels sont crédités séparément lorsqu’ils sont identifiés."

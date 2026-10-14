@@ -1,0 +1,73 @@
+slug = "venin-poison-difference"
+status = "published"
+ready = true
+project_key = "original-17"
+title = "Venin vs Poison : 3 questions pour tester tes réflexes  #quiz"
+short_title = "Venin ou poison : la différence"
+category = "Animaux"
+description = "Venin et poison se distinguent par leur mode d’entrée. Méduse, grenouille et ornithorynque illustrent injection et exposition, avec des limites de vocabulaire."
+lead = "La présence d’une substance toxique ne suffit pas à classer un animal. Le quiz demande comment cette substance atteint l’autre organisme : appareil d’injection ou exposition sans injection spécialisée."
+published = "2026-09-09"
+modified = "2026-10-13"
+cover = "miniature"
+production = "D:/@UMPC/Videos/17 - Quiz Venin ou Poison"
+video_file = "Montage/UMPC 17 - Quiz Venin ou Poison - editable/UMPC 17 - Quiz Venin ou Poison - editable.mp4"
+keywords = ["Venin ou poison : la différence", "Animaux", "Une Minute Pour Comprendre"]
+chapters = []
+method = "Article original rédigé à partir du dossier de production, de la narration et des références citées. Les métadonnées bibliographiques DOI ont été contrôlées auprès de Crossref ; les limites d’accès aux textes et les réserves scientifiques sont conservées. Les illustrations de la vidéo ne constituent pas des preuves expérimentales."
+youtube_description = "Venin ou poison ? L’indice est le mode d’entrée : injection spécialisée ou exposition sans injection. Méduse, grenouille dendrobate et ornithorynque mâle donnent trois exemples. La distinction n’est pas une invitation à toucher les animaux.\n\n#Quiz #Animaux #Science\n\nSources scientifiques et crédits :\nhttps://uneminutepourcomprendre.fr/articles/venin-poison-difference/"
+
+thumbnail_source = "https://i.ytimg.com/vi/Kda2NqZevxc/maxresdefault.jpg"
+credits_status = "Crédits visuels documentés ; voir les éventuelles limites audio"
+sources_status = "Références et nuances contrôlées ; métadonnées DOI vérifiées, accès au texte variable"
+project_keys = ["original-17"]
+description_update_ready = false
+editorial_ready = true
+[video]
+id = "Kda2NqZevxc"
+title = "Venin vs Poison : 3 questions pour tester tes réflexes  #quiz"
+duration_seconds = 44.629002
+upload_date = "2026-09-09"
+vertical = true
+
+[images.miniature]
+src = "D:/uneminutepourcomprendre.fr/content/articles/venin-poison-difference/youtube-thumbnail.jpg"
+alt = "Miniature de la vidéo UMPC : Venin ou poison : la différence"
+caption = "Miniature de la vidéo Une Minute Pour Comprendre."
+credit = "Une Minute Pour Comprendre ; miniature de la vidéo"
+
+[[sources]]
+id = "S1"
+authors = "Natural History Museum"
+title = "Bite or be bitten? Venom vs poison"
+publication = "Natural History Museum"
+year = ""
+url = "https://www.nhm.ac.uk/discover/bite-or-be-bitten.html"
+topic = "Distinction des modes de transmission"
+kind = "Ressource institutionnelle"
+
+[[sources]]
+id = "S2"
+authors = "Smithsonian’s National Zoo"
+title = "Poison frogs"
+publication = "Smithsonian’s National Zoo"
+year = ""
+url = "https://nationalzoo.si.edu/animals/poison-frogs"
+topic = "Toxines cutanées des grenouilles"
+kind = "Ressource institutionnelle"
+
+[[sources]]
+id = "S3"
+authors = "Australian Museum"
+title = "Platypus"
+publication = "Australian Museum"
+year = ""
+url = "https://australian.museum/learn/animals/mammals/platypus/"
+topic = "Éperon et venin de l’ornithorynque mâle"
+kind = "Ressource institutionnelle"
+
+[[media_credits]]
+title = "Illustrations et reconstitutions du montage"
+author = "Une Minute Pour Comprendre"
+license = "Créations de la production ; pas des observations scientifiques"
+modifications = "Visuels générés par IA et schémas pédagogiques, animés ou composités. Les photographies et films réels sont crédités séparément lorsqu’ils sont identifiés."

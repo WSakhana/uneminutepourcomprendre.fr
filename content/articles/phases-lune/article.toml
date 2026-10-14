@@ -1,0 +1,63 @@
+slug = "phases-lune"
+status = "published"
+ready = true
+project_key = "original-09"
+title = "Croissant, demi-lune, pleine lune : voici pourquoi"
+short_title = "Pourquoi la Lune change d’aspect"
+category = "Science"
+description = "Croissant, quartier, pleine lune : les phases dépendent de la partie éclairée visible depuis la Terre. Elles ne viennent pas de l’ombre terrestre."
+lead = "La Lune garde sa forme sphérique tandis que son aspect change. Le Soleil en éclaire une moitié, et notre point de vue sur cette moitié évolue au cours de l’orbite. Les phases sont d’abord une question de géométrie."
+published = "2026-09-04"
+modified = "2026-10-13"
+cover = "miniature"
+production = "D:/@UMPC/Videos/9 - Phases De La Lune"
+video_file = "Montage/UMPC 9 - Phases De La Lune - editable.mp4"
+keywords = ["Pourquoi la Lune change d’aspect", "Science", "Une Minute Pour Comprendre"]
+chapters = []
+method = "Article original rédigé à partir du dossier de production, de la narration et des références citées. Les métadonnées bibliographiques DOI ont été contrôlées auprès de Crossref ; les limites d’accès aux textes et les réserves scientifiques sont conservées. Les illustrations de la vidéo ne constituent pas des preuves expérimentales."
+youtube_description = "La Lune ne change pas de forme : nous voyons une part différente de sa moitié éclairée par le Soleil. Le cycle dure environ 29,5 jours. L’ombre de la Terre produit les éclipses, pas les phases ordinaires.\n\n#Lune #Astronomie #Science\n\nSources scientifiques et crédits :\nhttps://uneminutepourcomprendre.fr/articles/phases-lune/"
+
+thumbnail_source = "https://i.ytimg.com/vi/sKmhSNfCyyg/maxresdefault.jpg"
+credits_status = "Crédits visuels documentés ; voir les éventuelles limites audio"
+sources_status = "Références et nuances contrôlées ; métadonnées DOI vérifiées, accès au texte variable"
+project_keys = ["original-09"]
+description_update_ready = false
+editorial_ready = true
+[video]
+id = "sKmhSNfCyyg"
+title = "Croissant, demi-lune, pleine lune : voici pourquoi"
+duration_seconds = 69.845011
+upload_date = "2026-09-04"
+vertical = true
+
+[images.miniature]
+src = "D:/uneminutepourcomprendre.fr/content/articles/phases-lune/youtube-thumbnail.jpg"
+alt = "Miniature de la vidéo UMPC : Pourquoi la Lune change d’aspect"
+caption = "Miniature de la vidéo Une Minute Pour Comprendre."
+credit = "Une Minute Pour Comprendre ; miniature de la vidéo"
+
+[[sources]]
+id = "S1"
+authors = "NASA"
+title = "Moon Phases"
+publication = "NASA"
+year = ""
+url = "https://science.nasa.gov/moon/moon-phases/"
+topic = "Géométrie des phases et mois synodique"
+kind = "Ressource institutionnelle"
+
+[[sources]]
+id = "S2"
+authors = "NASA"
+title = "Lunar Eclipses"
+publication = "NASA"
+year = ""
+url = "https://science.nasa.gov/moon/lunar-eclipses/"
+topic = "Distinction entre phase et ombre terrestre"
+kind = "Ressource institutionnelle"
+
+[[media_credits]]
+title = "Illustrations et reconstitutions du montage"
+author = "Une Minute Pour Comprendre"
+license = "Créations de la production ; pas des observations scientifiques"
+modifications = "Visuels générés par IA et schémas pédagogiques, animés ou composités. Les photographies et films réels sont crédités séparément lorsqu’ils sont identifiés."

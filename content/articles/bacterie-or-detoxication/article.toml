@@ -1,0 +1,79 @@
+slug = "bacterie-or-detoxication"
+status = "published"
+ready = true
+project_key = "short-13"
+title = "Des bactéries qui transforment le poison en or 💰"
+short_title = "L’or comme défense bactérienne"
+category = "Science"
+description = "Cupriavidus metallidurans transforme des complexes d’or toxiques en nanoparticules métalliques. Elle change une forme chimique, sans créer un nouvel élément."
+lead = "Une bactérie associée à des sols riches en métaux produit de minuscules particules d’or. Ce phénomène relève d’abord de la détoxication : rendre moins problématique une substance déjà présente dans son environnement."
+published = "2026-09-29"
+modified = "2026-10-13"
+cover = "miniature"
+production = "D:/@UMPC-Shorts-Reactions/Videos/13 - Cette bacterie fabrique de l or pour survivre"
+video_file = "Montage/UMPC-R 13 - Cette bacterie fabrique de l or pour survivre.mp4"
+keywords = ["L’or comme défense bactérienne", "Science", "Une Minute Pour Comprendre"]
+chapters = []
+method = "Article original rédigé à partir du dossier de production, de la narration et des références citées. Les métadonnées bibliographiques DOI ont été contrôlées auprès de Crossref ; les limites d’accès aux textes et les réserves scientifiques sont conservées. Les illustrations de la vidéo ne constituent pas des preuves expérimentales."
+youtube_description = "Cette bactérie ne crée pas l’or : elle transforme des complexes d’or toxiques déjà présents en nanoparticules métalliques. Une défense microscopique, surtout dans son enveloppe, qui ne permet pas de fabriquer des lingots à volonté.\n\n#Bacteries #Or #Science\n\nSources scientifiques et crédits :\nhttps://uneminutepourcomprendre.fr/articles/bacterie-or-detoxication/"
+
+thumbnail_source = "https://i.ytimg.com/vi/VB4iFwKyTjg/maxresdefault.jpg"
+credits_status = "Images reprises : licences documentées ; crédits vidéo partiels (conditions de licence audio non documentées)"
+sources_status = "Références et nuances contrôlées ; métadonnées DOI vérifiées, accès au texte variable"
+project_keys = ["short-13"]
+description_update_ready = false
+editorial_ready = true
+[video]
+id = "VB4iFwKyTjg"
+title = "Des bactéries qui transforment le poison en or 💰"
+duration_seconds = 28.416667
+upload_date = "2026-09-29"
+vertical = true
+
+[images.miniature]
+src = "D:/uneminutepourcomprendre.fr/content/articles/bacterie-or-detoxication/youtube-thumbnail.jpg"
+alt = "Miniature de la vidéo UMPC : L’or comme défense bactérienne"
+caption = "Miniature de la vidéo Une Minute Pour Comprendre."
+credit = "Une Minute Pour Comprendre ; miniature de la vidéo"
+
+[[sources]]
+id = "S1"
+authors = "Frank Reith et al."
+title = "Mechanisms of gold biomineralization in the bacterium\n                    <i>Cupriavidus metallidurans</i>"
+publication = "Proceedings of the National Academy of Sciences"
+year = "2009"
+url = "https://doi.org/10.1073/pnas.0904583106"
+topic = "Réponse bactérienne et biominéralisation de l’or"
+kind = "Étude originale"
+doi = "10.1073/pnas.0904583106"
+
+[[sources]]
+id = "S2"
+authors = "Nicole Wiesemann et al."
+title = "Synergistic Toxicity of Copper and Gold Compounds in Cupriavidus metallidurans"
+publication = "Applied and Environmental Microbiology"
+year = "2017"
+url = "https://doi.org/10.1128/aem.01679-17"
+topic = "Toxicité cuivre/or et formation périplasmique"
+kind = "Étude originale"
+doi = "10.1128/aem.01679-17"
+
+[[media_credits]]
+title = "Illustrations et reconstitutions du montage"
+author = "Une Minute Pour Comprendre"
+license = "Créations de la production ; pas des observations scientifiques"
+modifications = "Visuels générés par IA et schémas pédagogiques, animés ou composités. Les photographies et films réels sont crédités séparément lorsqu’ils sont identifiés."
+
+[[media_credits]]
+title = "Musique et effets de la vidéo"
+author = "Provenance à compléter selon les fichiers de production"
+license = "Conditions de réutilisation non établies par le registre consulté"
+modifications = "La provenance complète et les conditions de licence des pistes audio restent à documenter. Aucun fichier audio n’est redistribué sur cette page."
+
+[images.schema]
+video_time = 17.05
+box = [0, 0.25, 1, 0.76]
+alt = "Détail illustratif de deux membranes et de petits grains jaunes"
+caption = "Les grains d’or sont figurés dans l’espace entre deux membranes. L’échelle et la taille des particules sont exagérées pour être visibles."
+credit = "Une Minute Pour Comprendre, illustration de la vidéo · recadrée pour le site"
+generated = true

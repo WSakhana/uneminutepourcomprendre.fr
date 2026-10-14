@@ -1,0 +1,93 @@
+slug = "internet-memoire-archives"
+status = "published"
+ready = true
+project_key = "original-20"
+title = "Pourquoi Internet perd la mémoire ? Sites disparus et archives"
+short_title = "La mémoire fragile d’Internet"
+category = "Science"
+description = "Une adresse inaccessible ne prouve pas que toutes les copies ont disparu. Pages, fichiers et archives expliquent les limites de la mémoire numérique."
+lead = "Internet donne une impression de permanence : une adresse enregistrée semble promettre un retour au même contenu. Pourtant, une URL conserve un emplacement, pas une copie. Préserver demande des fichiers, des supports et des moyens de lecture."
+published = "2026-09-12"
+modified = "2026-10-13"
+cover = "miniature"
+production = "D:/@UMPC/Videos/20 - Pourquoi Internet perd la mémoire"
+video_file = "Montage/20 - Pourquoi Internet perd la mémoire.mp4"
+keywords = ["La mémoire fragile d’Internet", "Science", "Une Minute Pour Comprendre"]
+chapters = []
+method = "Article original rédigé à partir du dossier de production, de la narration et des références citées. Les métadonnées bibliographiques DOI ont été contrôlées auprès de Crossref ; les limites d’accès aux textes et les réserves scientifiques sont conservées. Les illustrations de la vidéo ne constituent pas des preuves expérimentales."
+youtube_description = "Internet peut perdre l’accès à une page sans que toutes ses copies aient disparu. Les archives du Web conservent des captures parfois incomplètes. L’étude de Pew mesure des adresses inaccessibles, pas l’effacement mondial de chaque contenu.\n\n#Internet #ArchivesDuWeb #Science\n\nSources scientifiques et crédits :\nhttps://uneminutepourcomprendre.fr/articles/internet-memoire-archives/"
+
+thumbnail_source = "https://i.ytimg.com/vi/8CGH4U6zXZI/maxresdefault.jpg"
+credits_status = "Crédits visuels documentés ; voir les éventuelles limites audio"
+sources_status = "Références et nuances contrôlées ; métadonnées DOI vérifiées, accès au texte variable"
+project_keys = ["original-20"]
+description_update_ready = false
+editorial_ready = true
+[video]
+id = "8CGH4U6zXZI"
+title = "Pourquoi Internet perd la mémoire ? Sites disparus et archives"
+duration_seconds = 318.438458
+upload_date = "2026-09-12"
+vertical = false
+
+[images.miniature]
+src = "D:/uneminutepourcomprendre.fr/content/articles/internet-memoire-archives/youtube-thumbnail.jpg"
+alt = "Miniature de la vidéo UMPC : La mémoire fragile d’Internet"
+caption = "Miniature de la vidéo Une Minute Pour Comprendre."
+credit = "Une Minute Pour Comprendre ; miniature de la vidéo"
+
+[[sources]]
+id = "S1"
+authors = "Chapekis A. et al., Pew Research Center"
+title = "When Online Content Disappears"
+publication = "Chapekis A. et al., Pew Research Center"
+year = "2024"
+url = "https://www.pewresearch.org/data-labs/2024/05/17/when-online-content-disappears/"
+topic = "Méthode et inaccessibilité des pages mesurée en 2023"
+kind = "Étude originale"
+
+[[sources]]
+id = "S2"
+authors = "NIST"
+title = "SP 800-88 Revision 2: Guidelines for Media Sanitization"
+publication = "NIST"
+year = "2025"
+url = "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r2.pdf"
+topic = "Supports et différence entre suppression et assainissement"
+kind = "Guide technique"
+
+[[sources]]
+id = "S3"
+authors = "Internet Archive"
+title = "Using the Wayback Machine"
+publication = "Internet Archive"
+year = ""
+url = "https://help.archive.org/help/using-the-wayback-machine/"
+topic = "Captures et limites des ressources archivées"
+kind = "Ressource institutionnelle"
+
+[[sources]]
+id = "S4"
+authors = "Bibliothèque nationale de France"
+title = "La Bibliothèque nationale archive les Skyblogs"
+publication = "Bibliothèque nationale de France"
+year = "2023"
+url = "https://www.bnf.fr/fr/la-bibliotheque-nationale-archive-les-skyblogs"
+topic = "Collecte non exhaustive et accès encadré"
+kind = "Ressource institutionnelle"
+
+[[sources]]
+id = "S5"
+authors = "Library of Congress"
+title = "How Long Will Digital Storage Media Last?"
+publication = "Library of Congress"
+year = ""
+url = "https://digitalpreservation.gov/personalarchiving/documents/media_durability.pdf"
+topic = "Durabilité, copies et obsolescence des moyens de lecture"
+kind = "Ressource institutionnelle"
+
+[[media_credits]]
+title = "Illustrations et reconstitutions du montage"
+author = "Une Minute Pour Comprendre"
+license = "Créations de la production ; pas des observations scientifiques"
+modifications = "Visuels générés par IA et schémas pédagogiques, animés ou composités. Les photographies et films réels sont crédités séparément lorsqu’ils sont identifiés."

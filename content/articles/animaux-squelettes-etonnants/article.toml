@@ -5,7 +5,7 @@ category = "Animaux"
 description = "Hippocampe, tortue, requin, girafe… Dix animaux révèlent la diversité des squelettes : os, cartilage, carapaces et pièces calcaires. Deux vidéos et les sources."
 lead = "Une aile de chauve-souris et une nageoire de baleine ont des os en commun avec notre bras. Un requin possède un squelette sans os, tandis qu'une étoile de mer assemble de petites pièces calcaires. Les deux vidéos de cette série explorent dix animaux : voici ce que leurs squelettes racontent, au-delà des apparences."
 published = "2026-10-12"
-modified = "2026-10-12"
+modified = "2026-10-13"
 cover = "couverture"
 production = "D:/@UMPC/Videos/22 - 5 animaux aux squelettes vraiment bizarres"
 video_file = "Montage/UMPC 22 - 5 animaux aux squelettes vraiment b/UMPC 22 - 5 animaux aux squelettes vraiment b.mp4"
@@ -13,6 +13,14 @@ chapters = []
 keywords = ["squelettes animaux", "anatomie comparée", "squelette requin", "carapace tortue", "vertèbres girafe", "aile chauve-souris", "squelette étoile de mer", "urostyle grenouille"]
 method = "Cet article réunit les deux Shorts de la série. Les titres, les dates de publication et les miniatures publiques ont été vérifiés sur YouTube le 12 octobre 2026 : première partie le 13 septembre, seconde le 2 octobre. Les durées viennent des exports finaux locaux. Les images de scène déjà produites ont été recadrées pour l'article ; ce sont des illustrations générées, et non des radiographies ou des documents permettant de compter les pièces squelettiques. La couverture reprend la miniature publique de la première partie. Les pages institutionnelles et les textes des études de Newman et Jayne, Krings et collègues, Richards et collègues et Senevirathne et collègues ont été consultés ; pour Porter et collègues, le résumé de la publication et le communiqué de l'UC San Diego ont été lus. Les métadonnées des études ont été recoupées avec Europe PMC et les publications. Deux références originales sur l'effraie et le développement de l'urostyle complètent les dossiers afin de préciser les simplifications des Shorts."
 
+credits_status = "Images reprises : licences documentées ; crédits vidéo partiels (conditions de licence audio non documentées)"
+sources_status = "Références et nuances contrôlées ; métadonnées DOI vérifiées, accès au texte variable"
+project_key = "original-22"
+project_keys = ["original-22", "short-17"]
+ready = true
+youtube_description = "Os, cartilage, carapaces et petites pièces calcaires : dix animaux montrent différentes architectures de soutien. Les deux vidéos sont réunies avec leurs nuances et leurs sources. Les illustrations ne sont pas des radiographies ni des documents pour compter les pièces.\n\n#Animaux #Squelettes #Science\n\nSources scientifiques et crédits :\nhttps://uneminutepourcomprendre.fr/articles/animaux-squelettes-etonnants/"
+description_update_ready = false
+editorial_ready = true
 [video]
 id = "rwS44FiCKaQ"
 title = "Ces animaux ont un squelette bizarre"
@@ -247,3 +255,15 @@ publication = "Anatomy & Physiology 2e"
 topic = "Ossification endochondrale et intramembraneuse ; le cartilage modèle est remplacé par du tissu osseux"
 url = "https://open.oregonstate.education/anatomy2e/chapter/bone-formation-and-development/"
 kind = "Manuel universitaire de contexte"
+
+[[media_credits]]
+title = "Illustrations et reconstitutions du montage"
+author = "Une Minute Pour Comprendre"
+license = "Créations de la production ; pas des observations scientifiques"
+modifications = "Visuels générés par IA et schémas pédagogiques, animés ou composités. Les photographies et films réels sont crédités séparément lorsqu’ils sont identifiés."
+
+[[media_credits]]
+title = "Musique et effets de la vidéo"
+author = "Provenance à compléter selon les fichiers de production"
+license = "Conditions de réutilisation non établies par le registre consulté"
+modifications = "La provenance complète et les conditions de licence des pistes audio restent à documenter. Aucun fichier audio n’est redistribué sur cette page."

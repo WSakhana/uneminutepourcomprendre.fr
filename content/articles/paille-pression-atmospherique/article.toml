@@ -1,0 +1,77 @@
+slug = "paille-pression-atmospherique"
+status = "published"
+ready = true
+project_key = "short-08"
+title = "Jusqu'à quelle hauteur peut-on boire avec une paille ?"
+short_title = "La hauteur limite d’une paille"
+category = "Science"
+description = "La pression atmosphérique pousse l’eau dans une paille. L’équilibre hydrostatique explique la limite théorique d’environ 10 mètres au niveau de la mer."
+lead = "Aspirer avec une paille abaisse la pression au-dessus du liquide. L’air extérieur pousse alors l’eau vers la bouche. Une paille toujours plus longue révèle la limite de cette différence de pression."
+published = "2026-09-24"
+modified = "2026-10-13"
+cover = "miniature"
+production = "D:/@UMPC-Shorts-Reactions/Videos/8 - Jusqu a quelle hauteur peut-on boire avec une paille"
+video_file = "Montage/UMPC-R 8 - Jusqu a quelle hauteur peut-on boire avec une paille.mp4"
+keywords = ["La hauteur limite d’une paille", "Science", "Une Minute Pour Comprendre"]
+chapters = []
+method = "Article original rédigé à partir du dossier de production, de la narration et des références citées. Les métadonnées bibliographiques DOI ont été contrôlées auprès de Crossref ; les limites d’accès aux textes et les réserves scientifiques sont conservées. Les illustrations de la vidéo ne constituent pas des preuves expérimentales."
+youtube_description = "Une paille fonctionne grâce à une différence de pression. Au niveau de la mer, la limite idéale approche 10 mètres d’eau ; elle est bien inférieure en pratique avec la bouche. Les siphons et l’eau dégazée relèvent de conditions différentes.\n\n#Physique #Paille #Science\n\nSources scientifiques et crédits :\nhttps://uneminutepourcomprendre.fr/articles/paille-pression-atmospherique/"
+
+thumbnail_source = "https://i.ytimg.com/vi/o7yIf_Sbq6c/maxresdefault.jpg"
+credits_status = "Images reprises : licences documentées ; crédits vidéo partiels (conditions de licence audio non documentées)"
+sources_status = "Références et nuances contrôlées ; métadonnées DOI vérifiées, accès au texte variable"
+project_keys = ["short-08"]
+description_update_ready = false
+editorial_ready = true
+[video]
+id = "o7yIf_Sbq6c"
+title = "Jusqu'à quelle hauteur peut-on boire avec une paille ?"
+duration_seconds = 33.333333
+upload_date = "2026-09-24"
+vertical = true
+
+[images.miniature]
+src = "D:/uneminutepourcomprendre.fr/content/articles/paille-pression-atmospherique/youtube-thumbnail.jpg"
+alt = "Miniature de la vidéo UMPC : La hauteur limite d’une paille"
+caption = "Miniature de la vidéo Une Minute Pour Comprendre."
+credit = "Une Minute Pour Comprendre ; miniature de la vidéo"
+
+[[sources]]
+id = "S1"
+authors = "Alviar-Agnew M. et Agnew H."
+title = "11.1: Extra-Long Straws"
+publication = "Alviar-Agnew M. et Agnew H."
+year = ""
+url = "https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Introductory_Chemistry_(LibreTexts)/11:_Gases/11.01:_Extra-Long_Straws"
+topic = "Pression atmosphérique et équilibre hydrostatique"
+kind = "Manuel pédagogique"
+
+[[sources]]
+id = "S2"
+authors = "Boatwright A., Hughes S. et Barry J."
+title = "The height limit of a siphon"
+publication = "Boatwright A., Hughes S. et Barry J."
+year = "2015"
+url = "https://pmc.ncbi.nlm.nih.gov/articles/PMC4667279/"
+topic = "Conditions particulières d’un siphon avec eau dégazée"
+kind = "Étude originale"
+
+[[media_credits]]
+title = "Illustrations et reconstitutions du montage"
+author = "Une Minute Pour Comprendre"
+license = "Créations de la production ; pas des observations scientifiques"
+modifications = "Visuels générés par IA et schémas pédagogiques, animés ou composités. Les photographies et films réels sont crédités séparément lorsqu’ils sont identifiés."
+
+[[media_credits]]
+title = "Musique et effets de la vidéo"
+author = "Provenance à compléter selon les fichiers de production"
+license = "Conditions de réutilisation non établies par le registre consulté"
+modifications = "La provenance complète et les conditions de licence des pistes audio restent à documenter. Aucun fichier audio n’est redistribué sur cette page."
+
+[images.schema]
+video_time = 32.3
+box = [0, 0.1, 1, 0.86]
+alt = "Deux colonnes d’eau illustrent une limite différente selon la pression"
+caption = "Comparaison schématique : le repère d’altitude est arrondi et dépend de la pression atmosphérique. Ce n’est pas un essai d’aspiration humaine."
+credit = "Une Minute Pour Comprendre, illustration de la vidéo · recadrée pour le site"
+generated = true

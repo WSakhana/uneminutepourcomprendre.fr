@@ -5,7 +5,7 @@ category = "Animaux"
 description = "Pourquoi une piqûre de tique passe-t-elle souvent inaperçue ? Ancrage, salive, signaux de douleur et rôle de Salp15 dans les études sur Lyme."
 lead = "Une tique peut rester fixée à la peau pendant plusieurs jours sans attirer l'attention. Comment tient-elle aussi longtemps, et pourquoi la piqûre fait-elle souvent si peu mal ? Sa salive agit sur plusieurs réactions de défense, avec des mécanismes qui varient selon les espèces."
 published = "2026-10-06"
-modified = "2026-10-12"
+modified = "2026-10-13"
 cover = "miniature"
 keywords = ["piqûre de tique", "tique indolore", "salive de tique", "bradykinine", "histamine", "Ixodes ricinus", "Borrelia", "Salp15"]
 production = "D:/@UMPC-Shorts-Reactions/Videos/25 - Pourquoi tu ne sens pas la tique"
@@ -13,6 +13,14 @@ video_file = "Montage/UMPC-R 25 - Pourquoi tu ne sens pas la tique.mp4"
 chapters = []
 method = "Cet article développe le Short publié le 6 octobre 2026. Le titre et la date ont été vérifiés sur YouTube ; la couverture est sa miniature publique, relevée le 7 octobre, et non la proposition conservée dans le dossier de production. Les revues de Kazimírová et Štibrániová et de Suppan et collègues ont été consultées en texte intégral ; les études de Ribeiro et Mather, Paesen et collègues et Ramamoorthi et collègues ont été consultées par leur résumé. Les métadonnées scientifiques ont été recoupées avec Crossref, Europe PMC ou PubMed. Les photographies et le schéma du NIAID sont distingués des illustrations générées de la vidéo."
 
+credits_status = "Images reprises : licences documentées ; crédits vidéo partiels (conditions de licence audio non documentées)"
+sources_status = "Références et nuances contrôlées ; métadonnées DOI vérifiées, accès au texte variable"
+project_key = "short-25"
+project_keys = ["short-25"]
+ready = true
+youtube_description = "Une tique peut rester attachée pendant des jours sans se faire sentir. Son ancrage et sa salive modifient les interactions avec l’hôte. Les résultats sur certains composants et espèces ne doivent pas être généralisés à toutes les tiques.\n\n#Tique #Biologie #Science\n\nSources scientifiques et crédits :\nhttps://uneminutepourcomprendre.fr/articles/pourquoi-piqure-tique-indolore/"
+description_update_ready = false
+editorial_ready = true
 [video]
 id = "NL2wpimaA6s"
 title = "Une tique boit ton sang pendant des jours, sans se faire sentir"
@@ -127,3 +135,71 @@ year = "2024"
 topic = "Transmission d'agents pathogènes par la salive et borréliose de Lyme liée à Ixodes ricinus en France"
 url = "https://www.santepubliquefrance.fr/les-actualites/maladies-vectorielles-a-tique-bien-se-proteger-pendant-la-saison-dactivite-des-tiques"
 kind = "Contexte institutionnel de santé"
+
+[[media_credits]]
+title = "Tick, Ixodes ricinus, soaked (Pixabay 41573)"
+author = "pictavio"
+license = "Pixabay Content License"
+url = "https://pixabay.com/videos/id-41573/"
+license_url = "https://pixabay.com/service/license-summary/"
+modifications = "Dans la vidéo : étalonnage, annotations."
+
+[[media_credits]]
+title = "Detailed macro image of a castor bean tick (Ixodes ricinus) on human skin."
+author = "Erik Karits"
+license = "Pexels License"
+url = "https://www.pexels.com/photo/a-tick-is-on-the-skin-of-a-person-18152646/"
+license_url = "https://www.pexels.com/license/"
+modifications = "Dans la vidéo : recadrage."
+
+[[media_credits]]
+title = "Ixodes Scapularis Mouth Parts (NIH BioArt 263).png"
+author = "NIAID, Ryan Kissinger (NIH BioArt 263)"
+license = "Public domain"
+url = "https://commons.wikimedia.org/?curid=178926872"
+license_url = ""
+modifications = "Média illustratif intégré à la vidéo ; présentation adaptée au montage."
+
+[[media_credits]]
+title = "man-scratching-his-forearm-10973444"
+author = "Towfiqu barbhuiya"
+license = "Pexels License"
+url = "https://www.pexels.com/video/man-scratching-his-forearm-10973444/"
+license_url = "https://www.pexels.com/license/"
+modifications = "Dans la vidéo : recadrage, son original retiré."
+
+[[media_credits]]
+title = "Lyme Disease Bacteria, Borrelia burgdorferi - 1.jpg"
+author = "NIAID"
+license = "CC BY 2.0"
+url = "https://commons.wikimedia.org/?curid=149795518"
+license_url = "https://creativecommons.org/licenses/by/2.0"
+modifications = "Dans la vidéo : annotations."
+
+[[media_credits]]
+title = "hypostome-schema_commons_niaid-bioart263.png"
+author = "NIAID, Ryan Kissinger (NIH BioArt Source)"
+license = "Public domain (étiquette de la page Commons)"
+url = "https://commons.wikimedia.org/wiki/File:Ixodes_Scapularis_Mouth_Parts_(NIH_BioArt_263"
+license_url = ""
+modifications = "original téléchargé ; transformations du montage à consigner dans le BRIEF."
+
+[[media_credits]]
+title = "borrelia_commons_niaid-149795518.jpg"
+author = "NIAID (source Flickr : https://www.flickr.com/photos/54591706@N02/53734231876/)"
+license = "CC BY 2.0"
+url = "https://commons.wikimedia.org/wiki/File:Lyme_Disease_Bacteria,_Borrelia_burgdorferi_-_1.jpg"
+license_url = "https://creativecommons.org/licenses/by/2.0"
+modifications = "original téléchargé ; transformations du montage à consigner dans le BRIEF."
+
+[[media_credits]]
+title = "Illustrations et reconstitutions du montage"
+author = "Une Minute Pour Comprendre"
+license = "Créations de la production ; pas des observations scientifiques"
+modifications = "Visuels générés par IA et schémas pédagogiques, animés ou composités. Les photographies et films réels sont crédités séparément lorsqu’ils sont identifiés."
+
+[[media_credits]]
+title = "Musique et effets de la vidéo"
+author = "Provenance à compléter selon les fichiers de production"
+license = "Conditions de réutilisation non établies par le registre consulté"
+modifications = "La provenance complète et les conditions de licence des pistes audio restent à documenter. Aucun fichier audio n’est redistribué sur cette page."

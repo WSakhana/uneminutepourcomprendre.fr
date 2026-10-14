@@ -11,6 +11,20 @@ ErrorDocument 404 /404.html
 # Redirections vers https://uneminutepourcomprendre.fr (sans www).
 <IfModule mod_rewrite.c>
   RewriteEngine On
+# youtube-drafts:start
+RewriteRule ^(?:articles|assets/img/articles)/algue\-optogenetique(?:/|$) - [R=404,L]
+RewriteRule ^(?:articles|assets/img/articles)/animaux\-vol\-sans\-ailes(?:/|$) - [R=404,L]
+RewriteRule ^(?:articles|assets/img/articles)/bacteries\-or\-quantites(?:/|$) - [R=404,L]
+RewriteRule ^(?:articles|assets/img/articles)/bienvenue\-umpc(?:/|$) - [R=404,L]
+RewriteRule ^(?:articles|assets/img/articles)/chien\-clignement\-experience(?:/|$) - [R=404,L]
+RewriteRule ^(?:articles|assets/img/articles)/coeur\-greffe\-age\-biologique(?:/|$) - [R=404,L]
+RewriteRule ^(?:articles|assets/img/articles)/crevette\-couleur\-astaxanthine(?:/|$) - [R=404,L]
+RewriteRule ^(?:articles|assets/img/articles)/elephants\-gestes\-communication(?:/|$) - [R=404,L]
+RewriteRule ^(?:articles|assets/img/articles)/lumiere\-soleil\-planetes(?:/|$) - [R=404,L]
+RewriteRule ^(?:articles|assets/img/articles)/organes\-piquants\-tailles(?:/|$) - [R=404,L]
+RewriteRule ^(?:articles|assets/img/articles)/ortie\-poils\-urticants(?:/|$) - [R=404,L]
+RewriteRule ^(?:articles|assets/img/articles)/venin\-poison\-animaux\-pieges(?:/|$) - [R=404,L]
+# youtube-drafts:end
   RewriteCond %{HTTP:X-Forwarded-Proto} !https
   RewriteCond %{HTTPS} off
   RewriteRule ^ https://uneminutepourcomprendre.fr%{REQUEST_URI} [L,R=301]

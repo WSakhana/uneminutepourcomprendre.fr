@@ -1676,10 +1676,20 @@ a {
 
 .credits ul {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: 0.7rem;
   margin-top: 1rem;
   font-size: 0.95rem;
   color: var(--text);
+}
+
+.credits li {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.prose section[id^="references-video-"] {
+  overflow-wrap: anywhere;
 }
 
 .article-cta {

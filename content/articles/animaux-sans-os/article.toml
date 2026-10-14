@@ -1,0 +1,238 @@
+slug = "animaux-sans-os"
+status = "published"
+ready = true
+project_key = "long-01"
+title = "Comment ces animaux vivent-ils SANS os ?"
+short_title = "Vivre sans os"
+category = "Animaux"
+description = "Requin, méduse, escargot et pieuvre utilisent cartilage, tissus souples ou coquille. Vivre sans os ne signifie pas vivre sans soutien ni protection."
+lead = "Les os ne sont qu’une solution parmi d’autres pour soutenir un corps. Un requin possède un squelette cartilagineux ; une méduse utilise des tissus souples et le milieu aquatique ; un escargot sécrète une coquille ; les bras d’une pieuvre se soutiennent par leur organisation musculaire."
+published = "2026-09-25"
+modified = "2026-10-13"
+cover = "miniature"
+production = "D:/@UMPC-Long/Videos/1 - Pourquoi ces animaux vivent tres bien sans aucun os"
+video_file = "Montage/v1_video_finale.mp4"
+keywords = ["Vivre sans os", "Animaux", "Une Minute Pour Comprendre"]
+chapters = []
+method = "Article original rédigé à partir du dossier de production, de la narration et des références citées. Les métadonnées bibliographiques DOI ont été contrôlées auprès de Crossref ; les limites d’accès aux textes et les réserves scientifiques sont conservées. Les illustrations de la vidéo ne constituent pas des preuves expérimentales."
+youtube_description = "Vivre sans os ne signifie pas vivre sans soutien. Requin, méduse, escargot et pieuvre utilisent cartilage, tissus souples, coquille ou hydrostat musculaire. Les performances observées concernent des organismes et des conditions précis.\n\n#Animaux #Biologie #Science\n\nSources scientifiques et crédits :\nhttps://uneminutepourcomprendre.fr/articles/animaux-sans-os/"
+
+thumbnail_source = "https://i.ytimg.com/vi/gY7r2WtTu-w/maxresdefault.jpg"
+credits_status = "Images reprises : licences documentées ; crédits vidéo partiels (tessellated_cartilage_wikimedia_141892694.jpg ; conditions de licence audio non documentées)"
+sources_status = "Références et nuances contrôlées ; métadonnées DOI vérifiées, accès au texte variable"
+project_keys = ["long-01"]
+description_update_ready = false
+editorial_ready = true
+[video]
+id = "gY7r2WtTu-w"
+title = "Comment ces animaux vivent-ils SANS os ?"
+duration_seconds = 216.833333
+upload_date = "2026-09-25"
+vertical = false
+
+[images.miniature]
+src = "D:/uneminutepourcomprendre.fr/content/articles/animaux-sans-os/youtube-thumbnail.jpg"
+alt = "Miniature de la vidéo UMPC : Vivre sans os"
+caption = "Miniature de la vidéo Une Minute Pour Comprendre."
+credit = "Une Minute Pour Comprendre ; miniature de la vidéo"
+
+[[sources]]
+id = "S1"
+authors = "Natural History Museum"
+title = "Do sharks have bones?"
+publication = "Natural History Museum"
+year = ""
+url = "https://www.nhm.ac.uk/discover/quick-questions/do-sharks-have-bones.html"
+topic = "Squelette cartilagineux et comparaison avec le cartilage humain"
+kind = "Ressource institutionnelle"
+
+[[sources]]
+id = "S2"
+authors = "Ronald Seidel et al."
+title = "The multiscale architecture of tessellated cartilage and its relation to function"
+publication = "Journal of Fish Biology"
+year = "2020"
+url = "https://doi.org/10.1111/jfb.14444"
+topic = "Architecture du cartilage tessellé"
+kind = "Revue scientifique"
+doi = "10.1111/jfb.14444"
+
+[[sources]]
+id = "S3"
+authors = "NOAA Ocean Service"
+title = "What are jellyfish made of?"
+publication = "NOAA Ocean Service"
+year = ""
+url = "https://oceanservice.noaa.gov/facts/jellyfish.html"
+topic = "Organisation gélatineuse et composition générale"
+kind = "Ressource institutionnelle"
+
+[[sources]]
+id = "S4"
+authors = "Brad J. Gemmell et al."
+title = "Passive energy recapture in jellyfish contributes to propulsive advantage over other metazoans"
+publication = "Proceedings of the National Academy of Sciences"
+year = "2013"
+url = "https://doi.org/10.1073/pnas.1306983110"
+topic = "Récupération passive d’énergie et coût de transport de la méduse lune"
+kind = "Étude originale"
+doi = "10.1073/pnas.1306983110"
+
+[[sources]]
+id = "S5"
+authors = "Encyclopaedia Britannica"
+title = "Gastropod: The shell"
+publication = "Encyclopaedia Britannica"
+year = ""
+url = "https://www.britannica.com/animal/gastropod/The-shell"
+topic = "Formation et croissance de la coquille"
+kind = "Référence zoologique"
+
+[[sources]]
+id = "S6"
+authors = "Kier W. M. et Smith K. K."
+title = "Tongues, tentacles and trunks: the biomechanics of movement in muscular-hydrostats"
+publication = "Kier W. M. et Smith K. K."
+year = "1985"
+url = "https://academic.oup.com/zoolinnean/article-abstract/83/4/307/2648636"
+topic = "Soutien et mouvement par hydrostats musculaires"
+kind = "Étude biomécanique"
+
+[images.document]
+src = "media/images/shark_arthrodire_endoskeletons_wikimedia_152350251.jpg"
+alt = "Schéma comparant les squelettes d’un arthrodire et d’un requin"
+caption = "Document d’anatomie comparée utilisé dans la vidéo ; les os et cartilages sont distingués par l’illustration scientifique originale."
+credit = "Russell K. Engelman ; source de publication https://doi.org/10.26879/1343 · CC BY 4.0, https://creativecommons.org/licenses/by/4.0 · version WebP redimensionnée pour le site"
+credit_url = "https://commons.wikimedia.org/wiki/File:Arthrodire_and_shark_endoskeletons.jpg"
+
+[[media_credits]]
+title = "shark_blacktip_profile_pixabay_182914.mp4"
+author = "waiguobox"
+license = "Pixabay Content License (résumé)"
+url = "https://pixabay.com/videos/id-182914/"
+license_url = "https://pixabay.com/service/license-summary/"
+modifications = "original téléchargé."
+
+[[media_credits]]
+title = "sharks_open_water_pexels_10305571.mp4"
+author = "Sébastien Vincon"
+license = "Pexels License"
+url = "https://www.pexels.com/video/school-of-sharks-underwater-10305571/"
+license_url = "https://www.pexels.com/license/"
+modifications = "original téléchargé."
+
+[[media_credits]]
+title = "shark_sandtiger_jaw_pixabay_6681.mp4"
+author = "oadtz"
+license = "Pixabay Content License (résumé)"
+url = "https://pixabay.com/videos/id-6681/"
+license_url = "https://pixabay.com/service/license-summary/"
+modifications = "original téléchargé."
+
+[[media_credits]]
+title = "shark_arthrodire_endoskeletons_wikimedia_152350251.jpg"
+author = "Russell K. Engelman ; source de publication https://doi.org/10.26879/1343"
+license = "CC BY 4.0, https://creativecommons.org/licenses/by/4.0"
+url = "https://commons.wikimedia.org/wiki/File:Arthrodire_and_shark_endoskeletons.jpg"
+license_url = "https://creativecommons.org/licenses/by/4.0"
+modifications = "original téléchargé."
+
+[[media_credits]]
+title = "tessellated_cartilage_wikimedia_141892694.jpg"
+author = ""
+license = "CC BY 4.0, https://creativecommons.org/licenses/by/4.0"
+url = "https://commons.wikimedia.org/wiki/File:Chondrichthyes_cartilage_structure.jpg"
+license_url = "https://creativecommons.org/licenses/by/4.0"
+modifications = "original téléchargé."
+
+[[media_credits]]
+title = "moon_jellyfish_wild_wikimedia_32753304.jpg"
+author = "Alexander Vasenin (œuvre personnelle)"
+license = "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0"
+url = "https://commons.wikimedia.org/wiki/File:Moon_jellyfish_at_Gota_Sagher.JPG"
+license_url = "https://creativecommons.org/licenses/by-sa/3.0"
+modifications = "original téléchargé."
+
+[[media_credits]]
+title = "moon_jellyfish_pulse_pexels_27050820.mp4"
+author = "Amar Preciado"
+license = "Pexels License"
+url = "https://www.pexels.com/video/jellyfish-in-a-dark-room-with-purple-lights-27050820/"
+license_url = "https://www.pexels.com/license/"
+modifications = "original téléchargé."
+
+[[media_credits]]
+title = "moon_jellyfish_group_pixabay_137572.mp4"
+author = "MagyarokMauritiuson"
+license = "Pixabay Content License (résumé)"
+url = "https://pixabay.com/videos/id-137572/"
+license_url = "https://pixabay.com/service/license-summary/"
+modifications = "original téléchargé."
+
+[[media_credits]]
+title = "beached_jellyfish_wikimedia_3593848.JPG"
+author = "BrokenSphere (œuvre personnelle)"
+license = "CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0"
+url = "https://commons.wikimedia.org/wiki/File:Beached_jellyfish_Ocean_Beach_SF.JPG"
+license_url = "https://creativecommons.org/licenses/by-sa/3.0"
+modifications = "original téléchargé. Extension .JPG conservée comme l'original (le téléchargement en .jpg a échoué une première fois)."
+
+[[media_credits]]
+title = "snail_shell_closeup_pexels_954009.mp4"
+author = "emirkhan bal"
+license = "Pexels License"
+url = "https://www.pexels.com/video/close-up-video-of-a-snail-954009/"
+license_url = "https://www.pexels.com/license/"
+modifications = "original téléchargé."
+
+[[media_credits]]
+title = "snail_moss_pixabay_169471.mp4"
+author = "adege"
+license = "Pixabay Content License (résumé)"
+url = "https://pixabay.com/videos/id-169471/"
+license_url = "https://pixabay.com/service/license-summary/"
+modifications = "original téléchargé."
+
+[[media_credits]]
+title = "octopus_walking_pixabay_1198.mp4"
+author = "Vimeo-Free-Videos"
+license = "Pixabay Content License (résumé)"
+url = "https://pixabay.com/videos/id-1198/"
+license_url = "https://pixabay.com/service/license-summary/"
+modifications = "original téléchargé."
+
+[[media_credits]]
+title = "octopus_rock_pexels_15623348.mp4"
+author = "Jozef Papp"
+license = "Pexels License"
+url = "https://www.pexels.com/video/underwater-footage-of-an-octopus-swimming-in-the-sea-15623348/"
+license_url = "https://www.pexels.com/license/"
+modifications = "original téléchargé."
+
+[[media_credits]]
+title = "elephant_walking_pexels_16266296.mp4"
+author = "Abhay Kumar"
+license = "Pexels License"
+url = "https://www.pexels.com/video/an-elephant-walking-down-a-dirt-road-near-a-road-16266296/"
+license_url = "https://www.pexels.com/license/"
+modifications = "original téléchargé."
+
+[[media_credits]]
+title = "human_skeleton_front_wikimedia_5259890.svg"
+author = "Mikael Häggström, d'après « Human skeleton front.svg » de Mariana Ruiz Villarreal"
+license = "domaine public (métadonnées Commons : Public domain, attribution non exigée)"
+url = "https://commons.wikimedia.org/wiki/File:Human_skeleton_front_-_no_labels.svg"
+license_url = ""
+modifications = "Média illustratif intégré à la vidéo ; présentation adaptée au montage."
+
+[[media_credits]]
+title = "Illustrations et reconstitutions du montage"
+author = "Une Minute Pour Comprendre"
+license = "Créations de la production ; pas des observations scientifiques"
+modifications = "Visuels générés par IA et schémas pédagogiques, animés ou composités. Les photographies et films réels sont crédités séparément lorsqu’ils sont identifiés."
+
+[[media_credits]]
+title = "Musique et effets de la vidéo"
+author = "Provenance à compléter selon les fichiers de production"
+license = "Conditions de réutilisation non établies par le registre consulté"
+modifications = "La provenance complète et les conditions de licence des pistes audio restent à documenter. Aucun fichier audio n’est redistribué sur cette page."

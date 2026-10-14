@@ -1,0 +1,76 @@
+slug = "bacteries-quorum-sensing"
+status = "published"
+ready = true
+project_key = "original-23"
+title = "Le réseau social invisible des bactéries"
+short_title = "Les signaux des bactéries"
+category = "Science"
+description = "Le quorum sensing relie signaux chimiques et régulation des gènes. Il participe à certains biofilms, sans être un langage universel ni leur unique cause."
+lead = "Une communauté de bactéries peut modifier son comportement lorsque des molécules de signal s’accumulent. La métaphore du réseau social rend cette coordination familière, mais il s’agit de chimie et de régulation biologique."
+published = "2026-09-16"
+modified = "2026-10-13"
+cover = "miniature"
+production = "D:/@UMPC/Videos/23 - Le réseau social invisible des bactéries"
+video_file = "Montage/UMPC 23 - Le réseau social invisible des bact/UMPC 23 - Le réseau social invisible des bact.mp4"
+keywords = ["Les signaux des bactéries", "Science", "Une Minute Pour Comprendre"]
+chapters = []
+method = "Article original rédigé à partir du dossier de production, de la narration et des références citées. Les métadonnées bibliographiques DOI ont été contrôlées auprès de Crossref ; les limites d’accès aux textes et les réserves scientifiques sont conservées. Les illustrations de la vidéo ne constituent pas des preuves expérimentales."
+youtube_description = "Des bactéries se coordonnent grâce à des signaux chimiques : le quorum sensing. Il participe à l’organisation de certains biofilms, dont des modèles de plaque dentaire. Ce n’est ni un langage universel ni la seule cause de leur formation.\n\n#Bacteries #Microbiologie #Science\n\nSources scientifiques et crédits :\nhttps://uneminutepourcomprendre.fr/articles/bacteries-quorum-sensing/"
+
+thumbnail_source = "https://i.ytimg.com/vi/1QLrOEuI9jo/maxresdefault.jpg"
+credits_status = "Crédits visuels documentés ; voir les éventuelles limites audio"
+sources_status = "Références et nuances contrôlées ; métadonnées DOI vérifiées, accès au texte variable"
+project_keys = ["original-23"]
+description_update_ready = false
+editorial_ready = true
+[video]
+id = "1QLrOEuI9jo"
+title = "Le réseau social invisible des bactéries"
+duration_seconds = 37.105011
+upload_date = "2026-09-16"
+vertical = true
+
+[images.miniature]
+src = "D:/uneminutepourcomprendre.fr/content/articles/bacteries-quorum-sensing/youtube-thumbnail.jpg"
+alt = "Miniature de la vidéo UMPC : Les signaux des bactéries"
+caption = "Miniature de la vidéo Une Minute Pour Comprendre."
+credit = "Une Minute Pour Comprendre ; miniature de la vidéo"
+
+[[sources]]
+id = "S1"
+authors = "Christopher M. Waters et al."
+title = "QUORUM SENSING: Cell-to-Cell Communication in Bacteria"
+publication = "Annual Review of Cell and Developmental Biology"
+year = "2005"
+url = "https://doi.org/10.1146/annurev.cellbio.21.012704.131001"
+topic = "Production, réception et diversité des signaux"
+kind = "Revue scientifique"
+doi = "10.1146/annurev.cellbio.21.012704.131001"
+
+[[sources]]
+id = "S2"
+authors = "Philip D Marsh"
+title = "Dental plaque as a biofilm and a microbial community – implications for health and disease"
+publication = "BMC Oral Health"
+year = "2006"
+url = "https://doi.org/10.1186/1472-6831-6-s1-s14"
+topic = "Plaque comme biofilm et communauté"
+kind = "Revue scientifique"
+doi = "10.1186/1472-6831-6-s1-s14"
+
+[[sources]]
+id = "S3"
+authors = "Yung-Hua Li et al."
+title = "A Quorum-Sensing Signaling System Essential for Genetic Competence in\n            <i>Streptococcus mutans</i>\n            Is Involved in Biofilm Formation"
+publication = "Journal of Bacteriology"
+year = "2002"
+url = "https://doi.org/10.1128/jb.184.10.2699-2708.2002"
+topic = "Effet de la signalisation sur un biofilm en laboratoire"
+kind = "Étude originale"
+doi = "10.1128/jb.184.10.2699-2708.2002"
+
+[[media_credits]]
+title = "Illustrations et reconstitutions du montage"
+author = "Une Minute Pour Comprendre"
+license = "Créations de la production ; pas des observations scientifiques"
+modifications = "Visuels générés par IA et schémas pédagogiques, animés ou composités. Les photographies et films réels sont crédités séparément lorsqu’ils sont identifiés."

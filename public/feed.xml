@@ -6,7 +6,15 @@
     <atom:link href="https://uneminutepourcomprendre.fr/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Vulgarisation scientifique en vidéo : des phénomènes étonnants de la science, des animaux, du corps humain et de la nature expliqués simplement et en images.</description>
     <language>fr-FR</language>
-    <lastBuildDate>Mon, 12 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>La lave paraît solide... regarde dessous</title>
+      <link>https://uneminutepourcomprendre.fr/articles/lave-croute-liquide/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/lave-croute-liquide/</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Nature</category>
+      <description>Une coulée basaltique peut former une croûte sombre tandis que son intérieur reste liquide. Les images du Kīlauea montrent cette coexistence.</description>
+    </item>
     <item>
       <title>10 animaux aux squelettes étonnants : des os aux carapaces</title>
       <link>https://uneminutepourcomprendre.fr/articles/animaux-squelettes-etonnants/</link>
@@ -14,6 +22,30 @@
       <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
       <category>Animaux</category>
       <description>Hippocampe, tortue, requin, girafe… Dix animaux révèlent la diversité des squelettes : os, cartilage, carapaces et pièces calcaires. Deux vidéos et les sources.</description>
+    </item>
+    <item>
+      <title>Ta pizza cache π #NombrePi</title>
+      <link>https://uneminutepourcomprendre.fr/articles/pizza-nombre-pi/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/pizza-nombre-pi/</guid>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Science</category>
+      <description>Le rapport entre circonférence et diamètre vaut π pour un cercle. La pizza fournit un repère visuel ; une mesure réelle reste approximative.</description>
+    </item>
+    <item>
+      <title>Neutrinos : comment détecter ce qui traverse la Terre ?</title>
+      <link>https://uneminutepourcomprendre.fr/articles/neutrinos-detection-icecube/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/neutrinos-detection-icecube/</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Science</category>
+      <description>IceCube observe la lumière de particules secondaires produites lors de rares interactions de neutrinos dans la glace. Le neutrino ne brille pas directement.</description>
+    </item>
+    <item>
+      <title>La mouche prépare sa fuite avant que ta main arrive</title>
+      <link>https://uneminutepourcomprendre.fr/articles/mouche-preparation-fuite/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/mouche-preparation-fuite/</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Animaux</category>
+      <description>La drosophile ajuste ses pattes avant de décoller face à une menace visuelle. Les observations révèlent une préparation du saut, sans décision consciente.</description>
     </item>
     <item>
       <title>Moustique tigre : comment il prépare l’hiver</title>
@@ -32,6 +64,46 @@
       <description>Pourquoi une piqûre de tique passe-t-elle souvent inaperçue ? Ancrage, salive, signaux de douleur et rôle de Salp15 dans les études sur Lyme.</description>
     </item>
     <item>
+      <title>Terre, Mars, Vénus : qui tourne le plus vite ?</title>
+      <link>https://uneminutepourcomprendre.fr/articles/rotation-astres/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/rotation-astres/</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Science</category>
+      <description>Terre, Mars, Lune, Soleil, Vénus et Uranus : comparer leurs rotations distingue jour sidéral, révolution et arrondis sur une période de trente jours.</description>
+    </item>
+    <item>
+      <title>Méduse : pourquoi un simple contact te brûle ?</title>
+      <link>https://uneminutepourcomprendre.fr/articles/meduse-piqure-nematocystes/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/meduse-piqure-nematocystes/</guid>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Animaux</category>
+      <description>Les méduses injectent du venin grâce à des capsules urticantes. Décharge du filament, douleur et différences entre espèces expliquent le contact qui brûle.</description>
+    </item>
+    <item>
+      <title>La Painite, ex-pierre la plus rare du monde !</title>
+      <link>https://uneminutepourcomprendre.fr/articles/painite-kyawthuite-rarete/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/painite-kyawthuite-rarete/</guid>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Nature</category>
+      <description>La painite était connue par quelques cristaux avant de nouvelles découvertes. La kyawthuite montre pourquoi rareté et nombre d’échantillons doivent être datés.</description>
+    </item>
+    <item>
+      <title>Où le colibri range-t-il sa langue ?</title>
+      <link>https://uneminutepourcomprendre.fr/articles/colibri-os-langue-crane/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/colibri-os-langue-crane/</guid>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Animaux</category>
+      <description>Les longues cornes de l’appareil hyoïde du colibri contournent son crâne. Leur déplacement aide la langue à sortir, sans traverser le cerveau.</description>
+    </item>
+    <item>
+      <title>Cet animal se refroidit avec... sa morve 🤢</title>
+      <link>https://uneminutepourcomprendre.fr/articles/echidne-bulles-refroidissement/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/echidne-bulles-refroidissement/</guid>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+      <category>Animaux</category>
+      <description>L’échidné souffle des bulles qui humidifient le bout du bec. L’évaporation contribue au refroidissement, avec d’autres fenêtres thermiques de son corps.</description>
+    </item>
+    <item>
       <title>Un astéroïde de 340m passera plus près que nos satellites en 2029 !</title>
       <link>https://uneminutepourcomprendre.fr/articles/apophis-2029-plus-pres-que-nos-satellites/</link>
       <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/apophis-2029-plus-pres-que-nos-satellites/</guid>
@@ -46,6 +118,214 @@
       <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
       <category>Science</category>
       <description>Or transformé en grains solides, cellule visible à l&#x27;œil nu, boussole interne, câbles vivants, ADN reconstruit : six bactéries étonnantes et leurs limites.</description>
+    </item>
+    <item>
+      <title>Des bactéries qui transforment le poison en or 💰</title>
+      <link>https://uneminutepourcomprendre.fr/articles/bacterie-or-detoxication/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/bacterie-or-detoxication/</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Science</category>
+      <description>Cupriavidus metallidurans transforme des complexes d’or toxiques en nanoparticules métalliques. Elle change une forme chimique, sans créer un nouvel élément.</description>
+    </item>
+    <item>
+      <title>Toucher, c&#x27;est goûter pour la pieuvre !</title>
+      <link>https://uneminutepourcomprendre.fr/articles/pieuvre-gout-toucher/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/pieuvre-gout-toucher/</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Animaux</category>
+      <description>Les ventouses de la pieuvre détectent des substances au contact. Récepteurs chimiques, toucher et circuits des bras coopèrent, sans huit cerveaux indépendants.</description>
+    </item>
+    <item>
+      <title>Bactéries vs Cancer : qui gagne ? 🦠</title>
+      <link>https://uneminutepourcomprendre.fr/articles/bacteries-medicament-tumeur/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/bacteries-medicament-tumeur/</guid>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Science</category>
+      <description>Des bactéries modifiées convertissent une molécule en chimiothérapie dans des modèles murins. Une piste préclinique, sans efficacité humaine démontrée.</description>
+    </item>
+    <item>
+      <title>Comment ces animaux vivent-ils SANS os ?</title>
+      <link>https://uneminutepourcomprendre.fr/articles/animaux-sans-os/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/animaux-sans-os/</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Animaux</category>
+      <description>Requin, méduse, escargot et pieuvre utilisent cartilage, tissus souples ou coquille. Vivre sans os ne signifie pas vivre sans soutien ni protection.</description>
+    </item>
+    <item>
+      <title>Le colibri : une pompe miniature ? #nature #science #animaux</title>
+      <link>https://uneminutepourcomprendre.fr/articles/colibri-langue-micropompe/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/colibri-langue-micropompe/</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Animaux</category>
+      <description>La langue du colibri se remplit par déformation élastique. Compression, réouverture et transport du nectar expliquent pourquoi elle n’est pas une paille.</description>
+    </item>
+    <item>
+      <title>Jusqu&#x27;à quelle hauteur peut-on boire avec une paille ?</title>
+      <link>https://uneminutepourcomprendre.fr/articles/paille-pression-atmospherique/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/paille-pression-atmospherique/</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Science</category>
+      <description>La pression atmosphérique pousse l’eau dans une paille. L’équilibre hydrostatique explique la limite théorique d’environ 10 mètres au niveau de la mer.</description>
+    </item>
+    <item>
+      <title>Venin de scorpion : comment il fait mal sans abîmer la peau ?</title>
+      <link>https://uneminutepourcomprendre.fr/articles/scorpion-venin-douleur/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/scorpion-venin-douleur/</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Animaux</category>
+      <description>Le venin du scorpion d’Arizona agit sur des canaux des nerfs. Une souris-sauterelle résiste par un mécanisme différent, sans immunité à tous les venins.</description>
+    </item>
+    <item>
+      <title>Ton chat imite les pleurs d&#x27;un bébé ? 👶</title>
+      <link>https://uneminutepourcomprendre.fr/articles/chat-ronronnement-sollicitation/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/chat-ronronnement-sollicitation/</guid>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Animaux</category>
+      <description>Certains ronronnements contiennent un son aigu qui accentue l’urgence perçue. Une expérience d’écoute teste son effet, sans démontrer une imitation consciente.</description>
+    </item>
+    <item>
+      <title>Le secret derrière le déplacement de l&#x27;escargot 🐌 #science #biologie #nature</title>
+      <link>https://uneminutepourcomprendre.fr/articles/escargot-mucus-deplacement/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/escargot-mucus-deplacement/</guid>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Animaux</category>
+      <description>Le mucus de l’escargot colle et facilite pourtant son déplacement. Les contractions du pied expliquent comment appuis et parties mobiles coexistent.</description>
+    </item>
+    <item>
+      <title>Le secret des plus petits animaux à sang chaud</title>
+      <link>https://uneminutepourcomprendre.fr/articles/petits-animaux-sang-chaud/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/petits-animaux-sang-chaud/</guid>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Animaux</category>
+      <description>Pourquoi les petits animaux à sang chaud mangent-ils autant ? Surface, chaleur et torpeur expliquent un coût énergétique, sans seuil universel de taille.</description>
+    </item>
+    <item>
+      <title>Le classement terrifiant des piqûres d&#x27;abeilles 😨 #abeille #curiosité</title>
+      <link>https://uneminutepourcomprendre.fr/articles/piqure-abeille-douleur/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/piqure-abeille-douleur/</guid>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Corps humain</category>
+      <description>Narine, lèvre, avant-bras : une auto-expérience compare la douleur de piqûres d’abeille. Ses résultats décrivent un homme, pas toute l’humanité.</description>
+    </item>
+    <item>
+      <title>Le réseau social invisible des bactéries</title>
+      <link>https://uneminutepourcomprendre.fr/articles/bacteries-quorum-sensing/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/bacteries-quorum-sensing/</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Science</category>
+      <description>Le quorum sensing relie signaux chimiques et régulation des gènes. Il participe à certains biofilms, sans être un langage universel ni leur unique cause.</description>
+    </item>
+    <item>
+      <title>Pourquoi Internet perd la mémoire ? Sites disparus et archives</title>
+      <link>https://uneminutepourcomprendre.fr/articles/internet-memoire-archives/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/internet-memoire-archives/</guid>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Science</category>
+      <description>Une adresse inaccessible ne prouve pas que toutes les copies ont disparu. Pages, fichiers et archives expliquent les limites de la mémoire numérique.</description>
+    </item>
+    <item>
+      <title>Peut-on encore retrouver son Skyblog ?</title>
+      <link>https://uneminutepourcomprendre.fr/articles/retrouver-skyblog/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/retrouver-skyblog/</guid>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Science</category>
+      <description>Skyblog a fermé au public en 2023. BnF et Wayback Machine offrent des voies différentes pour retrouver certaines archives, avec droits et limites d’accès.</description>
+    </item>
+    <item>
+      <title>Le venin de méduse : comment ça marche réellement ?</title>
+      <link>https://uneminutepourcomprendre.fr/articles/meduse-venin-peau/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/meduse-venin-peau/</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Animaux</category>
+      <description>Un contact de méduse relie injection et réaction cutanée. Les expériences sur cellules et les conseils de secours ont des portées différentes.</description>
+    </item>
+    <item>
+      <title>Venin vs Poison : 3 questions pour tester tes réflexes  #quiz</title>
+      <link>https://uneminutepourcomprendre.fr/articles/venin-poison-difference/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/venin-poison-difference/</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Animaux</category>
+      <description>Venin et poison se distinguent par leur mode d’entrée. Méduse, grenouille et ornithorynque illustrent injection et exposition, avec des limites de vocabulaire.</description>
+    </item>
+    <item>
+      <title>L&#x27;ONU change enfin la carte du monde #EqualEarth #Actualité</title>
+      <link>https://uneminutepourcomprendre.fr/articles/cartes-mercator-equal-earth/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/cartes-mercator-equal-earth/</guid>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Science</category>
+      <description>Mercator conserve les angles mais agrandit les régions proches des pôles. Equal Earth conserve les superficies, au prix d’autres déformations.</description>
+    </item>
+    <item>
+      <title>RA vs RV : immersion totale ou simple ajout ? #vr #ar #tech</title>
+      <link>https://uneminutepourcomprendre.fr/articles/realite-augmentee-virtuelle/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/realite-augmentee-virtuelle/</guid>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Science</category>
+      <description>La réalité augmentée ajoute des éléments au monde visible ; la réalité virtuelle remplace l’environnement perçu. Le matériel seul ne définit pas l’expérience.</description>
+    </item>
+    <item>
+      <title>Virus, bactérie, champignon, parasite : quelle différence ?</title>
+      <link>https://uneminutepourcomprendre.fr/articles/virus-bacterie-champignon-parasite/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/virus-bacterie-champignon-parasite/</guid>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Science</category>
+      <description>Virus, bactérie, champignon et parasite : structure, reproduction et relation à l’hôte distinguent ces notions, dont les tailles et les modes de vie varient.</description>
+    </item>
+    <item>
+      <title>Pourquoi sommes-nous de plus en plus allergiques ?</title>
+      <link>https://uneminutepourcomprendre.fr/articles/allergies-systeme-immunitaire/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/allergies-systeme-immunitaire/</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Corps humain</category>
+      <description>Une allergie implique une réaction immunitaire à un allergène. Sensibilisation, IgE et histamine expliquent un mécanisme, avec des causes multiples.</description>
+    </item>
+    <item>
+      <title>Croissant, demi-lune, pleine lune : voici pourquoi</title>
+      <link>https://uneminutepourcomprendre.fr/articles/phases-lune/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/phases-lune/</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Science</category>
+      <description>Croissant, quartier, pleine lune : les phases dépendent de la partie éclairée visible depuis la Terre. Elles ne viennent pas de l’ombre terrestre.</description>
+    </item>
+    <item>
+      <title>Le secret derrière ta voix 🤫 #curiosité #faits #shorts</title>
+      <link>https://uneminutepourcomprendre.fr/articles/voix-enregistree-conduction/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/voix-enregistree-conduction/</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Corps humain</category>
+      <description>En parlant, la voix atteint l’oreille par l’air et les vibrations internes. L’enregistrement restitue surtout la voie aérienne, avec les effets du matériel.</description>
+    </item>
+    <item>
+      <title>Le secret caché dans les yeux de ton chien</title>
+      <link>https://uneminutepourcomprendre.fr/articles/chien-clignement-regard/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/chien-clignement-regard/</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Animaux</category>
+      <description>Des chiens clignent davantage devant des vidéos d’humains qui clignent. L’effet ne démontre pas une imitation synchronisée ni une émotion universelle.</description>
+    </item>
+    <item>
+      <title>Le secret des chocs électriques⚡</title>
+      <link>https://uneminutepourcomprendre.fr/articles/decharge-poignee-electricite-statique/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/decharge-poignee-electricite-statique/</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Science</category>
+      <description>Le petit choc d’une poignée vient d’une décharge électrostatique. Contact, séparation, accumulation des charges et humidité expliquent le phénomène.</description>
+    </item>
+    <item>
+      <title>Le secret des feuilles d&#x27;automne révélé ! #automne #feuilles</title>
+      <link>https://uneminutepourcomprendre.fr/articles/feuilles-couleurs-automne/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/feuilles-couleurs-automne/</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Nature</category>
+      <description>Le vert disparaît, le jaune se révèle et certaines feuilles produisent du rouge. Les couleurs d’automne n’ont pas toutes la même origine.</description>
+    </item>
+    <item>
+      <title>Pourquoi fête-t-on le nœud papillon le 28 août ?</title>
+      <link>https://uneminutepourcomprendre.fr/articles/noeud-papillon-28-aout/</link>
+      <guid isPermaLink="true">https://uneminutepourcomprendre.fr/articles/noeud-papillon-28-aout/</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+      <category>Science</category>
+      <description>Pourquoi le nœud papillon est-il célébré le 28 août ? Une journée culturelle, une origine mal établie et une histoire vestimentaire à distinguer.</description>
     </item>
   </channel>
 </rss>
